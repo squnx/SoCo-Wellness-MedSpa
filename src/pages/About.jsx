@@ -2,11 +2,10 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-
 const About = () => {
   return (
     <>
-      {/* Our About Section */}
+      {/* About Us Section */}
       <section id="about" className="about section">
         <div className="container section-title" data-aos="fade-up">
           <span>About Us</span>
@@ -22,7 +21,7 @@ const About = () => {
               <h4>Comprehensive Wellness and Women's Health Care</h4>
               <p>At our med spa, we are committed to empowering women with personalized and innovative health solutions. Our hormone therapy, IV therapy, and vaginal health care services have been meticulously crafted to address the unique needs of women at every stage of life.</p>
               <p>In collaboration with Dr. Bo Young Suh, a distinguished expert in hormones, stem cell therapy, and infertility, our treatments are rooted in cutting-edge research and tailored to support optimal health and vitality. Dr. Suh's extensive expertise ensures that each service is delivered with precision, care, and a focus on achieving long-lasting results.</p>
-              <p>Whether you're seeking to restore balance through hormone therapy, enhance wellness with nutrient-rich IV therapy, or improve intimate health with advanced vaginal care treatments, we are here to guide you on your journey to feeling your best. At our med spa, your well-being is our top priority.</p>
+              <p className="mb-0">Whether you're seeking to restore balance through hormone therapy, enhance wellness with nutrient-rich IV therapy, or improve intimate health with advanced vaginal care treatments, we are here to guide you on your journey to feeling your best. At our med spa, your well-being is our top priority.</p>
             </div>
           </div>
         </div>
@@ -110,7 +109,7 @@ const About = () => {
 
       {/* Testimonials Section */}
       <section id="testimonial" className="testimonial section">
-        <img src="/assets/images/about/bg-testimonial.jpg" className="testimonial-bg" alt="" />
+        <img src="/assets/images/bg-testimonial.jpg" className="testimonial-bg" alt="" />
         <div className="container section-title" data-aos="fade-up">
           <h2>Testimonials</h2>
           <p>Heartfelt Stories from Our Clients</p>
@@ -193,7 +192,7 @@ const About = () => {
             </SwiperSlide>
             {/* Add more SwiperSlides here */}
           </Swiper>
-          <div className="swiper-pagination"></div>
+          {/* <div className="swiper-pagination"></div> */}
         </div>
       </section>
     </>

@@ -767,7 +767,7 @@ section,
 #hero {
   width: 100%;
   // height: 100vh;
-  background: #000;
+  background: #fff;
   overflow: hidden;
   position: relative;
   min-height: calc(100vh - 72px);
@@ -1045,9 +1045,8 @@ section,
 # About Us Section
 --------------------------------------------------------------*/
 .about {
-  // background: url("/assets/images/about/bg-testimonial.jpg") center top no-repeat fixed;
+  background: url("/assets/images/bg-about.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
   position: relative;
 
   &::before {
@@ -1057,7 +1056,7 @@ section,
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.9);
     z-index: 9;
   }
 
@@ -1175,7 +1174,7 @@ section,
   --default-color: #ffffff;
   --background-color: var(--alt-background-color);
   --heading-color: #ffffff;
-  padding: 60px 0;
+  padding: 50px 0;
   position: relative;
 
   &:before {
@@ -1370,7 +1369,7 @@ section,
   .faq-item {
     background-color: var(--surface-color);
     position: relative;
-    padding: 20px;
+    // padding: 20px;
     margin-bottom: 15px;
     border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
     border-radius: 5px;
@@ -1400,14 +1399,34 @@ section,
       }
     }
 
+    .accordion-button {
+      color: var(--default-color) !important;
+      font-weight: 600;
+
+      &:hover {
+        color: var(--accent-color) !important;
+      }
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: inherit;
+      box-shadow: none;
+    }
+
     .faq-content {
-      display: grid;
-      grid-template-rows: 0fr;
-      transition: 0.3s ease-in-out;
-      visibility: hidden;
-      opacity: 0;
+      // display: grid;
+      // grid-template-rows: 0fr;
+      // transition: 0.3s ease-in-out;
+      // visibility: hidden;
+      // opacity: 0;
+      padding-top: 0;
 
       p {
+        color: var(--default-color);
         margin-bottom: 0;
         overflow: hidden;
       }
@@ -1446,6 +1465,289 @@ section,
       transform: rotate(90deg);
       color: var(--accent-color);
     }
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+// .contact .info-item {
+//   background-color: var(--surface-color);
+//   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+//   padding: 24px 0 30px 0;
+// }
+
+// .contact .info-item i {
+//   color: var(--accent-color);
+//   width: 56px;
+//   height: 56px;
+//   font-size: 24px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   transition: all 0.3s ease-in-out;
+//   border-radius: 50%;
+//   border: 2px dotted color-mix(in srgb, var(--accent-color), transparent 40%);
+// }
+
+// .contact .info-item h3 {
+//   font-size: 20px;
+//   color: color-mix(in srgb, var(--default-color), transparent 20%);
+//   font-size: 18px;
+//   font-weight: 700;
+//   margin: 10px 0;
+// }
+
+// .contact .info-item p {
+//   padding: 0;
+//   margin-bottom: 0;
+//   font-size: 14px;
+// }
+
+// .contact .php-email-form {
+//   background-color: var(--surface-color);
+//   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+//   height: 100%;
+//   padding: 30px;
+// }
+
+// @media (max-width: 575px) {
+//   .contact .php-email-form {
+//     padding: 20px;
+//   }
+// }
+
+// .contact .php-email-form input[type=text],
+// .contact .php-email-form input[type=email],
+// .contact .php-email-form textarea {
+//   font-size: 14px;
+//   padding: 10px 15px;
+//   box-shadow: none;
+//   border-radius: 0;
+//   color: var(--default-color);
+//   background-color: var(--surface-color);
+//   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+// }
+
+// .contact .php-email-form input[type=text]:focus,
+// .contact .php-email-form input[type=email]:focus,
+// .contact .php-email-form textarea:focus {
+//   border-color: var(--accent-color);
+// }
+
+// .contact .php-email-form input[type=text]::placeholder,
+// .contact .php-email-form input[type=email]::placeholder,
+// .contact .php-email-form textarea::placeholder {
+//   color: color-mix(in srgb, var(--default-color), transparent 70%);
+// }
+
+// .contact .php-email-form button[type=submit] {
+//   color: var(--contrast-color);
+//   background: var(--accent-color);
+//   border: 0;
+//   padding: 10px 30px;
+//   transition: 0.4s;
+//   border-radius: 4px;
+// }
+
+// .contact .php-email-form button[type=submit]:hover {
+//   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+// }
+
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.contact {
+  background: url("/assets/images/bg-contact.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+  .pb-30 {
+    padding-bottom: 30px;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 9;
+  }
+
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+
+  .info-wrap {
+    background: var(--background-color);
+    box-shadow: 0px 0px 20px color-mix(in srgb, var(--default-color), transparent 90%);
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .info-item {
+    i {
+      font-size: 20px;
+      color: var(--accent-color);
+      width: 56px;
+      height: 56px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.3s ease-in-out;
+      border-radius: 50%;
+      border: 1px solid color-mix(in srgb, var(--accent-color), transparent 40%);
+      margin-right: 15px;
+      background: var(--accent-color);
+      color: var(--contrast-color);
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0 0 2px 0;
+    }
+
+    p {
+      padding: 0;
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+
+    &:hover i {
+      // background: var(--accent-color);
+      // color: var(--contrast-color);
+      filter: brightness(130%);
+      transition-duration: 0.35s;
+      transition-timing-function: ease;
+    }
+  }
+
+  .php-email-form {
+    background: var(--background-color);
+    box-shadow: 0px 0px 20px color-mix(in srgb, var(--default-color), transparent 90%);
+    padding: 30px;
+
+    .error-message {
+      display: none;
+      background: #df1529;
+      color: #ffffff;
+      text-align: left;
+      padding: 15px;
+      margin-bottom: 24px;
+      font-weight: 600;
+    }
+
+    .sent-message {
+      display: none;
+      color: #ffffff;
+      background: #059652;
+      text-align: center;
+      padding: 15px;
+      margin-bottom: 24px;
+      font-weight: 600;
+    }
+
+    .loading {
+      display: none;
+      background: var(--background-color);
+      text-align: center;
+      padding: 15px;
+      margin-bottom: 24px;
+
+      &:before {
+        content: "";
+        display: inline-block;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        margin: 0 10px -6px 0;
+        border: 3px solid var(--accent-color);
+        border-top-color: var(--background-color);
+        animation: animate-loading 1s linear infinite;
+      }
+    }
+
+    input {
+
+      &[type=text],
+      &[type=email] {
+        font-size: 14px;
+        padding: 10px 15px;
+        box-shadow: none;
+        border-radius: 0;
+        color: var(--default-color);
+        background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+        border-color: color-mix(in srgb, var(--default-color), transparent 30%);
+      }
+    }
+
+    textarea {
+      font-size: 14px;
+      padding: 10px 15px;
+      box-shadow: none;
+      border-radius: 0;
+      color: var(--default-color);
+      background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+      border-color: color-mix(in srgb, var(--default-color), transparent 30%);
+    }
+
+    input {
+
+      &[type=text]:focus,
+      &[type=email]:focus {
+        border-color: var(--accent-color);
+      }
+    }
+
+    textarea:focus {
+      border-color: var(--accent-color);
+    }
+
+    input {
+
+      &[type=text]::placeholder,
+      &[type=email]::placeholder {
+        color: color-mix(in srgb, var(--default-color), transparent 70%);
+      }
+    }
+
+    textarea::placeholder {
+      color: color-mix(in srgb, var(--default-color), transparent 70%);
+    }
+
+    button[type=submit] {
+      color: var(--contrast-color);
+      background: var(--accent-color);
+      border: 0;
+      padding: 10px 30px;
+      transition: 0.4s;
+      border-radius: 50px;
+
+      &:hover {
+        background: color-mix(in srgb, var(--accent-color), transparent 20%);
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .contact .php-email-form {
+    padding: 20px;
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }
 

@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import tlsrData from './tlsrData.json';
+import Accordion from 'react-bootstrap/Accordion';
 
 const TLSR = () => {
   return (
@@ -86,22 +87,21 @@ const TLSR = () => {
       <section id="faq" className="faq section light-background">
         <div className="container section-title" data-aos="fade-up">
           <h2>Frequently Asked Questions</h2>
-          <p>All You Need to Know About TLSR: Expert Insights</p>
+          <p>All You Need to Know About TLSR</p>
         </div>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10" data-aos="fade-up" data-aos-delay="100">
-              <div className="faq-container">
+              <Accordion className="faq-container">
                 {tlsrData.map((faq, index) => (
-                  <div key={index} className="faq-item">
-                    <h3>{faq.question}</h3>
-                    <div className="faq-content">
+                  <Accordion.Item key={index} className="faq-item" eventKey={index}>
+                    <Accordion.Header>{faq.question}</Accordion.Header>
+                    <Accordion.Body className="faq-content">
                       <p>{faq.answer}</p>
-                    </div>
-                    <i className="faq-toggle bi bi-chevron-right"></i>
-                  </div>
+                    </Accordion.Body>
+                  </Accordion.Item>
                 ))}
-              </div>
+              </Accordion>
             </div>
           </div>
         </div>
