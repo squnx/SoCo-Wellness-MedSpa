@@ -12,7 +12,7 @@ const Home = () => {
   const carouselItems = [
     {
       background: '/assets/images/home/hero-01.jpg',
-      title: 'Welcome to Soco',
+      title: 'Welcome to Soco WM',
       text: 'Living Your Best Life',
       bgStyle: 'transparent-60',
     },
