@@ -19,9 +19,9 @@ const About = () => {
             </div>
             <div className="col-lg-8 content">
               <h4>Comprehensive Wellness and Women's Health Care</h4>
-              <p>At our med spa, we are committed to empowering women with personalized and innovative health solutions. Our hormone therapy, IV therapy, and vaginal health care services have been meticulously crafted to address the unique needs of women at every stage of life.</p>
-              <p>In collaboration with Dr. Bo Young Suh, a distinguished expert in hormones, stem cell therapy, and infertility, our treatments are rooted in cutting-edge research and tailored to support optimal health and vitality. Dr. Suh's extensive expertise ensures that each service is delivered with precision, care, and a focus on achieving long-lasting results.</p>
-              <p className="mb-0">Whether you're seeking to restore balance through hormone therapy, enhance wellness with nutrient-rich IV therapy, or improve intimate health with advanced vaginal care treatments, we are here to guide you on your journey to feeling your best. At our med spa, your well-being is our top priority.</p>
+              <p>Our hormone therapy, IV therapy, and women's vaginal health care services have been expertly designed by our medical team in collaboration with Dr. Bo Y. Suh, a renowned specialist in hormones, stem cells, and infertility.</p>
+              <p>Dr. Bo Y. Suh, M.D., is a distinguished OBGYN and Reproductive Endocrinology and Infertility Specialist. He holds esteemed credentials as a Fellow of the American College of Obstetricians and Gynecologists (FACOG) and a Fellow of the American College of Endocrinology (FACE). With 28 years of academic experience, Dr. Suh has served as a faculty member at UCLA, USC, and the University of Colorado, contributing extensively to the field of women's health.</p>
+              <p className="mb-0">At SoCo, we are committed to serving each and every client with unparalleled care and dedication. Our mission is to empower you to feel beautiful, healthy, and happy—because your well-being is our priority.</p>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ const About = () => {
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
               <div className="team-member">
                 <div className="member-img">
-                <img src="/assets/images/about/terri_450x450.jpg" className="img-fluid" alt="Terri Song" />
+                <img src="/assets/images/temp/about-450x450-man.png" className="img-fluid" alt="Terri Song" />
                     <div className="social">
                       <a href=""><i className="bi bi-twitter-x"></i></a>
                       <a href=""><i className="bi bi-facebook"></i></a>
@@ -47,15 +47,15 @@ const About = () => {
                     </div>
                 </div>
                 <div className="member-info">
-                  <h4>Terri Song</h4>
-                  <span>Registered Nurses</span>
+                  <h4>Boyoung Seo</h4>
+                  <span>M.D.</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
               <div className="team-member">
                 <div className="member-img">
-                <img src="/assets/images/about/ivan_450x450.jpg" className="img-fluid" alt="Ivan Song" />
+                <img src="/assets/images/temp/about-450x450-woman.png" className="img-fluid" alt="Ivan Song" />
                     <div className="social">
                       <a href=""><i className="bi bi-twitter-x"></i></a>
                       <a href=""><i className="bi bi-facebook"></i></a>
@@ -64,15 +64,15 @@ const About = () => {
                     </div>
                 </div>
                 <div className="member-info">
-                  <h4>Ivan Song</h4>
-                  <span>Software Engineer</span>
+                  <h4>Kate Jeong</h4>
+                  <span>Nurse Practitioner</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
               <div className="team-member">
                 <div className="member-img">
-                <img src="/assets/images/about/terri_450x450.jpg" className="img-fluid" alt="Terri Song" />
+                <img src="/assets/images/temp/about-450x450-woman.png" className="img-fluid" alt="Terri Song" />
                     <div className="social">
                       <a href=""><i className="bi bi-twitter-x"></i></a>
                       <a href=""><i className="bi bi-facebook"></i></a>
@@ -81,8 +81,8 @@ const About = () => {
                     </div>
                 </div>
                 <div className="member-info">
-                  <h4>Terri Song</h4>
-                  <span>Registered Nurses</span>
+                  <h4>Soojin Lee </h4>
+                  <span>Nurse Practitioner</span>
                 </div>
               </div>
             </div>
@@ -132,60 +132,72 @@ const About = () => {
           >
             <SwiperSlide>
               <div className="testimonial-item">
-                <img src="/assets/images/about/terri_140x140.jpg" className="testimonial-img" alt="Terri Song" />
-                <h3>Terri Song</h3>
-                <h4>RN @ UCI Medical Center</h4>
+                <img src="/assets/images/temp/about-450x450-man.png" className="testimonial-img" alt="Lupe" />
+                <h3>Lupe</h3>
+                <h4>Transformative Experience!</h4>
                 <p>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <span>I've tried many medspa services before, but SoCo MedSpa stands out. Their TLSR combo completely rejuvenated my skin.!</span>
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="testimonial-item">
-                <img src="/assets/images/about/ivan_450x450.jpg" className="testimonial-img" alt="Terri Song" />
-                <h3>Ivan Song</h3>
-                <h4>Software Engineer</h4>
+                <img src="/assets/images/temp/about-450x450-woman.png" className="testimonial-img" alt="Susan" />
+                <h3>Susan</h3>
+                <h4>Professional and Caring Staff</h4>
                 <p>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>The team at SoCo is amazing. They take the time to explain everything and make you feel so comfortable. I've seen real results with their RF microneedling and  PRP treatment!</span>
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="testimonial-item">
-                <img src="/assets/images/about/terri_140x140.jpg" className="testimonial-img" alt="Terri Song" />
-                <h3>Terri Song</h3>
-                <h4>RN @ UCI Medical Center</h4>
+                <img src="/assets/images/temp/about-450x450-woman.png" className="testimonial-img" alt="Michelle" />
+                <h3>Michelle</h3>
+                <h4>Incredible Value!</h4>
                 <p>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span>I was amazed by how affordable their treatments are compared to other medspas. The quality of service is outstanding, and the results speak for themselves!</span>
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="testimonial-item">
-                <img src="/assets/images/about/terri_140x140.jpg" className="testimonial-img" alt="Terri Song" />
-                <h3>Terri Song</h3>
-                <h4>RN @ UCI Medical Center</h4>
+                <img src="/assets/images/temp/about-450x450-woman.png" className="testimonial-img" alt="Jasmin" />
+                <h3>Jasmin</h3>
+                <h4>Customized Care</h4>
                 <p>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <span>SoCo MedSpa truly listens to your concerns and provides tailored treatments. My skin has never looked better after the TLSR combo!</span>
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="testimonial-item">
-                <img src="/assets/images/about/terri_140x140.jpg" className="testimonial-img" alt="Terri Song" />
-                <h3>Terri Song</h3>
-                <h4>RN @ UCI Medical Center</h4>
+                <img src="/assets/images/temp/about-450x450-woman.png" className="testimonial-img" alt="esther" />
+                <h3>Esther</h3>
+                <h4>Absolutely Amazing Results!</h4>
                 <p>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <span>I've struggled with skin texture issues for years, but after trying the TLSR combo treatment, my skin has transformed. The RF microneedling ,Ulthera ,MTS +soco solution and PRP were a game changer!</span>
+                  <i className="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="testimonial-item">
+                <img src="/assets/images/temp/about-450x450-woman.png" className="testimonial-img" alt="esther" />
+                <h3>Unice</h3>
+                <h4>Affordable and Exceptional Care</h4>
+                <p>
+                  <i className="bi bi-quote quote-icon-left"></i>
+                  <span>I couldn't believe how great the prices are for such high-quality treatments. SoCo MedSpa delivers excellent results without breaking the bank!</span>
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>

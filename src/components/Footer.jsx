@@ -8,7 +8,7 @@ const Footer = () => {
     <footer id="footer" className="footer coffee-background">
       <div className="container">
         <div className="copyright text-center ">
-          <p><span>Copyright</span> © &nbsp;<strong>SOCO Anti-Aging & Hormone Therapy</strong>&nbsp; <span>All Rights Reserved</span></p>
+          <p><span>Copyright</span> © &nbsp;<strong>SoCo Wellness MedSpa</strong>&nbsp; <span>All Rights Reserved</span></p>
           <p><span>Designed by</span> <a href="https://mousewurx.com/" target="_blank" rel="noreferrer"><strong className="px-1 sitename">mousewurx</strong></a></p>
         </div>
         <div className="social-links d-flex justify-content-center">

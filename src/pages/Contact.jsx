@@ -19,17 +19,17 @@ const Contact = () => {
                     <div className="info-item d-flex align-items-center">
                       <a href="tel:7146439204"><i className="icon bi bi-telephone flex-shrink-0"></i></a>
                       <div>
-                        <h3 className="d-flex justify-content-start">Phone</h3>
+                        <h4 className="d-flex justify-content-start">Phone</h4>
                         <p>714.643.9204</p>
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="info-item d-flex align-items-center">
-                      <a href="mailto:sococustomerservice1@gmail.com"><i className="bi bi-envelope flex-shrink-0"></i></a>
+                      <a href="mailto:info@socowm.com"><i className="bi bi-envelope flex-shrink-0"></i></a>
                       <div>
-                        <h3 className="d-flex justify-content-start">Email<br /></h3>
-                        <p>sococustomerservice1@gmail.com</p>
+                        <h4 className="d-flex justify-content-start">Email<br /></h4>
+                        <p>info@socowm.com</p>
                       </div>
                     </div>
                   </div>
