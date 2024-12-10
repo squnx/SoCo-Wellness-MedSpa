@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
+import About2 from './pages/About2';
 import Tlsr from './pages/Tlsr';
 import Facial from './pages/Facial';
 import Contact from './pages/Contact';
@@ -27,6 +28,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/about2" element={<About2 />} />
             <Route path="/tlsr" element={<Tlsr />} />
             <Route path="/facial" element={<Facial />} />
             <Route path="/contact" element={<Contact />} />
