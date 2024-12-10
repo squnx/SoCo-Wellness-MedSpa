@@ -75,6 +75,7 @@ const Header = () => {
               </ul>
             </li>
             {/* <li><NavLink to="/departments" activeclassname="active">Departments</NavLink></li> */}
+            <li><NavLink to="/promos" activeclassname="active">Promos</NavLink></li>
             <li><NavLink to="/gallery" activeclassname="active">Gallery</NavLink></li>
             <li><NavLink to="/contact" activeclassname="active">Contact</NavLink></li>
             {/* <li><NavLink to="/appointment" activeclassname="active cta-btn">Make an appointment</NavLink></li> */}

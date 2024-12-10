@@ -6,7 +6,7 @@ const TLSR = () => {
   return (
     <>
       {/* TLSR Section */}
-      <section id="tabs" className="tabs section">
+      <section id="tlsr" className="tlsr tabs section">
         <div className="container section-title" data-aos="fade-up">
           <span>TLSR</span>
           <h2>TLSR</h2>
@@ -80,6 +80,70 @@ const TLSR = () => {
             </div>
           </div>
 
+        </div>
+      </section>
+
+      {/* Pricing Section */}
+      <section id="pricing" className="pricing section">
+        <div className="container section-title" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>TLSR Treatment Price</p>
+        </div>
+        <div className="container">
+          <div className="row gy-3">
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div className="pricing-item">
+                <span className="advanced">Special</span>
+                <h3>TLSR</h3>
+                <ul>
+                  <li>Tightening</li>
+                  <li>Lifting</li>
+                  <li>Skin Quality</li>
+                  <li>Skin Regeneration</li>
+                </ul>
+                <div className="btn-wrap">
+                  <h4><span className="na">R.S.P:$2500</span> $1550</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              {/* <div className="pricing-item featured"> */}
+              <div className="pricing-item">
+                <h3>Single Item</h3>
+                <ul>
+                  <li>Scarlet(MRF)</li>
+                  <li>Thermismooth (RF)</li>
+                  <li>MTS with SOCo Solution</li>
+                </ul>
+                <div className="btn-wrap">
+                  <h4>$800</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div className="pricing-item">
+                <h3>Single Item</h3>
+                <ul>
+                  <li>Ulthera (1000 lines)</li>
+                  <li>MTS with SoCo solution</li>
+                </ul>
+                <div className="btn-wrap">
+                  <h4>$2100</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div className="pricing-item">
+                <h3>Single Item</h3>
+                <ul>
+                  <li>PRP + MTS with SoCo solution</li>
+                </ul>
+                <div className="btn-wrap">
+                  <h4>$800</h4>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
