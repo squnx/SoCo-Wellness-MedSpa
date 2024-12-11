@@ -154,7 +154,7 @@ const TLSR = () => {
         </div>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+            <div className="col-lg-8" data-aos="fade-up" data-aos-delay="100">
               <Accordion className="faq-container">
                 {tlsrData.map((faq, index) => (
                   <Accordion.Item key={index} className="faq-item" eventKey={index}>
