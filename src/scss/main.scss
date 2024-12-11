@@ -1406,7 +1406,7 @@ section,
       font-weight: 600;
       color: color-mix(in srgb, var(--default-color), transparent 20%);
       background: color-mix(in srgb, var(--default-color), transparent 95%);
-      background: color-mix(in srgb, var(--accent-color), transparent 75%);
+      background: color-mix(in srgb, var(--accent-color), transparent 50%);
     }
 
     h4 {
@@ -1460,7 +1460,7 @@ section,
 
   .btn-wrap {
     background: color-mix(in srgb, var(--default-color), transparent 95%);
-    background: color-mix(in srgb, var(--accent-color), transparent 75%);
+    background: color-mix(in srgb, var(--accent-color), transparent 50%);
     margin: 0 -20px -20px -20px;
     padding: 10px;
     text-align: center;

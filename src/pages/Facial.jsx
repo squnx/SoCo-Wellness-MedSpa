@@ -29,7 +29,7 @@ const Facial = () => {
                   <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">Thread</a>
                 </li>
               </ul>
-            </div> 
+            </div>
             <div className="col-lg-9 mt-4 mt-lg-0">
               <div className="tab-content">
                 <div className="tab-pane active show" id="tabs-tab-1">
@@ -83,8 +83,70 @@ const Facial = () => {
         </div>
       </section>
 
+      {/* Pricing Section */}
+      <section id="pricing" className="pricing section light-background">
+        <div className="container section-title" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>Facial Aesthetic Design Treatment Price</p>
+        </div>
+        <div className="container">
+          <div className="row gy-3">
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div className="pricing-item">
+                <span className="advanced">Special</span>
+                <h3>Facial Package</h3>
+                <ul>
+                  <li>Botox</li>
+                  <li>Filler</li>
+                  <li>Sculptra</li>
+                  <li>Thread</li>
+                </ul>
+                <div className="btn-wrap">
+                  <h4><span className="na">$4500</span> $2500</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              {/* <div className="pricing-item featured"> */}
+              <div className="pricing-item">
+                <h3>Single Item</h3>
+                <ul>
+                  <li>Thread</li>
+                  <li>Face lift</li>
+                </ul>
+                <div className="btn-wrap">
+                  <h4>$1200</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div className="pricing-item">
+                <h3>Single Item</h3>
+                <ul>
+                  <li>Botox</li>
+                </ul>
+                <div className="btn-wrap">
+                  <h4>$10<span>/unit</span>, $800<span>/100 units</span></h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div className="pricing-item">
+                <h3>Single Item</h3>
+                <ul>
+                  <li>PRP + MTS with SoCo solution</li>
+                </ul>
+                <div className="btn-wrap">
+                  <h4>$800</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
-      <section id="faq" className="faq section light-background">
+      <section id="faq" className="faq section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Frequently Asked Questions</h2>
           <p>All You Need to Know About Facial Aesthetic Design</p>
