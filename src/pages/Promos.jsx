@@ -6,7 +6,7 @@ const Promos = () => {
   return (
     <>
       {/* Promos Us Section */}
-      <section id="about" className="about section">
+      {/* <section id="about" className="about section">
         <div className="container section-title" data-aos="fade-up">
           <span>Promos</span>
           <h2>Promos</h2>
@@ -25,7 +25,7 @@ const Promos = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
