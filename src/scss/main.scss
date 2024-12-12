@@ -1098,6 +1098,16 @@ section,
       }
     }
   }
+
+  @media (max-width: 992px) {
+    .content h4 {
+      padding: 0 15px;
+    }
+  
+    .content p {
+      padding: 0 15px;
+    }
+  }
 }
 
 
