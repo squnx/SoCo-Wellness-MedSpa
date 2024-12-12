@@ -6,7 +6,7 @@ const TLSR = () => {
   return (
     <>
       {/* About Us Section */}
-      <section id="about" className="about section">
+      {/* <section id="about" className="about section">
         <div className="container section-title" data-aos="fade-up">
           <span>TLSR</span>
           <h2>TLSR</h2>
@@ -25,7 +25,7 @@ const TLSR = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* TLSR Section */}
       <section id="tlsr" className="tlsr tabs section">
@@ -42,16 +42,16 @@ const TLSR = () => {
                   <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-0">TLSR</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-1">Tightening</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-1"><span>T</span>ightening</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Lifting</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2"><span>L</span>ifting</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">Skin Quality</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-3"><span>S</span>kin Quality</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">Skin Regeneration</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">Skin <span>R</span>egeneration</a>
                 </li>
               </ul>
             </div>

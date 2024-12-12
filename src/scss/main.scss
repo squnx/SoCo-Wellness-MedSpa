@@ -1334,6 +1334,11 @@ section,
     font-weight: 600;
     font-size: 15px;
 
+    span {
+      color: var(--accent-color);
+      font-size: 18px;
+    }
+
     &:hover {
       color: var(--accent-color);
     }
