@@ -29,11 +29,11 @@ const TLSR = () => {
 
       {/* TLSR Section */}
       <section id="tlsr" className="tlsr tabs section">
-        {/* <div className="container section-title" data-aos="fade-up">
+        <div className="container section-title" data-aos="fade-up">
           <span>TLSR</span>
           <h2>TLSR</h2>
           <p>Tightening | Lifting | Skin Quality | Skin Regeneration</p>
-        </div> */}
+        </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row">
             <div className="col-lg-3">
