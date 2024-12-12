@@ -64,7 +64,7 @@ const TLSR = () => {
                       <p className="fst-italic">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
-                      <img src="/assets/images/temp/tightening.jpg" alt="" className="img-fluid" />
+                      <img src="/assets/images/temp/tlsr.jpg" alt="" className="img-fluid" />
                     </div>
                   </div>
                 </div>
