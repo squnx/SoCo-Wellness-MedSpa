@@ -5,19 +5,44 @@ import Accordion from 'react-bootstrap/Accordion';
 const TLSR = () => {
   return (
     <>
-      {/* TLSR Section */}
-      <section id="tlsr" className="tlsr tabs section">
+      {/* About Us Section */}
+      <section id="about" className="about section">
         <div className="container section-title" data-aos="fade-up">
           <span>TLSR</span>
           <h2>TLSR</h2>
           <p>Tightening | Lifting | Skin Quality | Skin Regeneration</p>
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
+          <div className="row gy-4 justify-content-center">
+            <div className="col-lg-4">
+              <img src="/assets/images/bg-services.jpg" className="img-fluid" alt="About Us" />
+            </div>
+            <div className="col-lg-8 content">
+              <h4>Necessitatibus eius consequatur ex aliquid fuga eum</h4>
+              <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+              <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              <p className="mb-0">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* TLSR Section */}
+      <section id="tlsr" className="tlsr tabs section">
+        {/* <div className="container section-title" data-aos="fade-up">
+          <span>TLSR</span>
+          <h2>TLSR</h2>
+          <p>Tightening | Lifting | Skin Quality | Skin Regeneration</p>
+        </div> */}
+        <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row">
             <div className="col-lg-3">
               <ul className="nav nav-tabs flex-column">
                 <li className="nav-item">
-                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1">Tightening</a>
+                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-0">TLSR</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-1">Tightening</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Lifting</a>
@@ -32,7 +57,18 @@ const TLSR = () => {
             </div>
             <div className="col-lg-9 mt-4 mt-lg-0">
               <div className="tab-content">
-                <div className="tab-pane active show" id="tabs-tab-1">
+                <div className="tab-pane active show" id="tabs-tab-0">
+                  <div className="row">
+                    <div className="col-lg-8 details order-2 order-lg-1">
+                      <h4>Tightening</h4>
+                      <p className="fst-italic">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim.</p>
+                    </div>
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                      <img src="/assets/images/temp/tightening.jpg" alt="" className="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane" id="tabs-tab-1">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Tightening</h4>
