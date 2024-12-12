@@ -8,6 +8,7 @@ import About from './pages/About';
 import About2 from './pages/About2';
 import Tlsr from './pages/Tlsr';
 import Facial from './pages/Facial';
+import Wellness from './pages/Wellness';
 import Promos from './pages/Promos';
 import Contact from './pages/Contact';
 // import Gallery from './pages/Gallery';
@@ -32,6 +33,7 @@ function App() {
             <Route path="/about2" element={<About2 />} />
             <Route path="/tlsr" element={<Tlsr />} />
             <Route path="/facial" element={<Facial />} />
+            <Route path="/wellness" element={<Wellness />} />
             <Route path="/promos" element={<Promos />} />
             <Route path="/contact" element={<Contact />} />
             {/* <Route path="/gallery" element={<Gallery />} />

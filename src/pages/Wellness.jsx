@@ -1,35 +1,35 @@
 import React from 'react';
-import facialData from './facialData.json';
+import wellnessData from './wellnessData.json';
 import Accordion from 'react-bootstrap/Accordion';
 
-const Facial = () => {
+const Wellness = () => {
   return (
     <>
-      {/* Facial Section */}
+      {/* Wellness Section */}
       <section id="tabs" className="tabs section">
         <div className="container section-title" data-aos="fade-up">
-          <span>Facial Aesthetic Design</span>
-          <h2>Facial Aesthetic Design</h2>
-          <p>Botox | Filler | Sculptra | Thread</p>
+          <span>Wellness Program</span>
+          <h2>Wellness Program</h2>
+          <p>General Check Up | Vagina Health Care | Vaginal Volumizing Treatment | Weight Loss</p>
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row">
             <div className="col-lg-3">
               <ul className="nav nav-tabs flex-column">
                 <li className="nav-item">
-                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-0">Facial Aesthetic Design</a>
+                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-0">Wellness Program</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-1">Botox</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-1">General Check Up</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Filler</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-1">Vagina Health Care</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">Sculptra</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Vaginal Volumizing Treatment</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">Thread</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">Weight Loss</a>
                 </li>
               </ul>
             </div>
@@ -38,7 +38,7 @@ const Facial = () => {
                 <div className="tab-pane active show" id="tabs-tab-0">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Facial Aesthetic Design</h4>
+                      <h4>Wellness Program</h4>
                       <p className="fst-italic">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
@@ -49,8 +49,9 @@ const Facial = () => {
                 <div className="tab-pane" id="tabs-tab-1">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Botox</h4>
-                      <p className="fst-italic">Botox is a widely popular, non-surgical treatment designed to smooth out fine lines and wrinkles by temporarily relaxing the muscles that cause them. Perfect for areas such as the forehead, between the brows, and around the eyes, Botox offers a quick and effective solution for maintaining a youthful, refreshed appearance. The procedure is minimally invasive, with little to no downtime, allowing you to return to your daily routine immediately after treatment. Our skilled professionals will work with you to achieve natural-looking results, enhancing your features without looking overdone.</p>
+                      <h4>Woman's General Check Up</h4>
+                      <p className="fst-italic">The Woman’s General Check-Up provides a comprehensive health evaluation tailored to women. It includes consultation, examination, and prescriptions, with medications available for purchase at the pharmacy. This check-up features blood tests, two ultrasound exams, and hormone testing, all conducted by specialized women’s healthcare professionals.</p>
+                      <p>Ultrasounds cover the abdomen, pelvis, breast, thyroid, carotid artery, and heart (echocardiogram), offering a thorough assessment to support your health and well-being.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <img src="/assets/images/services/facial-1.jpg" alt="" className="img-fluid" />
@@ -60,8 +61,8 @@ const Facial = () => {
                 <div className="tab-pane" id="tabs-tab-2">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Filler</h4>
-                      <p className="fst-italic">Facial fillers are an excellent solution for restoring volume and fullness to areas of the face that may have lost elasticity or plumpness over time. Whether you're looking to add volume to the cheeks, smooth out smile lines, or enhance your lips, dermal fillers provide immediate results. Our range of fillers, including hyaluronic acid-based products, are safe and effective in rejuvenating the skin and giving your face a more youthful, contoured appearance. The procedure is quick, with minimal discomfort, and results can last anywhere from several months to over a year, depending on the treatment area.</p>
+                      <h4>Wonam's Vagina Health Care</h4>
+                      <p className="fst-italic">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <img src="/assets/images/services/facial-2.jpg" alt="" className="img-fluid" />
@@ -71,8 +72,8 @@ const Facial = () => {
                 <div className="tab-pane" id="tabs-tab-3">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Sculptra</h4>
-                      <p className="fst-italic">Sculptra is an injectable treatment that works beneath the skin to stimulate natural collagen production, helping to restore lost volume and smooth out wrinkles. Unlike traditional fillers, Sculptra provides gradual, natural-looking results over time as collagen builds in areas such as the cheeks, temples, and jawline. It's an ideal solution for addressing deeper wrinkles and volume loss. The results can last up to two years, offering long-term rejuvenation with minimal downtime, leaving you with a refreshed and youthful appearance.</p>
+                      <h4>Woman's Vaginal Volumizing Treatment</h4>
+                      <p className="fst-italic">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
@@ -82,8 +83,8 @@ const Facial = () => {
                 <div className="tab-pane" id="tabs-tab-4">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Thread</h4>
-                      <p className="fst-italic">Thread lifting is an innovative non-surgical treatment designed to lift and tighten sagging skin, creating a more youthful and rejuvenated appearance. This procedure involves the insertion of specialized threads into the skin, which gently lift and stimulate collagen production for a firmer, more lifted look. It's ideal for areas such as the jawline, cheeks, and neck, providing an instant lifting effect with long-lasting benefits. The procedure is minimally invasive, with little to no downtime, and results improve over time as your skin regenerates and tightens naturally.</p>
+                      <h4>Weight Loss</h4>
+                      <p className="fst-italic">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
@@ -108,17 +109,19 @@ const Facial = () => {
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <div className="pricing-item">
                 <span className="advanced">Special</span>
-                <h3>Facial Package</h3>
+                <h3>General Check Up</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li>Botox</li>
-                    <li>Filler</li>
-                    <li>Sculptra</li>
-                    <li>Thread</li>
+                    <li>Consultation</li>
+                    <li>Examination</li>
+                    <li>Prescription</li>
+                    <li>Blood Tests</li>
+                    <li>Two Ultrasound Exams</li>
+                    <li>Hormone Testing</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4><span className="na">$4500</span> $2500</h4>
+                  <h4>$390</h4>
                 </div>
               </div>
             </div>
@@ -128,7 +131,7 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li>Thread</li>
+                    <li>Vagina Health Care</li>
                     <li>Face lift</li>
                   </ul>
                 </div>
@@ -142,7 +145,7 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li>Botox</li>
+                    <li>Vaginal Volumizing Treatment</li>
                     <li>Jeuveau or Allergon or Hugel</li>
                     <li>FDA approved</li>
                   </ul>
@@ -157,29 +160,13 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li>Dermal  Fillers</li>
+                    <li>Weight Loss</li>
                     <li>Allergan Juvederm  or  RHA  or Restylane</li>
                     <li>FDA approved</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$450<span>/cc</span></h4> 
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
-              <div className="pricing-item">
-                <h3>Single Item</h3>
-                <div className="pricing-detail">
-                  <ul>
-                    <li>Dermal  Fillers</li>
-                    <li>3 Sessions of Sculptra</li>
-                    <li>Galderma</li>
-                    <li>FDA approved</li>
-                  </ul>
-                </div>
-                <div className="btn-wrap">
-                  <h4>$2100<span></span></h4> 
+                  <h4>$450<span>/cc</span></h4>
                 </div>
               </div>
             </div>
@@ -197,7 +184,7 @@ const Facial = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8" data-aos="fade-up" data-aos-delay="100">
               {/* <div className="faq-container">
-                {facialData.map((faq, index) => (
+                {wellnessData.map((faq, index) => (
                   <div key={index} className="faq-item">
                     <h3>{faq.question}</h3>
                     <div className="faq-content">
@@ -208,7 +195,7 @@ const Facial = () => {
                 ))}
               </div> */}
               <Accordion className="faq-container">
-                {facialData.map((faq, index) => (
+                {wellnessData.map((faq, index) => (
                   <Accordion.Item key={index} className="faq-item" eventKey={index}>
                     <Accordion.Header>{faq.question}</Accordion.Header>
                     <Accordion.Body className="faq-content">
@@ -225,4 +212,4 @@ const Facial = () => {
   );
 }
 
-export default Facial;
+export default Wellness;

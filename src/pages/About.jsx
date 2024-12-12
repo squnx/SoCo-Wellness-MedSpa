@@ -183,7 +183,7 @@ const About = () => {
                 <i className="fas fa-user-md flex-shrink-0"></i>
                 <div>
                   <span className="purecounter">Boyoung Suh</span>
-                  <p>M.D.</p>
+                  <p>M.D. - Lorem ipsum dolor</p>
                 </div>
               </div>
             </div>
@@ -237,7 +237,7 @@ const About = () => {
               <i className="fa-regular fa-user flex-shrink-0"></i>
                 <div>
                   <span className="purecounter">First Last Name</span>
-                  <p>Title</p>
+                  <p>COO</p>
                 </div>
               </div>
             </div>
@@ -246,7 +246,7 @@ const About = () => {
               <i className="fa-solid fa-user flex-shrink-0"></i>
                 <div>
                   <span className="purecounter">First Last Name</span>
-                  <p>Title</p>
+                  <p>CEO</p>
                 </div>
               </div>
             </div>
