@@ -32,7 +32,7 @@ const TLSR = () => {
         <div className="container section-title" data-aos="fade-up">
           <span>TLSR</span>
           <h2>TLSR</h2>
-          <p>Tightening | Lifting | Skin Quality | Skin Regeneration</p>
+          <p>Tightening | Lifting | Skin Quality | Regeneration</p>
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row">
@@ -51,7 +51,7 @@ const TLSR = () => {
                   <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-3"><span>S</span>kin Quality</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">Skin <span>R</span>egeneration</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-4"><span>R</span>egeneration</a>
                 </li>
               </ul>
             </div>
@@ -60,7 +60,7 @@ const TLSR = () => {
                 <div className="tab-pane active show" id="tabs-tab-0">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Tightening, Lifting, Skin Quality, Skin Regeneration</h4>
+                      <h4>Tightening, Lifting, Skin Quality, Regeneration</h4>
                       <p className="fst-italic">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
@@ -104,7 +104,7 @@ const TLSR = () => {
                 <div className="tab-pane" id="tabs-tab-4">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Skin Regeneration</h4>
+                      <h4>Regeneration</h4>
                       <p className="fst-italic">Revitalize and rejuvenate your skin with our skin regeneration treatments, which promote the natural healing and renewal of skin cells. By stimulating deep layers of the skin, these treatments help to reduce the signs of aging, repair damage from environmental stressors, and improve the overall health of your skin. With advanced techniques like microneedling, growth factors, and stem cell therapy, our skin regeneration services help restore your skin's youthful texture and tone, leaving it smoother, healthier, and more vibrant.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
@@ -130,12 +130,14 @@ const TLSR = () => {
               <div className="pricing-item">
                 <span className="advanced">Special</span>
                 <h3>TLSR</h3>
-                <ul>
-                  <li>Thermi smooth (monopolar)</li>
-                  <li>Ulthera (500 lines)</li>
-                  <li>Platelet-rich plasma (PRP)</li>
-                  <li>MTS + SoCo solution</li>
-                </ul>
+                <div className="pricing-detail">
+                  <ul>
+                    <li>Thermi smooth (monopolar)</li>
+                    <li>Ulthera (500 lines)</li>
+                    <li>Platelet-rich plasma (PRP)</li>
+                    <li>MTS + SoCo solution</li>
+                  </ul>
+                </div>
                 <div className="btn-wrap">
                   <h4><span className="na">R.S.P:$2500</span> $1550</h4>
                 </div>
@@ -145,11 +147,13 @@ const TLSR = () => {
               {/* <div className="pricing-item featured"> */}
               <div className="pricing-item">
                 <h3>Single Item</h3>
-                <ul>
-                  <li>Scarlet (MRF)</li>
-                  <li>Thermismooth (RF)</li>
-                  <li>MTS with SOCo Solution</li>
-                </ul>
+                <div className="pricing-detail">
+                  <ul>
+                    <li>Scarlet (MRF)</li>
+                    <li>Thermismooth (RF)</li>
+                    <li>MTS with SOCo Solution</li>
+                  </ul>
+                </div>
                 <div className="btn-wrap">
                   <h4>$800</h4>
                 </div>
@@ -158,10 +162,12 @@ const TLSR = () => {
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
                 <h3>Single Item</h3>
-                <ul>
-                  <li>Ulthera (1000 lines)</li>
-                  <li>MTS with SoCo solution</li>
-                </ul>
+                <div className="pricing-detail">
+                  <ul>
+                    <li>Ulthera (1000 lines)</li>
+                    <li>MTS with SoCo solution</li>
+                  </ul>
+                </div>
                 <div className="btn-wrap">
                   <h4>$2100</h4>
                 </div>
@@ -170,9 +176,11 @@ const TLSR = () => {
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
                 <h3>Single Item</h3>
-                <ul>
-                  <li>PRP + MTS with SoCo solution</li>
-                </ul>
+                <div className="pricing-detail">
+                  <ul>
+                    <li>PRP + MTS with SoCo solution</li>
+                  </ul>
+                </div>
                 <div className="btn-wrap">
                   <h4>$800</h4>
                 </div>

@@ -17,7 +17,10 @@ const Facial = () => {
             <div className="col-lg-3">
               <ul className="nav nav-tabs flex-column">
                 <li className="nav-item">
-                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1">Botox</a>
+                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-0">Facial Aesthetic Design</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-1">Botox</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Filler</a>
@@ -32,7 +35,18 @@ const Facial = () => {
             </div>
             <div className="col-lg-9 mt-4 mt-lg-0">
               <div className="tab-content">
-                <div className="tab-pane active show" id="tabs-tab-1">
+                <div className="tab-pane active show" id="tabs-tab-0">
+                  <div className="row">
+                    <div className="col-lg-8 details order-2 order-lg-1">
+                      <h4>Facial Aesthetic Design</h4>
+                      <p className="fst-italic">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim.</p>
+                    </div>
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                      <img src="/assets/images/temp/tlsr.jpg" alt="" className="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane" id="tabs-tab-1">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Botox</h4>
@@ -95,12 +109,14 @@ const Facial = () => {
               <div className="pricing-item">
                 <span className="advanced">Special</span>
                 <h3>Facial Package</h3>
-                <ul>
-                  <li>Botox</li>
-                  <li>Filler</li>
-                  <li>Sculptra</li>
-                  <li>Thread</li>
-                </ul>
+                <div className="pricing-detail">
+                  <ul>
+                    <li>Botox</li>
+                    <li>Filler</li>
+                    <li>Sculptra</li>
+                    <li>Thread</li>
+                  </ul>
+                </div>
                 <div className="btn-wrap">
                   <h4><span className="na">$4500</span> $2500</h4>
                 </div>
@@ -110,10 +126,12 @@ const Facial = () => {
               {/* <div className="pricing-item featured"> */}
               <div className="pricing-item">
                 <h3>Single Item</h3>
-                <ul>
-                  <li>Thread</li>
-                  <li>Face lift</li>
-                </ul>
+                <div className="pricing-detail">
+                  <ul>
+                    <li>Thread</li>
+                    <li>Face lift</li>
+                  </ul>
+                </div>
                 <div className="btn-wrap">
                   <h4>$1200</h4>
                 </div>
@@ -122,9 +140,11 @@ const Facial = () => {
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
                 <h3>Single Item</h3>
-                <ul>
-                  <li>Botox</li>
-                </ul>
+                <div className="pricing-detail">
+                  <ul>
+                    <li>Botox</li>
+                  </ul>
+                </div>
                 <div className="btn-wrap">
                   <h4>$10<span>/unit</span>, $800<span>/100 units</span></h4>
                 </div>
@@ -133,9 +153,11 @@ const Facial = () => {
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
                 <h3>Single Item</h3>
-                <ul>
-                  <li>PRP + MTS with SoCo solution</li>
-                </ul>
+                <div className="pricing-detail">
+                  <ul>
+                    <li>PRP + MTS with SoCo solution</li>
+                  </ul>
+                </div>
                 <div className="btn-wrap">
                   <h4>$800</h4>
                 </div>
