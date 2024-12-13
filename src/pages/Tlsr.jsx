@@ -132,10 +132,10 @@ const TLSR = () => {
                 <h3>TLSR</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Thermi smooth (monopolar)</li>
-                    <li><i class="bi bi-check2-all"></i>Ulthera (500 lines)</li>
-                    <li><i class="bi bi-check2-all"></i>Platelet-rich plasma (PRP)</li>
-                    <li><i class="bi bi-check2-all"></i>MTS + SoCo solution</li>
+                    <li><i className="bi bi-check2-all"></i>Thermi smooth (monopolar)</li>
+                    <li><i className="bi bi-check2-all"></i>Ulthera (500 lines)</li>
+                    <li><i className="bi bi-check2-all"></i>Platelet-rich plasma (PRP)</li>
+                    <li><i className="bi bi-check2-all"></i>MTS + SoCo solution</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -149,9 +149,9 @@ const TLSR = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Scarlet (MRF)</li>
-                    <li><i class="bi bi-check2-all"></i>Thermismooth (RF)</li>
-                    <li><i class="bi bi-check2-all"></i>MTS with SOCo Solution</li>
+                    <li><i className="bi bi-check2-all"></i>Scarlet (MRF)</li>
+                    <li><i className="bi bi-check2-all"></i>Thermismooth (RF)</li>
+                    <li><i className="bi bi-check2-all"></i>MTS with SOCo Solution</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -164,8 +164,8 @@ const TLSR = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Ulthera (1000 lines)</li>
-                    <li><i class="bi bi-check2-all"></i>MTS with SoCo solution</li>
+                    <li><i className="bi bi-check2-all"></i>Ulthera (1000 lines)</li>
+                    <li><i className="bi bi-check2-all"></i>MTS with SoCo solution</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -178,7 +178,7 @@ const TLSR = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>PRP + MTS with SoCo solution</li>
+                    <li><i className="bi bi-check2-all"></i>PRP + MTS with SoCo solution</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">

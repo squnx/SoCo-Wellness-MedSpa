@@ -112,12 +112,12 @@ const Wellness = () => {
                 <h3>General Check Up</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Consultation</li>
-                    <li><i class="bi bi-check2-all"></i>Examination</li>
-                    <li><i class="bi bi-check2-all"></i>Prescription</li>
-                    <li><i class="bi bi-check2-all"></i>Blood Tests</li>
-                    <li><i class="bi bi-check2-all"></i>Two Ultrasound Exams</li>
-                    <li><i class="bi bi-check2-all"></i>Hormone Testing</li>
+                    <li><i className="bi bi-check2-all"></i>Consultation</li>
+                    <li><i className="bi bi-check2-all"></i>Examination</li>
+                    <li><i className="bi bi-check2-all"></i>Prescription</li>
+                    <li><i className="bi bi-check2-all"></i>Blood Tests</li>
+                    <li><i className="bi bi-check2-all"></i>Two Ultrasound Exams</li>
+                    <li><i className="bi bi-check2-all"></i>Hormone Testing</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -131,9 +131,9 @@ const Wellness = () => {
                 <h3>Vagina Health Care</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>PRP Therapy</li>
-                    <li><i class="bi bi-check2-all"></i>Thermiva Treatments</li>
-                    <li><i class="bi bi-check2-all"></i>Hormone Therapy (optional)</li>
+                    <li><i className="bi bi-check2-all"></i>PRP Therapy</li>
+                    <li><i className="bi bi-check2-all"></i>Thermiva Treatments</li>
+                    <li><i className="bi bi-check2-all"></i>Hormone Therapy (optional)</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -146,10 +146,10 @@ const Wellness = () => {
                 <h3>Vaginal Volumizing</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Performed by Gynecologist</li>
-                    <li><i class="bi bi-check2-all"></i>Poly-L-Lactic Acid</li>
-                    <li><i class="bi bi-check2-all"></i>Stimulates Collagen Production</li>
-                    <li><i class="bi bi-check2-all"></i>Restores Volume & Elasticity</li>
+                    <li><i className="bi bi-check2-all"></i>Performed by Gynecologist</li>
+                    <li><i className="bi bi-check2-all"></i>Poly-L-Lactic Acid</li>
+                    <li><i className="bi bi-check2-all"></i>Stimulates Collagen Production</li>
+                    <li><i className="bi bi-check2-all"></i>Restores Volume & Elasticity</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -162,12 +162,12 @@ const Wellness = () => {
                 <h3>Weight Loss</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Consultation</li>
-                    <li><i class="bi bi-check2-all"></i>Prescription</li>
-                    <li><i class="bi bi-check2-all"></i>4 Injections/month</li>
-                    <li><i class="bi bi-check2-all"></i>Mounjaro (Tirzepatide) or</li>
-                    <li><i class="bi bi-check2-all"></i>Zepbound (Recaglutide) or</li>
-                    <li><i class="bi bi-check2-all"></i>Wegovy (Semaglutide)</li>
+                    <li><i className="bi bi-check2-all"></i>Consultation</li>
+                    <li><i className="bi bi-check2-all"></i>Prescription</li>
+                    <li><i className="bi bi-check2-all"></i>4 Injections/month</li>
+                    <li><i className="bi bi-check2-all"></i>Mounjaro (Tirzepatide) or</li>
+                    <li><i className="bi bi-check2-all"></i>Zepbound (Recaglutide) or</li>
+                    <li><i className="bi bi-check2-all"></i>Wegovy (Semaglutide)</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">

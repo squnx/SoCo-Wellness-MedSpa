@@ -111,10 +111,10 @@ const Facial = () => {
                 <h3>Facial Package</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Botox</li>
-                    <li><i class="bi bi-check2-all"></i>Filler</li>
-                    <li><i class="bi bi-check2-all"></i>Sculptra</li>
-                    <li><i class="bi bi-check2-all"></i>Thread</li>
+                    <li><i className="bi bi-check2-all"></i>Botox</li>
+                    <li><i className="bi bi-check2-all"></i>Filler</li>
+                    <li><i className="bi bi-check2-all"></i>Sculptra</li>
+                    <li><i className="bi bi-check2-all"></i>Thread</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -128,8 +128,8 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Thread</li>
-                    <li><i class="bi bi-check2-all"></i>Face lift</li>
+                    <li><i className="bi bi-check2-all"></i>Thread</li>
+                    <li><i className="bi bi-check2-all"></i>Face lift</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -142,9 +142,9 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Botox</li>
-                    <li><i class="bi bi-check2-all"></i>Jeuveau or Allergon or Hugel</li>
-                    <li><i class="bi bi-check2-all"></i>FDA approved</li>
+                    <li><i className="bi bi-check2-all"></i>Botox</li>
+                    <li><i className="bi bi-check2-all"></i>Jeuveau or Allergon or Hugel</li>
+                    <li><i className="bi bi-check2-all"></i>FDA approved</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -157,9 +157,9 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Dermal  Fillers</li>
-                    <li><i class="bi bi-check2-all"></i>Allergan Juvederm  or  RHA  or Restylane</li>
-                    <li><i class="bi bi-check2-all"></i>FDA approved</li>
+                    <li><i className="bi bi-check2-all"></i>Dermal  Fillers</li>
+                    <li><i className="bi bi-check2-all"></i>Allergan Juvederm  or  RHA  or Restylane</li>
+                    <li><i className="bi bi-check2-all"></i>FDA approved</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -172,10 +172,10 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i class="bi bi-check2-all"></i>Dermal  Fillers</li>
-                    <li><i class="bi bi-check2-all"></i>3 Sessions of Sculptra</li>
-                    <li><i class="bi bi-check2-all"></i>Galderma</li>
-                    <li><i class="bi bi-check2-all"></i>FDA approved</li>
+                    <li><i className="bi bi-check2-all"></i>Dermal  Fillers</li>
+                    <li><i className="bi bi-check2-all"></i>3 Sessions of Sculptra</li>
+                    <li><i className="bi bi-check2-all"></i>Galderma</li>
+                    <li><i className="bi bi-check2-all"></i>FDA approved</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
