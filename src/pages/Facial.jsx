@@ -111,10 +111,10 @@ const Facial = () => {
                 <h3>Facial Package</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li>Botox</li>
-                    <li>Filler</li>
-                    <li>Sculptra</li>
-                    <li>Thread</li>
+                    <li><i class="bi bi-check2-all"></i>Botox</li>
+                    <li><i class="bi bi-check2-all"></i>Filler</li>
+                    <li><i class="bi bi-check2-all"></i>Sculptra</li>
+                    <li><i class="bi bi-check2-all"></i>Thread</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -128,8 +128,8 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li>Thread</li>
-                    <li>Face lift</li>
+                    <li><i class="bi bi-check2-all"></i>Thread</li>
+                    <li><i class="bi bi-check2-all"></i>Face lift</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -142,9 +142,9 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li>Botox</li>
-                    <li>Jeuveau or Allergon or Hugel</li>
-                    <li>FDA approved</li>
+                    <li><i class="bi bi-check2-all"></i>Botox</li>
+                    <li><i class="bi bi-check2-all"></i>Jeuveau or Allergon or Hugel</li>
+                    <li><i class="bi bi-check2-all"></i>FDA approved</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -157,9 +157,9 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li>Dermal  Fillers</li>
-                    <li>Allergan Juvederm  or  RHA  or Restylane</li>
-                    <li>FDA approved</li>
+                    <li><i class="bi bi-check2-all"></i>Dermal  Fillers</li>
+                    <li><i class="bi bi-check2-all"></i>Allergan Juvederm  or  RHA  or Restylane</li>
+                    <li><i class="bi bi-check2-all"></i>FDA approved</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -172,10 +172,10 @@ const Facial = () => {
                 <h3>Single Item</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li>Dermal  Fillers</li>
-                    <li>3 Sessions of Sculptra</li>
-                    <li>Galderma</li>
-                    <li>FDA approved</li>
+                    <li><i class="bi bi-check2-all"></i>Dermal  Fillers</li>
+                    <li><i class="bi bi-check2-all"></i>3 Sessions of Sculptra</li>
+                    <li><i class="bi bi-check2-all"></i>Galderma</li>
+                    <li><i class="bi bi-check2-all"></i>FDA approved</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">

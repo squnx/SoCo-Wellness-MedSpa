@@ -1431,7 +1431,7 @@ section,
 
     ul {
       padding: 0;
-      // list-style: none;
+      list-style: none;
       text-align: center;
       line-height: 24px;
       font-size: 14px;
@@ -1448,7 +1448,8 @@ section,
       i {
         color: var(--accent-color);
         font-size: 18px;
-        padding-right: 4px;
+        padding-right: 5px;
+        font-size: 12px;
       }
 
       .na {
