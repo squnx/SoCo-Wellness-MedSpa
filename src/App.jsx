@@ -9,6 +9,7 @@ import About2 from './pages/About2';
 import Tlsr from './pages/Tlsr';
 import Facial from './pages/Facial';
 import Wellness from './pages/Wellness';
+import Kmedical from './pages/Kmedical';
 import Promos from './pages/Promos';
 import Contact from './pages/Contact';
 // import Gallery from './pages/Gallery';
@@ -34,13 +35,9 @@ function App() {
             <Route path="/tlsr" element={<Tlsr />} />
             <Route path="/facial" element={<Facial />} />
             <Route path="/wellness" element={<Wellness />} />
+            <Route path="/k-medical" element={<Kmedical />} />
             <Route path="/promos" element={<Promos />} />
             <Route path="/contact" element={<Contact />} />
-            {/* <Route path="/gallery" element={<Gallery />} />
-            <Route path="/california" element={<California />} />
-            <Route path="/korea" element={<Korea />} />
-            <Route path="/mexico" element={<Mexico />} />
-            <Route path="/misc" element={<Misc />} /> */}
           </Routes>
         </main>
         <Footer />

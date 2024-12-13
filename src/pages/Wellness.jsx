@@ -35,18 +35,23 @@ const Wellness = () => {
             </div>
             <div className="col-lg-9 mt-4 mt-lg-0">
               <div className="tab-content">
-                <div className="tab-pane active show" id="tabs-tab-0">
+                <div className="tab-pane fade active show" id="tabs-tab-0">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Wellness Program</h4>
                       <p>Our Wellness Program is designed to support women's health with personalized services tailored to each stage of life. It includes a General Check-Up to assess overall health, as well as treatments for Vaginal Health Care and Vaginal Volumizing, using advanced therapies like PRP and Poly-L-Lactic Acid for rejuvenation. Additionally, our Weight Loss program offers FDA-approved medications and expert guidance to help achieve and maintain weight management goals. Our program provides comprehensive care to promote overall well-being and vitality.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
-                      <img src="/assets/images/temp/tlsr.jpg" alt="" className="img-fluid" />
+                      <div className="position-relative">
+                        <img src="/assets/images/temp/tlsr.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute top-50 start-50 translate-middle text-center">
+                          <span className="text-light p-2 fs-1">TBD</span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="tab-pane" id="tabs-tab-1">
+                <div className="tab-pane fade" id="tabs-tab-1">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Woman's General Check Up</h4>
@@ -54,11 +59,16 @@ const Wellness = () => {
                       <p>Ultrasounds cover the abdomen, pelvis, breast, thyroid, carotid artery, and heart (echocardiogram), offering a thorough assessment to support your health and well-being.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
-                      <img src="/assets/images/services/facial-1.jpg" alt="" className="img-fluid" />
+                      <div className="position-relative">
+                        <img src="/assets/images/services/facial-1.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute top-50 start-50 translate-middle text-center">
+                          <span className="text-light p-2 fs-1">TBD</span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="tab-pane" id="tabs-tab-2">
+                <div className="tab-pane fade" id="tabs-tab-2">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Wonam's Vagina Health Care</h4>
@@ -66,29 +76,44 @@ const Wellness = () => {
                       <p>PRP therapy helps rejuvenate and enhance tissue health, while Thermiva utilizes radiofrequency technology to improve vaginal tightening, moisture, and overall comfort. Hormone therapy, available separately, can be added to support hormonal balance and optimize results. This comprehensive treatment plan is tailored to promote vaginal health and enhance overall well-being.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
-                      <img src="/assets/images/services/facial-2.jpg" alt="" className="img-fluid" />
+                      <div className="position-relative">
+                        <img src="/assets/images/services/facial-2.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute top-50 start-50 translate-middle text-center">
+                          <span className="text-light p-2 fs-1">TBD</span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="tab-pane" id="tabs-tab-3">
+                <div className="tab-pane fade" id="tabs-tab-3">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Woman's Vaginal Volumizing Treatment</h4>
                       <p>The Woman's Vaginal Volumizing Treatment is priced at $2900 and is performed directly by a board-certified gynecologist. This procedure utilizes Poly-L-Lactic Acid, which stimulates collagen production to restore natural volume and elasticity to the vaginal area. The treatment is designed to enhance comfort, improve intimate health, and address concerns related to volume loss and elasticity. With professional care and expertise, this treatment aims to rejuvenate and support overall vaginal well-being.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
-                      <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
+                      <div className="position-relative">
+                        <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute top-50 start-50 translate-middle text-center">
+                          <span className="text-light p-2 fs-1">TBD</span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="tab-pane" id="tabs-tab-4">
+                <div className="tab-pane fade" id="tabs-tab-4">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Weight Loss</h4>
                       <p>Our Weight Loss program is priced at $290, which includes consultation, prescription, and four injections per month. Alternatively, a consultation and prescription alone are available for $190. The program offers FDA-approved medications such as Mounjaro (Tirzepatide), Zepbound (Recaglutide), or Wegovy (Semaglutide) to support weight loss. These treatments are designed to help individuals achieve their weight loss goals by targeting appetite and metabolism, under the guidance of our experienced healthcare providers.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
-                      <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
+                      <div className="position-relative">
+                        <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute top-50 start-50 translate-middle text-center">
+                          <span className="text-light p-2 fs-1">TBD</span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -171,7 +196,7 @@ const Wellness = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$290<span></span>, $190<span>/no injection</span></h4>
+                  <h4>$290, $190<span>/no injection</span></h4>
                 </div>
               </div>
             </div>

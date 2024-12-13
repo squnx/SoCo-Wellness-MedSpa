@@ -1402,6 +1402,7 @@ section,
       font-size: 24px;
       font-weight: 600;
       font-family: var(--heading-font);
+      margin-bottom: 0;
 
       .na {
         color: color-mix(in srgb, var(--default-color), transparent 40%);
@@ -1521,6 +1522,10 @@ section,
       margin-bottom: 0;
     }
 
+    .accordion-header {
+      background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
+    }
+
     h3 {
       font-weight: 600;
       font-size: 16px;
@@ -1544,6 +1549,7 @@ section,
     .accordion-button {
       color: var(--default-color) !important;
       font-weight: 600;
+      background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
 
       &:hover {
         color: var(--accent-color) !important;
