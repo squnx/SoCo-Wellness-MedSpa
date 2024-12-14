@@ -1440,12 +1440,13 @@ section,
       font-size: 14px;
       flex-grow: 1;
       /* Makes the list items take up remaining space */
-      max-width: 100%;
+      max-width: 85%;
       width: fit-content;
 
       li {
         padding-bottom: 0;
         text-align: left;
+        display: flex;
       }
 
       i {
@@ -1739,11 +1740,17 @@ section,
       list-style: none;
       padding: 0;
       margin-bottom: .5rem;
+
+      li {
+        display: flex;
+      }
+
       i {
         color: var(--accent-color);
         font-size: 18px;
         padding-right: 5px;
         font-size: 12px;
+        line-height: 24px;
       }
     }
 

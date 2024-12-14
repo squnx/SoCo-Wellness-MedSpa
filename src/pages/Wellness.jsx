@@ -190,9 +190,7 @@ const Wellness = () => {
                     <li><i className="bi bi-check2-all"></i>Consultation</li>
                     <li><i className="bi bi-check2-all"></i>Prescription</li>
                     <li><i className="bi bi-check2-all"></i>4 Injections/month</li>
-                    <li><i className="bi bi-check2-all"></i>Mounjaro (Tirzepatide) or</li>
-                    <li><i className="bi bi-check2-all"></i>Zepbound (Recaglutide) or</li>
-                    <li><i className="bi bi-check2-all"></i>Wegovy (Semaglutide)</li>
+                    <li><i className="bi bi-check2-all"></i>Mounjaro (Tirzepatide) or Zepbound (Recaglutide) or Wegovy (Semaglutide)</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
