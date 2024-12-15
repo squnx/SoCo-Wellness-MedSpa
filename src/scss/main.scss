@@ -1104,7 +1104,7 @@ section,
     .content h4 {
       padding: 0 15px;
     }
-  
+
     .content p {
       padding: 0 15px;
     }
@@ -1775,6 +1775,77 @@ section,
     padding: 8px 20px;
   }
 }
+
+/*--------------------------------------------------------------
+# Gallery Section
+--------------------------------------------------------------*/
+.gallery {
+  overflow: hidden;
+
+  .swiper-wrapper {
+    height: auto;
+  }
+
+  .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+
+    .swiper-pagination-bullet {
+      background-color: var(--background-color);
+      border: 1px solid var(--accent-color);
+      width: 12px;
+      height: 12px;
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: var(--accent-color);
+    }
+  }
+
+  .swiper-slide-active {
+    text-align: center;
+  }
+}
+
+/* Apply max-width 90% to the image inside the GLightbox modal */
+.gslide img {
+  max-width: 90% !important;
+  margin: 0 auto;
+  /* Optional: Centers the image */
+}
+
+.glightbox-clean .gdesc-inner {
+  padding: 10px !important;
+  text-align: center;
+}
+
+.glightbox-clean .gslide-title {
+  max-width: 90% !important;
+  margin-bottom: 0 !important;
+}
+
+@media (min-width: 992px) {
+  .gallery {
+    .swiper-wrapper {
+      padding: 40px 0;
+    }
+
+    .swiper-slide-active {
+      background: var(--background-color);
+      border: 2px solid var(--accent-color);
+      padding: 4px;
+      z-index: 1;
+      transform: scale(1.1);
+      transition: none;
+    }
+  }
+
+  .glightbox-clean .gdesc-inner {
+    background-color: #fff !important;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Contact Section

@@ -259,7 +259,7 @@ const About = () => {
         <img src="/assets/images/bg-testimonial.jpg" className="testimonial-bg" alt="" />
         <div className="container section-title" data-aos="fade-up">
           <h2>Testimonials</h2>
-          <p>Heartfelt Stories from Our Clients</p>
+          <p>Heartfelt Stories from Our Valued Guests</p>
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="swiper init-swiper">

@@ -11,6 +11,7 @@ import Facial from './pages/Facial';
 import Wellness from './pages/Wellness';
 import Kmedical from './pages/Kmedical';
 import Promos from './pages/Promos';
+import PromosGalleryModal from './pages/PromosGalleryModal';
 import Contact from './pages/Contact';
 // import Gallery from './pages/Gallery';
 // import America from './pages/America';
@@ -37,6 +38,7 @@ function App() {
             <Route path="/wellness" element={<Wellness />} />
             <Route path="/k-medical" element={<Kmedical />} />
             <Route path="/promos" element={<Promos />} />
+            <Route path="/promos-gallery-modal" element={<PromosGalleryModal />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

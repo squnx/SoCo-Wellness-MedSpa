@@ -1,75 +1,56 @@
-import React, { useEffect } from 'react';
-import GLightbox from 'glightbox';
-import 'glightbox/dist/css/glightbox.min.css';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Modal } from 'react-bootstrap';
 
-const Promos = () => {
-  useEffect(() => {
-    // Initialize GLightbox
-    GLightbox({
-      selector: '.glightbox',
-    });
-  }, []);
+const PromosGalleryModal = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [currentImages, setCurrentImages] = useState({ before: null, after: null });
 
-  const slidesData = [
+  const beforeAfterPairs = [
     {
-      href: "/assets/images/gallery/gallery-1-after.jpg",
-      dataGallery: "before-after",
-      dataTitle: "Before and After - 1",
-      src: "/assets/images/gallery/gallery-1.jpg",
-      alt: "Gallery Image 1",
+      before: "/assets/images/gallery/gallery-1.jpg",
+      after: "/assets/images/gallery/gallery-1-after.jpg",
     },
     {
-      href: "/assets/images/gallery/gallery-2-after.jpg",
-      dataGallery: "before-after",
-      dataTitle: "Before and After - 2",
-      src: "/assets/images/gallery/gallery-2.jpg",
-      alt: "Gallery Image 2",
+      before: "/assets/images/gallery/gallery-2.jpg",
+      after: "/assets/images/gallery/gallery-2-after.jpg",
     },
     {
-      href: "/assets/images/gallery/gallery-3-after.jpg",
-      dataGallery: "before-after",
-      dataTitle: "Before and After - 3",
-      src: "/assets/images/gallery/gallery-3.jpg",
-      alt: "Gallery Image 3",
+      before: "/assets/images/gallery/gallery-3.jpg",
+      after: "/assets/images/gallery/gallery-3-after.jpg",
     },
     {
-      href: "/assets/images/gallery/gallery-4-after.jpg",
-      dataGallery: "before-after",
-      dataTitle: "Before and After - 4",
-      src: "/assets/images/gallery/gallery-4.jpg",
-      alt: "Gallery Image 4",
+      before: "/assets/images/gallery/gallery-4.jpg",
+      after: "/assets/images/gallery/gallery-4-after.jpg",
     },
     {
-      href: "/assets/images/gallery/gallery-5-after.jpg",
-      dataGallery: "before-after",
-      dataTitle: "Before and After - 5",
-      src: "/assets/images/gallery/gallery-5.jpg",
-      alt: "Gallery Image 5",
+      before: "/assets/images/gallery/gallery-5.jpg",
+      after: "/assets/images/gallery/gallery-5-after.jpg",
     },
     {
-      href: "/assets/images/gallery/gallery-6-after.jpg",
-      dataGallery: "before-after",
-      dataTitle: "Before and After - 6",
-      src: "/assets/images/gallery/gallery-6.jpg",
-      alt: "Gallery Image 6",
+      before: "/assets/images/gallery/gallery-6.jpg",
+      after: "/assets/images/gallery/gallery-6-after.jpg",
     },
     {
-      href: "/assets/images/gallery/gallery-7-after.jpg",
-      dataGallery: "before-after",
-      dataTitle: "Before and After - 7",
-      src: "/assets/images/gallery/gallery-7.jpg",
-      alt: "Gallery Image 7",
+      before: "/assets/images/gallery/gallery-7.jpg",
+      after: "/assets/images/gallery/gallery-7-after.jpg",
     },
     {
-      href: "/assets/images/gallery/gallery-8-after.jpg",
-      dataGallery: "before-after",
-      dataTitle: "Before and After - 8",
-      src: "/assets/images/gallery/gallery-8.jpg",
-      alt: "Gallery Image 8",
+      before: "/assets/images/gallery/gallery-8.jpg",
+      after: "/assets/images/gallery/gallery-8-after.jpg",
     },
   ];
+
+  const handleImageClick = (pair) => {
+    setCurrentImages(pair);
+    setShowModal(true);
+  };
+
+  const handleClose = () => {
+    setShowModal(false);
+    setCurrentImages({ before: null, after: null });
+  };
 
   return (
     <>
@@ -181,54 +162,82 @@ const Promos = () => {
       </section>
 
       {/* Gallery Section */}
-      <section id="gallery" className="gallery section light-background">
+      <section id="gallery" className="gallery section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Gallery</h2>
-          <p>Our Clients' Stunning Transformations</p>
+          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <Swiper
             loop={true}
             speed={600}
             autoplay={{
-              delay: 4000,
+              delay: 5000,
               disableOnInteraction: false,
             }}
             slidesPerView="auto"
             centeredSlides={true}
-            // modules={[Autoplay, Pagination, Navigation]}
-            modules={[Autoplay, Pagination]}
+            modules={[Autoplay, Pagination, Navigation]}
             pagination={{
               clickable: true,
             }}
-            // navigation
+            navigation
             breakpoints={{
-              320: { slidesPerView: 1, spaceBetween: 0 },
-              768: { slidesPerView: 3, spaceBetween: 20 },
-              1200: { slidesPerView: 5, spaceBetween: 20 },
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 0,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+              1200: {
+                slidesPerView: 5,
+                spaceBetween: 20,
+              },
             }}
           >
-            {slidesData.map((slide, index) => (
+            {beforeAfterPairs.map((pair, index) => (
               <SwiperSlide key={index}>
-                <a
-                  href={slide.href}
-                  className="glightbox"
-                  data-gallery={slide.dataGallery}
-                  data-title={slide.dataTitle}
-                >
-                  <img
-                    src={slide.src}
-                    className="img-fluid"
-                    alt={slide.alt}
-                  />
-                </a>
+                <img
+                  src={pair.before}
+                  className="img-fluid"
+                  alt={`Gallery Image ${index + 1}`}
+                  onClick={() => handleImageClick(pair)}
+                  style={{ cursor: "pointer" }}
+                />
               </SwiperSlide>
             ))}
           </Swiper>
         </div>
       </section>
+
+      {/* Modal for Before/After Image */}
+      <Modal show={showModal} onHide={handleClose} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>Before/After Image</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          {currentImages.before && currentImages.after && (
+            <div className="d-flex justify-content-center align-items-center">
+              <img
+                src={currentImages.before}
+                className="img-fluid mx-2"
+                alt="Before"
+                style={{ maxWidth: "45%" }}
+              />
+              <img
+                src={currentImages.after}
+                className="img-fluid mx-2"
+                alt="After"
+                style={{ maxWidth: "45%" }}
+              />
+            </div>
+          )}
+        </Modal.Body>
+      </Modal>
     </>
   );
-};
+}
 
-export default Promos;
+export default PromosGalleryModal;
