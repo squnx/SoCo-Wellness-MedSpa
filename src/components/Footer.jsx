@@ -12,10 +12,10 @@ const Footer = () => {
           <p><span>Designed by</span> <a href="https://mousewurx.com/" target="_blank" rel="noreferrer"><strong className="px-1 sitename">mousewurx</strong></a></p>
         </div>
         <div className="social-links d-flex justify-content-center">
-          <a href=""><i className="bi bi-twitter-x"></i></a>
+          {/* <a href=""><i className="bi bi-twitter-x"></i></a> */}
           <a href="https://www.facebook.com/socoaghc/" title="Facebook" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
           <a href=""><i className="bi bi-instagram"></i></a>
-          <a href=""><i className="bi bi-linkedin"></i></a>
+          <a href=""><i className="bi bi-google"></i></a>
         </div>
         {/* <div className="credits">
           Designed by <a href="https://mousewurx.com/" target="_blank" rel="noreferrer">mousewurx</a>

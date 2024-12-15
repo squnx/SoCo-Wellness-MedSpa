@@ -79,6 +79,11 @@ h6 {
     overflow: visible;
   }
 
+  .work-hour {
+    font-size: var(--work-hour-font-size);
+    font-weight: 600;
+  }
+
   .header-social-links {
     padding-right: 15px;
 
@@ -104,6 +109,10 @@ h6 {
 @media (max-width: 1200px) {
   .header {
     .logo {
+      order: 1;
+    }
+
+    .work-hour {
       order: 1;
     }
 
