@@ -44,7 +44,7 @@ const Kmedical = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/temp/tlsr.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/k-medical.jpg" alt="" className="img-fluid" />
                         <div className="position-absolute top-50 start-50 translate-middle text-center">
                           <span className="text-light p-2 fs-1">TBD</span>
                         </div>

@@ -21,6 +21,12 @@ const Home = () => {
       title: 'Soco Wellness MedSpa',
       text: 'Our promise to all of our clients is excellence',
       bgStyle: 'transparent-60',
+    },
+    {
+      background: '/assets/images/bg-about.jpg',
+      title: 'Promos',
+      text: 'Exclusive Promotions & Savings at SoCo',
+      bgStyle: 'transparent-60',
     }
   ];
 
