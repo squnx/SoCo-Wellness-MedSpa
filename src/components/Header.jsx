@@ -17,7 +17,7 @@ const Header = () => {
         <NavLink to="/" className="logo d-flex align-items-center me-auto me-xl-0">
           {/* <h1 className="sitename">Soco</h1> */}
           <img src="/logo-soco-375x80.png" alt="" className="img-fluid"></img>
-          <img src="/logo-soco-465x80.png" alt="" className="img-fluid"></img>
+          {/* <img src="/logo-soco-465x80.png" alt="" className="img-fluid"></img>
           <img src="/logo-soco-4.png" alt="" className="img-fluid"></img>
           <svg role="img" width="120" height="50" preserveAspectRatio="xMidYMid meet" data-bbox="98.207 251.469 1720.543 584.137" viewBox="98.207 251.469 1720.543 584.137" xmlns="http://www.w3.org/2000/svg" data-type="color" aria-hidden="true">
             <g>
@@ -55,7 +55,7 @@ const Header = () => {
               <path d="M1746.21 703.56c-2.21 0-4.21.59-6.01 1.76-1.43.93-2.63 2.18-3.63 3.73v-4.96h-7.26v51.93h7.26v-19.77c.79 1.52 1.87 2.74 3.27 3.65 1.71 1.1 3.71 1.65 6.01 1.65 4.05 0 7.2-1.3 9.43-3.91s3.34-6.27 3.34-10.99v-8.04c0-4.79-1.08-8.49-3.24-11.11q-3.24-3.93-9.18-3.93Zm5.16 23.09c0 2.66-.66 4.71-1.97 6.17-1.32 1.46-3.17 2.19-5.57 2.19-1.54 0-2.85-.3-3.93-.89s-1.9-1.45-2.47-2.56-.85-2.47-.85-4.05v-10.06c0-1.57.28-2.89.85-3.98s1.39-1.92 2.47-2.49 2.39-.85 3.93-.85c2.39 0 4.25.75 5.57 2.24s1.97 3.59 1.97 6.29v8Z" fill="#4b4948" data-color="1"></path>
               <path d="m1788.89 704.1-8.6 26.27-9.29-26.27h-7.4l13.39 36.33-1.76 5.39c-.59 1.33-1.29 2.26-2.08 2.81-.79.54-1.87.82-3.22.82h-1.46v6.97h1.46c2.89 0 5.17-.49 6.83-1.48q2.49-1.47 3.81-5.28l15.72-45.56z" fill="#4b4948" data-color="1"></path>
             </g>
-          </svg>
+          </svg> */}
         </NavLink>
 
         <nav id="navmenu" className="navmenu">
