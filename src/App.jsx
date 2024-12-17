@@ -10,6 +10,7 @@ import Tlsr from './pages/Tlsr';
 import Facial from './pages/Facial';
 import Wellness from './pages/Wellness';
 import Kmedical from './pages/Kmedical';
+import Treatments from './pages/Treatments';
 import Promos from './pages/Promos';
 import PromosGalleryModal from './pages/PromosGalleryModal';
 import Contact from './pages/Contact';
@@ -37,6 +38,7 @@ function App() {
             <Route path="/facial" element={<Facial />} />
             <Route path="/wellness" element={<Wellness />} />
             <Route path="/k-medical" element={<Kmedical />} />
+            <Route path="/other-treatments" element={<Treatments />} />
             <Route path="/promos" element={<Promos />} />
             <Route path="/promos-gallery-modal" element={<PromosGalleryModal />} />
             <Route path="/contact" element={<Contact />} />

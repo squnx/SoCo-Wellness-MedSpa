@@ -74,6 +74,7 @@ const Header = () => {
                 <li><NavLink to="/facial" activeclassname="active">Facial Aesthetic Design</NavLink></li>
                 <li><NavLink to="/wellness" activeclassname="active">Wellness Program</NavLink></li>
                 <li><NavLink to="/k-medical" activeclassname="active">K-medical</NavLink></li>
+                <li><NavLink to="/other-treatments" activeclassname="active">Special Treatments</NavLink></li>
               </ul>
             </li>
             {/* <li><NavLink to="/departments" activeclassname="active">Departments</NavLink></li> */}
