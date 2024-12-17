@@ -1,6 +1,22 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_wzriu6e', 'template_vzz4w7e', form.current, '0Ue_tdQnQbeZJv_0K')
+      .then((result) => {
+        console.log(result.text);
+        alert('Your message has been sent. Thank you!');
+      }, (error) => {
+        console.log(error.text);
+        alert('An error occurred, please try again.');
+      });
+  };
+
   return (
     <>
       {/* Contact Section */}
@@ -35,11 +51,10 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              {/* <form ref={form} onSubmit={sendEmail} className="php-email-form" data-aos="fade-up" data-aos-delay="300"> */}
-              <form className="php-email-form mb-0">
+              <form ref={form} onSubmit={sendEmail} className="php-email-form mb-0" data-aos="fade-up" data-aos-delay="300">
                 <div className="row gy-4">
                   <div className="col-md-6">
-                    <input type="text" name="name" className="form-control" placeholder="Your Name" required />
+                    <input type="text" name="from_name" className="form-control" placeholder="Your Name" required />
                   </div>
                   <div className="col-md-6">
                     <input type="email" className="form-control" name="email" placeholder="Your Email" required />
@@ -51,9 +66,9 @@ const Contact = () => {
                     <textarea className="form-control" name="message" rows="4" placeholder="Message" required></textarea>
                   </div>
                   <div className="col-md-12 text-center">
-                    {/* <div className="loading">Loading</div>
-                <div className="error-message"></div>
-                <div className="sent-message">Your message has been sent. Thank you!</div> */}
+                    <div className="loading">Loading</div>
+                    <div className="error-message"></div>
+                    <div className="sent-message">Your message has been sent. Thank you!</div>
                     <button type="submit">Send Message</button>
                   </div>
                 </div>
