@@ -765,7 +765,7 @@ section,
 
 @media (max-width: 1200px) {
   .hero {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 68px);
   }
 }
 
@@ -788,7 +788,6 @@ section,
   overflow: hidden;
   position: relative;
   min-height: calc(100vh - 72px);
-
 
   .carousel,
   .carousel-inner {
@@ -961,6 +960,18 @@ section,
       background: #fff;
       color: #18d26e;
     }
+  }
+}
+
+@media (max-width: 1200px) {
+  #hero {
+    min-height: calc(100vh - 68px);
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    min-height: calc(100vh - 68px);
   }
 }
 
