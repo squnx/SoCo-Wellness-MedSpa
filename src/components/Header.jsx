@@ -15,7 +15,7 @@ const Header = () => {
     <header id="header" className="header d-flex align-items-center coffee-background sticky-top">
       <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
         <NavLink to="/" className="logo d-flex align-items-center me-auto me-xl-0">
-          {/* <h1 className="sitename">Soco</h1> */}
+          {/* <h1 className="sitename">SoCo</h1> */}
           <img src="/logo-soco-375x80.png" alt="" className="img-fluid"></img>
           {/* <img src="/logo-soco-465x80.png" alt="" className="img-fluid"></img>
           <img src="/logo-soco-4.png" alt="" className="img-fluid"></img>
