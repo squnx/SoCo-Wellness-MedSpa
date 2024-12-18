@@ -61,14 +61,13 @@ const TLSR = () => {
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Tightening, Lifting, Skin Quality, Regeneration</h4>
-                      <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim.</p>
+                      <p>TLSR is a natural, combination treatment based on medical theory, designed for tightening, lifting, improving skin quality, and skin regeneration. We specialize in TLSR procedures and take pride in the results we deliver. Experience something amazing. You won't be disappointed.</p>
+                      <p>Experience the transformative benefits of TLSR at an incredible value&mdash;four treatments for the price of one. Rediscover your confidence with skin that looks and feels rejuvenated. You won't be disappointed.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/temp/tlsr.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/services-tlsr.jpg" alt="TLSR" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -76,15 +75,15 @@ const TLSR = () => {
                 <div className="tab-pane fade" id="tabs-tab-1">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Tightening</h4>
-                      <p>Achieve firmer, smoother skin with our tightening treatments, designed to reduce the appearance of loose or sagging skin. Utilizing advanced technologies like radiofrequency and ultrasound, these treatments stimulate collagen production, resulting in tighter, more youthful-looking skin. Whether you're concerned about skin laxity around the face, neck, or body, our non-invasive solutions help restore the skin's natural firmness without downtime, leaving you with a refreshed, more contoured appearance.</p>
+                      <h4>Radiofrequency Microneedling for tightening treatment</h4>
+                      <p>Radiofrequency Microneedling treatment can help with tightening, lifting, and skin rejuvenation by reducing pores, improving scars, skin tone, texture, and overall skin health.</p>
+                      <p>Scarlet is a safe RF system treatment with no downtime and no side effects. It effectively targets almost any skin tissue, allowing patients to resume their daily activities immediately after treatment. Unlike other microneedle treatments, it causes no bleeding or sensitivity. The Scarlet machine is FDA-cleared.</p>
+                      <p>ThermiSmooth  is a monopolar RF device, ideal for those who are afraid of needle-based procedures and seek skin tightening treatments. It is an FDA-cleared medical device.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/temp/tightening.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/services-tightening.jpg" alt="Tightening" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -92,15 +91,14 @@ const TLSR = () => {
                 <div className="tab-pane fade" id="tabs-tab-2">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Lifting</h4>
-                      <p>Restore a youthful contour with our lifting treatments, specifically crafted to lift and firm areas that have lost elasticity. These non-invasive procedures work by stimulating the underlying tissues, promoting collagen and elastin production for a natural lift. Perfect for areas like the jawline, cheeks, and brows, our lifting treatments provide noticeable results without the need for surgery. Reclaim a more youthful, rejuvenated look with a treatment that lifts, defines, and smooths the skin.</p>
+                      <h4>Ultherapy for lifting treatment</h4>
+                      <p><strong>Ulthera Lifting</strong>, also known as Ultherapy, is a non-invasive cosmetic procedure that uses focused ultrasound technology to lift and tighten the skin on the face, neck, and décolletage. It targets the deeper layers of the skin, including the foundational layer often addressed in surgical facelifts, without cutting or disrupting the skin's surface.</p>
+                      <p>Ultherapy is the only FDA-cleared procedure to non-invasively lift the skin.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/temp/lifting.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/services-lifting.jpg" alt="Lifting" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -108,15 +106,14 @@ const TLSR = () => {
                 <div className="tab-pane fade" id="tabs-tab-3">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Skin Quality</h4>
-                      <p>Enhance the overall appearance and health of your skin with our skin quality treatments, designed to address common skin concerns such as dullness, uneven texture, and fine lines. Our treatments focus on improving skin tone, texture, and radiance by stimulating cell renewal and boosting collagen production. With regular treatments, you'll notice smoother, brighter skin with improved elasticity, creating a youthful glow that lasts. Achieve a natural, radiant complexion with our skin quality enhancement options.</p>
+                      <h4>MTS with SoCo Solution for improving skin quality</h4>
+                      <p>MTS (Microneedle Therapy System) treatment, also known as Microneedling, is a minimally invasive procedure that uses fine needles to create micro-injuries in the skin. These micro-injuries stimulate the skin's natural healing process, encouraging the production of collagen and elastin, which are essential for skin rejuvenation.</p>
+                      <p>The most important aspect of MTS (Microneedle Therapy System) treatment is the MTS solution. we are committed to achieving the best results by using high-quality products that are applied to the skin surface during the procedure. </p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/temp/skin-quality.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/services-skin-quality.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -124,15 +121,14 @@ const TLSR = () => {
                 <div className="tab-pane fade" id="tabs-tab-4">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Regeneration</h4>
-                      <p>Revitalize and rejuvenate your skin with our skin regeneration treatments, which promote the natural healing and renewal of skin cells. By stimulating deep layers of the skin, these treatments help to reduce the signs of aging, repair damage from environmental stressors, and improve the overall health of your skin. With advanced techniques like microneedling, growth factors, and stem cell therapy, our skin regeneration services help restore your skin's youthful texture and tone, leaving it smoother, healthier, and more vibrant.</p>
+                      <h4>PRP for skin rejuvenation treatment</h4>
+                      <p>PRP (Platelet-Rich Plasma) treatment is a procedure that uses a concentrated form of the patient's own blood to promote healing and rejuvenation in various areas of the body.</p>
+                      <p>The growth factors in PRP initiate the healing process, regenerating new tissue and promoting the development of new blood vessels. Due to these roles of the growth factors, we can expect many positive outcomes such as even skin tone, improved skin texture, healthier skin, and enhanced skin elasticity. To experience the various benefits of PRP, it is recommended to undergo this treatment 3-4 times a year. For anti-aging, we strongly recommend regularly injecting growth factors into your skin through PRP treatment every year.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/temp/skin-regeneration.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/services-regeneration.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -157,36 +153,37 @@ const TLSR = () => {
                 <h3>TLSR</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Thermi smooth (monopolar)</li>
-                    <li><i className="bi bi-check2-all"></i>Ulthera (500 lines)</li>
-                    <li><i className="bi bi-check2-all"></i>Platelet-rich plasma (PRP)</li>
+                    <li><i className="bi bi-check2-all"></i>Thermi smooth (monopolar RF) or Scarlet(bipolar Rf)</li>
+                    <li><i className="bi bi-check2-all"></i>Ulthera (350 lines)</li>
                     <li><i className="bi bi-check2-all"></i>MTS with SoCo solution</li>
+                    <li><i className="bi bi-check2-all"></i>Platelet-rich plasma (PRP)</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4><span className="na">R.S.P:$2500</span> $1550</h4>
+                  <h4><span className="na">$2500</span> $1550</h4>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
               {/* <div className="pricing-item featured"> */}
               <div className="pricing-item">
-                <h3>Single Item</h3>
+              <span className="advanced">Special</span>
+                <h3>Tightening</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Scarlet (MRF)</li>
-                    <li><i className="bi bi-check2-all"></i>Thermismooth (RF)</li>
+                    <li><i className="bi bi-check2-all"></i>Scarlet (Bipolar RF) or Thermismooth (Monopolar RF)</li>
                     <li><i className="bi bi-check2-all"></i>MTS with SOCo Solution</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$800</h4>
+                  <h4><span className="na">$1200</span> $800</h4>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
-                <h3>Single Item</h3>
+              <span className="advanced">Special</span>
+                <h3>Lifting</h3>
                 <div className="pricing-detail">
                   <ul>
                     <li><i className="bi bi-check2-all"></i>Ulthera (1000 lines)</li>
@@ -194,22 +191,36 @@ const TLSR = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$2100</h4>
+                <h4><span className="na">$2800</span> $2400</h4>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
-                <h3>Single Item</h3>
+              <span className="advanced">Special</span>
+                <h3>Skin Quality</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Hair Care</li>
-                    <li><i className="bi bi-check2-all"></i>PRP</li>
                     <li><i className="bi bi-check2-all"></i>MTS with SoCo solution</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$800</h4>
+                <h4><span className="na">$400</span> $300</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div className="pricing-item">
+              <span className="advanced">Special</span>
+                <h3>Regeneration</h3>
+                <div className="pricing-detail">
+                  <ul>
+                    <li><i className="bi bi-check2-all"></i>PRP (Platelet- rich Plasma )</li>
+                    <li><i className="bi bi-check2-all"></i>MTS with SoCo solution</li>
+                  </ul>
+                </div>
+                <div className="btn-wrap">
+                <h4><span className="na">$1200</span> $800</h4>
                 </div>
               </div>
             </div>

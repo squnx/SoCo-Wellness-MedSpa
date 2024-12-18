@@ -1379,6 +1379,11 @@ section,
       }
     }
   }
+
+  span {
+    color: var(--accent-color) !important;
+    white-space: nowrap;
+  }
 }
 
 @media (max-width: 992px) {
