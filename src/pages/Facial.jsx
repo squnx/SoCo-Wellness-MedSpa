@@ -38,16 +38,14 @@ const Facial = () => {
                 <div className="tab-pane fade active show" id="tabs-tab-0">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Facial Aesthetic Design</h4>
-                      <p>Our Facial Aesthetic Design section offers personalized treatments to enhance your natural beauty and rejuvenate your appearance. With options like Botox, Filler, Sculptra, and Thread, we focus on smoothing wrinkles, restoring volume, and sculpting facial contours.</p>
-                      <p>Each treatment is tailored to your unique goals, ensuring subtle, natural-looking results. Performed with precision and care, our minimally invasive procedures help you look and feel your best with confidence.</p>
+                      <h4>Full-face contouring using Botox, fillers, Sculptra, and thread materials</h4>
+                      <p>At SoCo, our team strives to provide artistic procedures that go beyond simple single treatments like Botox, fillers, or thread lifting. Each treatment is interconnected and designed holistically, considering various factors of the face to enhance its maximum beauty.</p>
+                      <p>Our procedures are designed with meticulous attention to the golden ratio, proportional harmony, and facial symmetry, ensuring natural and balanced results. Each treatment is performed by a highly skilled and experienced professional.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/temp/tlsr.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/services-facial-aesthetic.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -55,15 +53,13 @@ const Facial = () => {
                 <div className="tab-pane fade" id="tabs-tab-1">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Botox</h4>
+                      <h4>Effortless Elegance, Naturally Achieved</h4>
                       <p>Botox is a widely popular, non-surgical treatment designed to smooth out fine lines and wrinkles by temporarily relaxing the muscles that cause them. Perfect for areas such as the forehead, between the brows, and around the eyes, Botox offers a quick and effective solution for maintaining a youthful, refreshed appearance. The procedure is minimally invasive, with little to no downtime, allowing you to return to your daily routine immediately after treatment. Our skilled professionals will work with you to achieve natural-looking results, enhancing your features without looking overdone.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-1.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/services-botox.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -71,15 +67,13 @@ const Facial = () => {
                 <div className="tab-pane fade" id="tabs-tab-2">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Filler</h4>
+                      <h4>Achieve a Youthful, Contoured Look</h4>
                       <p>Facial fillers are an excellent solution for restoring volume and fullness to areas of the face that may have lost elasticity or plumpness over time. Whether you're looking to add volume to the cheeks, smooth out smile lines, or enhance your lips, dermal fillers provide immediate results. Our range of fillers, including hyaluronic acid-based products, are safe and effective in rejuvenating the skin and giving your face a more youthful, contoured appearance. The procedure is quick, with minimal discomfort, and results can last anywhere from several months to over a year, depending on the treatment area.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-2.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/services-filler.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -87,15 +81,13 @@ const Facial = () => {
                 <div className="tab-pane fade" id="tabs-tab-3">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Sculptra</h4>
-                      <p>Sculptra is an injectable treatment that works beneath the skin to stimulate natural collagen production, helping to restore lost volume and smooth out wrinkles. Unlike traditional fillers, Sculptra provides gradual, natural-looking results over time as collagen builds in areas such as the cheeks, temples, and jawline. It's an ideal solution for addressing deeper wrinkles and volume loss. The results can last up to two years, offering long-term rejuvenation with minimal downtime, leaving you with a refreshed and youthful appearance.</p>
+                      <h4>Boost Collagen, Revive Volume</h4>
+                      <p>Sculptra is a biostimulatory injectable treatment used to stimulate collagen production and restore facial volume lost due to aging, weight loss, or other factors. Unlike traditional fillers, Sculptra provides gradual, natural-looking results over time as collagen builds in areas such as the cheeks, temples, and jawline. The results can last up to two years, offering long-term rejuvenation with minimal downtime, leaving you with a refreshed and youthful appearance.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/servives-sculptra.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -103,15 +95,13 @@ const Facial = () => {
                 <div className="tab-pane fade" id="tabs-tab-4">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Thread</h4>
-                      <p>Thread lifting is an innovative non-surgical treatment designed to lift and tighten sagging skin, creating a more youthful and rejuvenated appearance. This procedure involves the insertion of specialized threads into the skin, which gently lift and stimulate collagen production for a firmer, more lifted look. It's ideal for areas such as the jawline, cheeks, and neck, providing an instant lifting effect with long-lasting benefits. The procedure is minimally invasive, with little to no downtime, and results improve over time as your skin regenerates and tightens naturally.</p>
+                      <h4>Suture Thread Face Lifting</h4>
+                      <p>Suture Thread Face Lifting (also known as Thread Lift) is a minimally invasive cosmetic procedure that uses dissolvable sutures to lift and tighten sagging facial skin. This treatment provides an immediate lifting effect while stimulating the body's natural collagen production, resulting in a more youthful appearance. Results can last up to 10-12 months, depending on individual factors.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/services-thread.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -119,7 +109,6 @@ const Facial = () => {
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -127,85 +116,83 @@ const Facial = () => {
       <section id="pricing" className="pricing section light-background">
         <div className="container section-title" data-aos="fade-up">
           <h2>Pricing</h2>
-          <p>Facial Aesthetic Design Treatment Price</p>
+          <p>Facial Aesthetic Design Treatments Price</p>
         </div>
         <div className="container">
           <div className="row gy-3">
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <div className="pricing-item">
-                <span className="advanced">Special</span>
                 <h3>Facial Package</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Botox</li>
-                    <li><i className="bi bi-check2-all"></i>Filler</li>
-                    <li><i className="bi bi-check2-all"></i>Sculptra</li>
-                    <li><i className="bi bi-check2-all"></i>Thread</li>
+                    <li><i className="bi bi-check2-all"></i>Botox, Filler ,Sculptra, Thread</li>
+                    <li><i className="bi bi-check2-all"></i>Pricing is determined by product usage and procedure complexity</li>
+                    <li><i className="bi bi-check2-all"></i>Pricing will be finalized following consultation</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4><span className="na">$4500</span> $2500</h4>
+                  <h4>$2500 - $4500</h4>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
               {/* <div className="pricing-item featured"> */}
               <div className="pricing-item">
-                <h3>Single Item</h3>
+                <h3>Botox</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Thread</li>
-                    <li><i className="bi bi-check2-all"></i>Face lift</li>
-                  </ul>
-                </div>
-                <div className="btn-wrap">
-                  <h4>$1200</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
-              <div className="pricing-item">
-                <h3>Single Item</h3>
-                <div className="pricing-detail">
-                  <ul>
-                    <li><i className="bi bi-check2-all"></i>Botox</li>
-                    <li><i className="bi bi-check2-all"></i>Jeuveau or Allergon or Hugel</li>
+                    <li><i className="bi bi-check2-all"></i>Xeomin or Jeuveau or Allergan</li>
                     <li><i className="bi bi-check2-all"></i>FDA approved</li>
+                    <li><i className="bi bi-check2-all"></i>Pricing will be finalized following consultation</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$10<span>/unit</span>, $800<span>/100 units</span></h4>
+                  <h4>$8 - $10<span>/unit</span></h4>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
-                <h3>Single Item</h3>
+                <h3>Filler</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Dermal  Fillers</li>
-                    <li><i className="bi bi-check2-all"></i>Allergan Juvederm  or  RHA  or Restylane</li>
+                    <li><i className="bi bi-check2-all"></i>Allergan Juvéderm or RHA or Restylane</li>
                     <li><i className="bi bi-check2-all"></i>FDA approved</li>
+                    <li><i className="bi bi-check2-all"></i>Pricing will be finalized following consultation</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$450<span>/cc</span></h4>
+                <h4>$450<span>/cc</span></h4>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
-                <h3>Single Item</h3>
+                <h3>Sculptra</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Dermal  Fillers</li>
                     <li><i className="bi bi-check2-all"></i>3 Sessions of Sculptra</li>
                     <li><i className="bi bi-check2-all"></i>Galderma</li>
                     <li><i className="bi bi-check2-all"></i>FDA approved</li>
+                    <li><i className="bi bi-check2-all"></i>Pricing will be finalized following consultation</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$2100</h4>
+                <h4>$2100<span>/3 Sessions</span></h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div className="pricing-item">
+                <h3>Thread</h3>
+                <div className="pricing-detail">
+                  <ul>
+                    <li><i className="bi bi-check2-all"></i>Face lift</li>
+                    <li><i className="bi bi-check2-all"></i>Pricing will be finalized following consultation</li>
+                  </ul>
+                </div>
+                <div className="btn-wrap">
+                  <h4>$1500</h4>
                 </div>
               </div>
             </div>
