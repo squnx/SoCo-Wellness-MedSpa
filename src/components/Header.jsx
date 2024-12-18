@@ -16,7 +16,8 @@ const Header = () => {
       <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
         <NavLink to="/" className="logo d-flex align-items-center me-auto me-xl-0">
           {/* <h1 className="sitename">SoCo</h1> */}
-          <img src="/logo-soco-375x80.png" alt="" className="img-fluid"></img>
+          {/* <img src="/logo-soco-375x80.png" alt="" className="img-fluid"></img> */}
+          <img src="/logo-soco-transparent.png" alt="" className="img-fluid"></img>
           {/* <img src="/logo-soco-465x80.png" alt="" className="img-fluid"></img>
           <img src="/logo-soco-4.png" alt="" className="img-fluid"></img>
           <svg role="img" width="120" height="50" preserveAspectRatio="xMidYMid meet" data-bbox="98.207 251.469 1720.543 584.137" viewBox="98.207 251.469 1720.543 584.137" xmlns="http://www.w3.org/2000/svg" data-type="color" aria-hidden="true">

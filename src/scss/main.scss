@@ -886,6 +886,12 @@ section,
 
   .carousel-fade {
     overflow: hidden;
+    
+    .carousel-indicators {
+      .active {
+        background-color: var(--accent-color);
+      }
+    }
 
     .carousel-inner {
       .carousel-item {
