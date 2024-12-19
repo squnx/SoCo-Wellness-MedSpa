@@ -54,7 +54,7 @@ const Facial = () => {
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Effortless Elegance, Naturally Achieved</h4>
-                      <p>Botox is a widely popular, non-surgical treatment designed to smooth out fine lines and wrinkles by temporarily relaxing the muscles that cause them. Perfect for areas such as the forehead, between the brows, and around the eyes, Botox offers a quick and effective solution for maintaining a youthful, refreshed appearance. The procedure is minimally invasive, with little to no downtime, allowing you to return to your daily routine immediately after treatment. Our skilled professionals will work with you to achieve natural-looking results, enhancing your features without looking overdone.</p>
+                      <p>Botox is a widely popular, non-surgical treatment designed to smooth out fine lines and wrinkles by temporarily relaxing the muscles that cause them. Perfect for areas such as the forehead, between the brows, and around the eyes, Botox offers a quick and effective solution for maintaining a youthful, refreshed appearance. The procedure is minimally invasive, with little to no downtime, allowing you to return to your daily routine immediately after treatment. Our skilled professionals will work with you to achieve natural-looking results, enhancing your features without looking overdone. Botox, fillers, Sculptra, and thread procedures utilize the refined aesthetic techniques of K-beauty to deliver maximum results.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
@@ -68,7 +68,7 @@ const Facial = () => {
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Achieve a Youthful, Contoured Look</h4>
-                      <p>Facial fillers are an excellent solution for restoring volume and fullness to areas of the face that may have lost elasticity or plumpness over time. Whether you're looking to add volume to the cheeks, smooth out smile lines, or enhance your lips, dermal fillers provide immediate results. Our range of fillers, including hyaluronic acid-based products, are safe and effective in rejuvenating the skin and giving your face a more youthful, contoured appearance. The procedure is quick, with minimal discomfort, and results can last anywhere from several months to over a year, depending on the treatment area.</p>
+                      <p>Facial fillers are an excellent solution for restoring volume and fullness to areas of the face that may have lost elasticity or plumpness over time. Whether you're looking to add volume to the cheeks, smooth out smile lines, or enhance your lips, dermal fillers provide immediate results. Our range of fillers, including hyaluronic acid-based products, are safe and effective in rejuvenating the skin and giving your face a more youthful, contoured appearance. The procedure is quick, with minimal discomfort, and results can last from several months to over a year, depending on the treatment area. Botox, fillers, Sculptra, and thread procedures utilize the refined aesthetic techniques of K-beauty to deliver maximum results.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">

@@ -36,8 +36,7 @@ const Kadvanced = () => {
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>K-Advanced Aesthetic Skin Care</h4>
-                      <p>Our K-Advanced approach highlights the renowned expertise and innovation of Korean medical practices, known for their precision and patient-focused care. At the heart of this approach is our specialized 3-Step Treatment Protocol, designed to deliver effective and personalized solutions for your health and well-being.</p>
-                      <p>From diagnosis to treatment and follow-up, our protocol ensures comprehensive care that combines advanced techniques with a deep understanding of individual needs. Experience the unique benefits of Korean medical excellence, crafted to support your journey toward optimal health.</p>
+                      <p>This 3-step treatment consists of Deep Cleansing and Soft Peeling, Korean-Style Lymphatic Massage, and FDA-Cleared LED Bed and LED Facial Medical Device. The treatment takes approximately 1 hour and 30 minutes, and various facial masks with unique ingredients, as well as serums for dramatic effects, are also used. This treatment helps improve skin tone, texture, and elasticity while enhancing clarity, brightness, and radiance, and maintaining a healthy oil and moisture balance.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
@@ -50,7 +49,7 @@ const Kadvanced = () => {
                 <div className="tab-pane fade" id="tabs-tab-1">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Purifying Prep</h4>
+                      <h4>Deep Cleansing and Soft Peeling</h4>
                       <p>Our treatment begins with a thorough cleansing to remove impurities, makeup, and excess oil, creating a clean foundation for the next steps. This is followed by a gentle exfoliation process to slough away dead skin cells, revealing a smoother and more vibrant complexion. By unclogging pores and minimizing the appearance of fine lines, this treatment improves overall skin texture. Ultimately, this process helps make your skin clearer, brighter, and more radiant, leaving you with a refreshed and rejuvenated look.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
@@ -79,7 +78,9 @@ const Kadvanced = () => {
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Advanced Light Therapy</h4>
-                      <p>The final step in our K-Advanced treatment involves advanced light therapy using FDA-cleared LED devices. This non-invasive treatment targets specific skin concerns, such as acne, wrinkles, and hyperpigmentation. The LED light penetrates the skin, stimulating cellular regeneration and collagen production, while also helping to maintain a healthy oil and moisture balance in the skin. To enhance the benefits of light therapy, we may apply a specialized mask or the SoCo Stamping Solution treatment, which delivers potent ingredients directly into the skin for optimal results.</p>
+                      <p>The final step in our K-Advanced treatment involves advanced light therapy using FDA-cleared LED devices.</p>
+                      <p>LED Therapy (Light Emitting Diode Therapy) is a non-invasive and non-thermal light therapy method that uses specific wavelengths of light to promote skin regeneration and improvement. LED Therapy is used to address various skin concerns and improve skin health, offering a range of benefits depending on the specific wavelength of light used.</p>
+                      <p>During the BED LED and Facial LED treatments, various facial masks with unique ingredients and serums are provided, allowing you to enjoy a comfortable and relaxing experience.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">

@@ -123,7 +123,8 @@ const TLSR = () => {
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>PRP for skin rejuvenation treatment</h4>
                       <p>PRP (Platelet-Rich Plasma) treatment is a procedure that uses a concentrated form of the patient's own blood to promote healing and rejuvenation in various areas of the body.</p>
-                      <p>The growth factors in PRP initiate the healing process, regenerating new tissue and promoting the development of new blood vessels. Due to these roles of the growth factors, we can expect many positive outcomes such as even skin tone, improved skin texture, healthier skin, and enhanced skin elasticity. To experience the various benefits of PRP, it is recommended to undergo this treatment 3-4 times a year. For anti-aging, we strongly recommend regularly injecting growth factors into your skin through PRP treatment every year.</p>
+                      <p>It involves concentrating platelets, which are rich in growth factors and proteins that help in tissue repair and regeneration.</p>
+                      <p>Due to these roles of the growth factors, we can expect many positive outcomes such as even skin tone, improved skin texture, healthier skin, and enhanced skin elasticity. To experience the various benefits of PRP, it is recommended to undergo this treatment 3-4 times a year. For anti-aging, we strongly recommend regularly injecting growth factors into your skin through PRP treatment every year.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">

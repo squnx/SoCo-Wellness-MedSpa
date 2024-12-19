@@ -86,10 +86,11 @@ const Wellness = () => {
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Restore Volume and Elasticity with Expert Care</h4>
                       <p>The Woman's Vaginal Volumizing Treatment is priced at $2900 and is performed directly by a board-certified gynecologist. This procedure utilizes Poly-L-Lactic Acid, which stimulates collagen production to restore natural volume and elasticity to the vaginal area. The treatment is designed to enhance comfort, improve intimate health, and address concerns related to volume loss and elasticity. With professional care and expertise, this treatment aims to rejuvenate and support overall vaginal well-being.</p>
+                      <p>Using an FDA-approved product for off-label purposes, Dr.Suh  performs procedures to enhance vaginal volume.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/wellness-vaginal-volumizing.jpg" alt="" className="img-fluid" />
                         <div className="position-absolute top-50 start-50 translate-middle text-center">
                           <span className="text-light p-2 fs-1">TBD</span>
                         </div>

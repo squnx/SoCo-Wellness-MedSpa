@@ -18,8 +18,7 @@ const About = () => {
               <img src="/assets/images/about/about-us.jpg" className="img-fluid" alt="About Us" />
             </div>
             <div className="col-lg-8 content">
-              <h4>Comprehensive Wellness and Women's Health Care</h4>
-              <p>Our hormone therapy, IV therapy, and women's vaginal health care services have been expertly designed by our medical team in collaboration with Dr. Bo Y. Suh, a renowned specialist in hormones, stem cells, and infertility.</p>
+              <h4>A woman's beauty begins with her health</h4>
               <p>Dr. Bo Y. Suh, M.D., is a distinguished OBGYN and Reproductive Endocrinology and Infertility Specialist. He holds esteemed credentials as a Fellow of the American College of Obstetricians and Gynecologists (FACOG) and a Fellow of the American College of Endocrinology (FACE). With 28 years of academic experience, Dr. Suh has served as a faculty member at UCLA, USC, and the University of Colorado, contributing extensively to the field of women's health.</p>
               <p className="mb-0">At SoCo, we are committed to serving each and every client with unparalleled care and dedication. Our mission is to empower you to feel beautiful, healthy, and happy—because your well-being is our priority.</p>
             </div>
@@ -33,149 +32,6 @@ const About = () => {
           <h2>Professionals</h2>
           <p>Expert Care by Our Skilled staffs</p>
         </div>
-        {/* <div className="container">
-          <div className="row gy-4">
-            <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-              <div className="team-member">
-                <div className="member-img">
-                  <img src="/assets/images/temp/about-450x450-man.png" className="img-fluid" alt="Terri Song" />
-                  <div className="social">
-                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                    <a href=""><i className="bi bi-facebook"></i></a>
-                    <a href=""><i className="bi bi-instagram"></i></a>
-                    <a href=""><i className="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div className="member-info">
-                  <h4>Boyoung Suh</h4>
-                  <span>M.D.</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-              <div className="team-member">
-                <div className="member-img">
-                  <img src="/assets/images/temp/about-450x450-woman.png" className="img-fluid" alt="Ivan Song" />
-                  <div className="social">
-                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                    <a href=""><i className="bi bi-facebook"></i></a>
-                    <a href=""><i className="bi bi-instagram"></i></a>
-                    <a href=""><i className="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div className="member-info">
-                  <h4>Kate Jeong</h4>
-                  <span>Nurse Practitioner</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-              <div className="team-member">
-                <div className="member-img">
-                  <img src="/assets/images/temp/about-450x450-woman.png" className="img-fluid" alt="Terri Song" />
-                  <div className="social">
-                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                    <a href=""><i className="bi bi-facebook"></i></a>
-                    <a href=""><i className="bi bi-instagram"></i></a>
-                    <a href=""><i className="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div className="member-info">
-                  <h4>Soojin Lee </h4>
-                  <span>Nurse Practitioner</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-              <div className="team-member">
-                <div className="member-img">
-                  <img src="/assets/images/about/terri_450x450.jpg" className="img-fluid" alt="Terri Song" />
-                  <div className="social">
-                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                    <a href=""><i className="bi bi-facebook"></i></a>
-                    <a href=""><i className="bi bi-instagram"></i></a>
-                    <a href=""><i className="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div className="member-info">
-                  <h4>Terri Song</h4>
-                  <span>Registered Nurses</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* <div className="container">
-
-          <div className="row gy-4">
-
-            <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-              <div className="team-member d-flex align-items-start">
-                <div className="pic"><img src="assets/img/team/team-1.jpg" className="img-fluid" alt="" /></div>
-                <div className="member-info">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                  <div className="social">
-                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                    <a href=""><i className="bi bi-facebook"></i></a>
-                    <a href=""><i className="bi bi-instagram"></i></a>
-                    <a href=""> <i className="bi bi-linkedin"></i> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-              <div className="team-member d-flex align-items-start">
-                <div className="pic"><img src="assets/img/team/team-2.jpg" className="img-fluid" alt="" /></div>
-                <div className="member-info">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                  <div className="social">
-                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                    <a href=""><i className="bi bi-facebook"></i></a>
-                    <a href=""><i className="bi bi-instagram"></i></a>
-                    <a href=""> <i className="bi bi-linkedin"></i> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-              <div className="team-member d-flex align-items-start">
-                <div className="pic"><img src="assets/img/team/team-3.jpg" className="img-fluid" alt="" /></div>
-                <div className="member-info">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                  <div className="social">
-                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                    <a href=""><i className="bi bi-facebook"></i></a>
-                    <a href=""><i className="bi bi-instagram"></i></a>
-                    <a href=""> <i className="bi bi-linkedin"></i> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
-              <div className="team-member d-flex align-items-start">
-                <div className="pic"><img src="assets/img/team/team-4.jpg" className="img-fluid" alt="" /></div>
-                <div className="member-info">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                  <div className="social">
-                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                    <a href=""><i className="bi bi-facebook"></i></a>
-                    <a href=""><i className="bi bi-instagram"></i></a>
-                    <a href=""> <i className="bi bi-linkedin"></i> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div> */}
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4">
             <div className="col-lg-3 col-md-6">
@@ -216,37 +72,10 @@ const About = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="professionals-item d-flex align-items-center w-100 h-100">
-              <i className="fa-regular fa-user flex-shrink-0"></i>
-                <div>
-                  <span className="purecounter">First Last Name</span>
-                  <p>Title</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="professionals-item d-flex align-items-center w-100 h-100">
               <i className="fa-solid fa-user flex-shrink-0"></i>
                 <div>
-                  <span className="purecounter">First Last Name</span>
-                  <p>Title</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="professionals-item d-flex align-items-center w-100 h-100">
-              <i className="fa-regular fa-user flex-shrink-0"></i>
-                <div>
-                  <span className="purecounter">First Last Name</span>
-                  <p>COO</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="professionals-item d-flex align-items-center w-100 h-100">
-              <i className="fa-solid fa-user flex-shrink-0"></i>
-                <div>
-                  <span className="purecounter">First Last Name</span>
-                  <p>CEO</p>
+                  <span className="purecounter">Irene  Cha</span>
+                  <p>Sonographer - Member of SDMS</p>
                 </div>
               </div>
             </div>
