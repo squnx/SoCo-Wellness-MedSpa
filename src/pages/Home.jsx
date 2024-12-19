@@ -23,7 +23,7 @@ const Home = () => {
       bgStyle: 'transparent-60',
     },
     {
-      background: '/assets/images/hero-03.jpg',
+      background: '/assets/images/home/hero-03.jpg',
       title: 'Promos',
       text: 'Exclusive Promotions & Savings at SoCo',
       bgStyle: 'transparent-60',
