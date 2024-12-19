@@ -646,7 +646,7 @@ section,
   span {
     position: absolute;
     top: 4px;
-    color: color-mix(in srgb, var(--accent-color), transparent 70%);
+    color: color-mix(in srgb, var(--accent-color), transparent 70%) !important;
     left: 0;
     right: 0;
     // z-index: 1;
@@ -1372,7 +1372,7 @@ section,
     }
 
     p {
-      color: color-mix(in srgb, var(--default-color), transparent 20%);
+      // color: color-mix(in srgb, var(--default-color), transparent 20%);
 
       &:last-child {
         margin-bottom: 0;
@@ -1383,6 +1383,11 @@ section,
   span {
     color: var(--accent-color) !important;
     white-space: nowrap;
+
+    &.fst-italic {
+      color: var(--default-color) !important;
+      font-weight: 600;
+    }
   }
 }
 

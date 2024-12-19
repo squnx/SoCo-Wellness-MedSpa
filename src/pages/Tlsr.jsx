@@ -28,13 +28,13 @@ const TLSR = () => {
       </section> */}
 
       {/* TLSR Section */}
-      <section id="tlsr" className="tlsr tabs section">
+      <section id="tlsr" className="tlsr section">
         <div className="container section-title" data-aos="fade-up">
           <span>TLSR</span>
           <h2>TLSR</h2>
           <p>Tightening | Lifting | Skin Quality | Regeneration</p>
         </div>
-        <div className="container" data-aos="fade-up" data-aos-delay="100">
+        <div className="container tabs" data-aos="fade-up" data-aos-delay="100">
           <div className="row">
             <div className="col-lg-3">
               <ul className="nav nav-tabs flex-column">
@@ -66,7 +66,7 @@ const TLSR = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/services-tlsr.jpg" alt="TLSR" className="img-fluid" />
+                        <img src="/assets/images/services/tlsr.jpg" alt="TLSR" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -82,7 +82,7 @@ const TLSR = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/services-tightening.jpg" alt="Tightening" className="img-fluid" />
+                        <img src="/assets/images/services/tlsr-tightening.jpg" alt="Tightening" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -97,7 +97,7 @@ const TLSR = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/services-lifting.jpg" alt="Lifting" className="img-fluid" />
+                        <img src="/assets/images/services/tlsr-lifting.jpg" alt="Lifting" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -112,7 +112,7 @@ const TLSR = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/services-skin-quality.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/tlsr-skin-quality.jpg" alt="" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -127,7 +127,7 @@ const TLSR = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/services-regeneration.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/tlsr-regeneration.jpg" alt="" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -148,6 +148,7 @@ const TLSR = () => {
         <div className="container">
           <div className="row gy-3">
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              {/* <div className="pricing-item featured"> */}
               <div className="pricing-item">
                 <span className="advanced">Special</span>
                 <h3>TLSR</h3>
@@ -165,9 +166,8 @@ const TLSR = () => {
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              {/* <div className="pricing-item featured"> */}
               <div className="pricing-item">
-              <span className="advanced">Special</span>
+                <span className="advanced">Special</span>
                 <h3>Tightening</h3>
                 <div className="pricing-detail">
                   <ul>
@@ -182,7 +182,7 @@ const TLSR = () => {
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
-              <span className="advanced">Special</span>
+                <span className="advanced">Special</span>
                 <h3>Lifting</h3>
                 <div className="pricing-detail">
                   <ul>
@@ -191,13 +191,13 @@ const TLSR = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                <h4><span className="na">$2800</span> $2400</h4>
+                  <h4><span className="na">$2800</span> $2400</h4>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
-              <span className="advanced">Special</span>
+                <span className="advanced">Special</span>
                 <h3>Skin Quality</h3>
                 <div className="pricing-detail">
                   <ul>
@@ -205,13 +205,13 @@ const TLSR = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                <h4><span className="na">$400</span> $300</h4>
+                  <h4><span className="na">$400</span> $300</h4>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
               <div className="pricing-item">
-              <span className="advanced">Special</span>
+                <span className="advanced">Special</span>
                 <h3>Regeneration</h3>
                 <div className="pricing-detail">
                   <ul>
@@ -220,7 +220,7 @@ const TLSR = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                <h4><span className="na">$1200</span> $800</h4>
+                  <h4><span className="na">$1200</span> $800</h4>
                 </div>
               </div>
             </div>

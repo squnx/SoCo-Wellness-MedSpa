@@ -6,13 +6,13 @@ const Facial = () => {
   return (
     <>
       {/* Facial Section */}
-      <section id="tabs" className="tabs section">
+      <section id="facial" className="facial section">
         <div className="container section-title" data-aos="fade-up">
           <span>Facial Aesthetic Design</span>
           <h2>Facial Aesthetic Design</h2>
           <p>Botox | Filler | Sculptra | Thread</p>
         </div>
-        <div className="container" data-aos="fade-up" data-aos-delay="100">
+        <div className="container tabs" data-aos="fade-up" data-aos-delay="100">
           <div className="row">
             <div className="col-lg-3">
               <ul className="nav nav-tabs flex-column">
@@ -44,7 +44,7 @@ const Facial = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/services-facial-aesthetic.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/facial-aesthetic.jpg" alt="" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -58,7 +58,7 @@ const Facial = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/services-botox.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/facial-aesthetic-botox.jpg" alt="" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -72,7 +72,7 @@ const Facial = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/services-filler.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/facial-aesthetic-filler.jpg" alt="" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -86,7 +86,7 @@ const Facial = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/servives-sculptra.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/facial-aesthetic-sculptra.jpg" alt="" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -100,7 +100,7 @@ const Facial = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/services-thread.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/facial-aesthetic-thread.jpg" alt="" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -136,7 +136,6 @@ const Facial = () => {
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              {/* <div className="pricing-item featured"> */}
               <div className="pricing-item">
                 <h3>Botox</h3>
                 <div className="pricing-detail">

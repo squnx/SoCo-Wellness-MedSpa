@@ -1,23 +1,23 @@
 import React from 'react';
-import kmedicalData from './kmedicalData.json';
+import kadvancedData from './kadvancedData.json';
 import Accordion from 'react-bootstrap/Accordion';
 
-const Kmedical = () => {
+const Kadvanced = () => {
   return (
     <>
-      {/* Wellness Section */}
-      <section id="tabs" className="tabs section">
+      {/* K-Advanced Section */}
+      <section id="k-advanced" className="k-advanced section">
         <div className="container section-title" data-aos="fade-up">
-          <span>K-Medical</span>
-          <h2>K-Medical</h2>
+          <span>K-Advanced</span>
+          <h2>K-Advanced</h2>
           <p>Step 1 | Step 2 | Step 3</p>
         </div>
-        <div className="container" data-aos="fade-up" data-aos-delay="100">
+        <div className="container tabs" data-aos="fade-up" data-aos-delay="100">
           <div className="row">
             <div className="col-lg-3">
               <ul className="nav nav-tabs flex-column">
                 <li className="nav-item">
-                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-0">K-Medical</a>
+                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-0">K-Advanced</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-1">Step 1</a>
@@ -35,16 +35,14 @@ const Kmedical = () => {
                 <div className="tab-pane fade active show" id="tabs-tab-0">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>K-Medical Aesthetic Skin Care</h4>
-                      <p>Our K-Medical approach highlights the renowned expertise and innovation of Korean medical practices, known for their precision and patient-focused care. At the heart of this approach is our specialized 3-Step Treatment Protocol, designed to deliver effective and personalized solutions for your health and well-being.</p>
+                      <h4>K-Advanced Aesthetic Skin Care</h4>
+                      <p>Our K-Advanced approach highlights the renowned expertise and innovation of Korean medical practices, known for their precision and patient-focused care. At the heart of this approach is our specialized 3-Step Treatment Protocol, designed to deliver effective and personalized solutions for your health and well-being.</p>
                       <p>From diagnosis to treatment and follow-up, our protocol ensures comprehensive care that combines advanced techniques with a deep understanding of individual needs. Experience the unique benefits of Korean medical excellence, crafted to support your journey toward optimal health.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/k-medical.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/k-advanced.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -52,16 +50,13 @@ const Kmedical = () => {
                 <div className="tab-pane fade" id="tabs-tab-1">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Step 1</h4>
-                      <p>Our Liposuction service offers a targeted solution for removing small volumes of unwanted fat while promoting rejuvenation and contouring. This specialized procedure removes 500-800ml of fat and includes a cutting-edge MSC (Mesenchymal Stem Cell) injection to enhance healing and tissue regeneration.</p>
-                      <p>Performed by a highly skilled liposuction specialist, this treatment ensures precision and safety while delivering natural and refined results. Achieve a slimmer, more sculpted appearance with our advanced liposuction technique tailored to your individual goals.</p>
+                      <h4>Purifying Prep</h4>
+                      <p>Our treatment begins with a thorough cleansing to remove impurities, makeup, and excess oil, creating a clean foundation for the next steps. This is followed by a gentle exfoliation process to slough away dead skin cells, revealing a smoother and more vibrant complexion. By unclogging pores and minimizing the appearance of fine lines, this treatment improves overall skin texture. Ultimately, this process helps make your skin clearer, brighter, and more radiant, leaving you with a refreshed and rejuvenated look.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-1.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/k-advanced-1.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -69,16 +64,13 @@ const Kmedical = () => {
                 <div className="tab-pane fade" id="tabs-tab-2">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Step 2</h4>
-                      <p>Our Acne Care program is designed to address stubborn and persistent acne with a comprehensive and effective approach. This treatment plan includes a detailed consultation, personalized prescription, a two-month supply of medication, and advanced therapies like Scarlet (MRF) and LED Therapy.</p>
-                      <p>By combining expert diagnosis with cutting-edge technology, we target the root causes of acne to restore your skin's health and clarity. Achieve smoother, clearer skin with our tailored treatments, ensuring long-lasting results and renewed confidence.</p>
+                      <h4>Korean-Style Lymphatic Massage</h4>
+                      <p>This rejuvenating massage technique, inspired by traditional Korean practices, is designed to stimulate the lymphatic system. By gently massaging the skin, it promotes lymphatic drainage, helping to reduce puffiness, improve circulation, and eliminate toxins. This treatment helps improve skin tone, texture, and elasticity, leaving the skin feeling refreshed, revitalized, and more youthful.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-2.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/k-advanced-2.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -86,16 +78,13 @@ const Kmedical = () => {
                 <div className="tab-pane fade" id="tabs-tab-3">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Step 3</h4>
-                      <p>Our IV Therapy provides a premium wellness experience tailored exclusively for our VIP clients. This service includes a range of rejuvenating and health-boosting infusions, such as Garlic Injection, Cinderella Injection, Whitening Injection, Glutathione Injection, NAD, and Vitamin C.</p>
-                      <p>Designed to enhance vitality, promote glowing skin, and support overall wellness, each session is carefully administered to deliver optimal results. Experience the benefits of personalized care and advanced therapies in a luxurious and private setting.</p>
+                      <h4>Advanced Light Therapy</h4>
+                      <p>The final step in our K-Advanced treatment involves advanced light therapy using FDA-cleared LED devices. This non-invasive treatment targets specific skin concerns, such as acne, wrinkles, and hyperpigmentation. The LED light penetrates the skin, stimulating cellular regeneration and collagen production, while also helping to maintain a healthy oil and moisture balance in the skin. To enhance the benefits of light therapy, we may apply a specialized mask or the SoCo Stamping Solution treatment, which delivers potent ingredients directly into the skin for optimal results.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/k-advanced-3.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -110,72 +99,25 @@ const Kmedical = () => {
       <section id="pricing" className="pricing section light-background">
         <div className="container section-title" data-aos="fade-up">
           <h2>Pricing</h2>
-          <p>K-Medical Price</p>
+          <p>K-Advanced Price</p>
         </div>
         <div className="container">
-          <div className="row gy-3">
+          <div className="row justify-content-center gy-3">
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <div className="pricing-item">
-                <h3>K-Medical</h3>
+                <h3>K-Advanced</h3>
                 <div className="pricing-detail">
                   <ul>
+                  <li><i className="bi bi-check2-all"></i>3-Step Treatment Protocol</li>
                     <li><i className="bi bi-check2-all"></i>Deep Cleansing</li>
                     <li><i className="bi bi-check2-all"></i>Soft Peeling</li>
                     <li><i className="bi bi-check2-all"></i>K-Style Lymphatic Massage</li>
                     <li><i className="bi bi-check2-all"></i>FDA-Cleared LED Bed</li>
                     <li><i className="bi bi-check2-all"></i>LED Facial Medical Devices</li>
-                    <li><i className="bi bi-check2-all"></i>3-Step Treatment Protocol</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$160</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
-              <div className="pricing-item">
-                <h3>Liposuction</h3>
-                <div className="pricing-detail">
-                  <ul>
-                    <li><i className="bi bi-check2-all"></i>Small -Volume Liposuction (500-800ml)</li>
-                    <li><i className="bi bi-check2-all"></i>MSC Injection</li>
-                  </ul>
-                </div>
-                <div className="btn-wrap">
-                  <h4>$5500</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <div className="pricing-item">
-                <h3>Acne</h3>
-                <div className="pricing-detail">
-                  <ul>
-                    <li><i className="bi bi-check2-all"></i>Consultation</li>
-                    <li><i className="bi bi-check2-all"></i>Prescription</li>
-                    <li><i className="bi bi-check2-all"></i>Medication (2month)</li>
-                    <li><i className="bi bi-check2-all"></i>Scarlet (MRF)</li>
-                    <li><i className="bi bi-check2-all"></i>LED Therapy</li>
-                  </ul>
-                </div>
-                <div className="btn-wrap">
-                  <h4>$2500<span>/four sessions</span></h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
-              <div className="pricing-item">
-                <h3>Hair Transplantation</h3>
-                <div className="pricing-detail">
-                  <ul>
-                    <li><i className="bi bi-check2-all"></i>Up to 3,000 grafts</li>
-                    <li><i className="bi bi-check2-all"></i>Additional $3 per graft</li>
-                    <li><i className="bi bi-check2-all"></i>Performed by specialists</li>
-                    <li><i className="bi bi-check2-all"></i>Restoring natural hair growth</li>
-                  </ul>
-                </div>
-                <div className="btn-wrap">
-                  <h4>$8000</h4>
+                  <h4>$210</h4>
                 </div>
               </div>
             </div>
@@ -202,7 +144,7 @@ const Kmedical = () => {
             </div>
             <div className="col-lg-8" data-aos="fade-up" data-aos-delay="100">
               <Accordion className="faq-container">
-                {kmedicalData.map((faq, index) => (
+                {kadvancedData.map((faq, index) => (
                   <Accordion.Item key={index} className="faq-item" eventKey={index}>
                     <Accordion.Header>{faq.question}</Accordion.Header>
                     <Accordion.Body className="faq-content">
@@ -219,4 +161,4 @@ const Kmedical = () => {
   );
 }
 
-export default Kmedical;
+export default Kadvanced;

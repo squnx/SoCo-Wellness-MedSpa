@@ -6,13 +6,13 @@ const Wellness = () => {
   return (
     <>
       {/* Wellness Section */}
-      <section id="tabs" className="tabs section">
+      <section id="wellness" className="wellness section">
         <div className="container section-title" data-aos="fade-up">
           <span>Wellness Program</span>
           <h2>Wellness Program</h2>
           <p>General Check Up | Vagina Health Care | Vaginal Volumizing Treatment | Weight Loss</p>
         </div>
-        <div className="container" data-aos="fade-up" data-aos-delay="100">
+        <div className="container tabs" data-aos="fade-up" data-aos-delay="100">
           <div className="row">
             <div className="col-lg-3">
               <ul className="nav nav-tabs flex-column">
@@ -38,15 +38,13 @@ const Wellness = () => {
                 <div className="tab-pane fade active show" id="tabs-tab-0">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Wellness Program</h4>
-                      <p>Our Wellness Program is designed to support women's health with personalized services tailored to each stage of life. It includes a General Check-Up to assess overall health, as well as treatments for Vaginal Health Care and Vaginal Volumizing, using advanced therapies like PRP and Poly-L-Lactic Acid for rejuvenation. Additionally, our Weight Loss program offers FDA-approved medications and expert guidance to help achieve and maintain weight management goals. Our program provides comprehensive care to promote overall well-being and vitality.</p>
+                      <h4>Aging Gracefully with Confidence</h4>
+                      <p>Our wellness program is designed to create a joyful life by enhancing both health and beauty. We aim to help women maintain a healthy life through essential preventive health screenings. We have carefully prepared treatments to help preserve women's confidence as they age. Under the supervision of gynecology specialist Dr. Seo, SoCo's medical team performs treatments with the utmost dedication.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/temp/tlsr.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/wellness.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -54,16 +52,15 @@ const Wellness = () => {
                 <div className="tab-pane fade" id="tabs-tab-1">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Woman's General Check Up</h4>
-                      <p>The Woman's General Check-Up provides a comprehensive health evaluation tailored to women. It includes consultation, examination, and prescriptions, with medications available for purchase at the pharmacy. This check-up features blood tests, two ultrasound exams, and hormone testing, all conducted by specialized women's healthcare professionals.</p>
-                      <p>Ultrasounds cover the abdomen, pelvis, breast, thyroid, carotid artery, and heart (echocardiogram), offering a thorough assessment to support your health and well-being.</p>
+                      <h4>Comprehensive Women's Health Evaluation</h4>
+                      <p>The Woman's General Check-Up provides a comprehensive health evaluation tailored to women. It includes consultation, examination, and prescriptions. This check-up features blood tests, two ultrasound exams, and hormone testing, all conducted by specialized women's healthcare professionals.</p>
+                      <p>You can select two areas for ultrasound examination from the following options: <span className="fst-italic">abdomen, breast, thyroid, carotid, or vaginal ultrasound.</span></p>
+                      <p>Our Hormone Testing evaluates key hormones including AMH, Cortisol, DHEA Sulfate, Estradiol, FSH, LH, Progesterone, Prolactin, SHBG, Testosterone, and TSH to assess hormonal balance.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-1.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/wellness-general-check-up.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -71,16 +68,15 @@ const Wellness = () => {
                 <div className="tab-pane fade" id="tabs-tab-2">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Wonam's Vagina Health Care</h4>
+                      <h4>Advanced Care for Women's Health</h4>
                       <p>Our Woman's Vaginal Health Care package offers a combination of PRP therapy, Thermiva treatments, and optional hormone therapy (separately priced). Designed to address a range of intimate health concerns, this package is priced at $3,300 for three sessions.</p>
-                      <p>PRP therapy helps rejuvenate and enhance tissue health, while Thermiva utilizes radiofrequency technology to improve vaginal tightening, moisture, and overall comfort. Hormone therapy, available separately, can be added to support hormonal balance and optimize results. This comprehensive treatment plan is tailored to promote vaginal health and enhance overall well-being.</p>
+                      <p>PRP therapy helps rejuvenate and enhance tissue health, while Thermiva utilizes radiofrequency technology to improve vaginal tightening, moisture, and overall comfort.</p>
+                      <p>Hormone therapy, available separately, can be added to support hormonal balance and optimize results. This comprehensive treatment plan is tailored to promote vaginal health and enhance overall well-being.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-2.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/wellness-vagina-health.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -88,7 +84,7 @@ const Wellness = () => {
                 <div className="tab-pane fade" id="tabs-tab-3">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Woman's Vaginal Volumizing Treatment</h4>
+                      <h4>Restore Volume and Elasticity with Expert Care</h4>
                       <p>The Woman's Vaginal Volumizing Treatment is priced at $2900 and is performed directly by a board-certified gynecologist. This procedure utilizes Poly-L-Lactic Acid, which stimulates collagen production to restore natural volume and elasticity to the vaginal area. The treatment is designed to enhance comfort, improve intimate health, and address concerns related to volume loss and elasticity. With professional care and expertise, this treatment aims to rejuvenate and support overall vaginal well-being.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
@@ -104,15 +100,13 @@ const Wellness = () => {
                 <div className="tab-pane fade" id="tabs-tab-4">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Weight Loss</h4>
-                      <p>Our Weight Loss program is priced at $290, which includes consultation, prescription, and four injections per month. Alternatively, a consultation and prescription alone are available for $190. The program offers FDA-approved medications such as Mounjaro (Tirzepatide), Zepbound (Recaglutide), or Wegovy (Semaglutide) to support weight loss. These treatments are designed to help individuals achieve their weight loss goals by targeting appetite and metabolism, under the guidance of our experienced healthcare providers.</p>
+                      <h4>Affordable Weight Loss Solutions</h4>
+                      <p>Our Weight Loss program is priced at $290, which includes consultation, prescription, and four injections per month. Alternatively, a consultation and prescription alone are available for $190. These treatments are designed to help individuals achieve their weight loss goals by targeting appetite and metabolism, under the guidance of our experienced healthcare providers.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-3.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/wellness-weight-loss.jpg" alt="" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
                   </div>
@@ -134,24 +128,52 @@ const Wellness = () => {
           <div className="row gy-3">
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <div className="pricing-item">
-                <h3>General Check Up</h3>
+                <h3>Blood Tests</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Consultation</li>
-                    <li><i className="bi bi-check2-all"></i>Examination</li>
-                    <li><i className="bi bi-check2-all"></i>Prescription</li>
-                    <li><i className="bi bi-check2-all"></i>Blood Tests</li>
-                    <li><i className="bi bi-check2-all"></i>Two Ultrasound Exams</li>
-                    <li><i className="bi bi-check2-all"></i>Hormone Testing</li>
+                    <li><i className="bi bi-check2-all"></i>CBC (Diff & Pit)</li>
+                    <li><i className="bi bi-check2-all"></i>Comprehensive Metabolic Panel</li>
+                    <li><i className="bi bi-check2-all"></i>Hemoglobin A1C and Lipid Panel</li>
+                    <li><i className="bi bi-check2-all"></i>Consultation and Prescription</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$390</h4>
+                  <h4>$230</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div className="pricing-item">
+                <h3>Blood + Ultrasound</h3>
+                <div className="pricing-detail">
+                  <ul>
+                    <li><i className="bi bi-check2-all"></i>Blood Tests (CBC, Metabolic, A1C, Lipid)</li>
+                    <li><i className="bi bi-check2-all"></i>Choose 2 Ultrasound Tests</li>
+                    <li><i className="bi bi-check2-all"></i>Consultation and Prescription</li>
+                  </ul>
+                </div>
+                <div className="btn-wrap">
+                  <h4>$320</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div className="pricing-item">
+                <h3>Total Wellness Package</h3>
+                <div className="pricing-detail">
+                  <ul>
+                    <li><i className="bi bi-check2-all"></i>Blood Tests (CBC, Metabolic, A1C, Lipid)</li>
+                    <li><i className="bi bi-check2-all"></i>Choose 2 Ultrasound Tests</li>
+                    <li><i className="bi bi-check2-all"></i>Hormone Testing (AMH, Cortisol, Estradiol, FSH, LH, etc.)</li>
+                    <li><i className="bi bi-check2-all"></i>Consultation and Prescription</li>
+                  </ul>
+                </div>
+                <div className="btn-wrap">
+                  <h4>$500</h4>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              {/* <div className="pricing-item featured"> */}
               <div className="pricing-item">
                 <h3>Vagina Health Care</h3>
                 <div className="pricing-detail">
@@ -190,11 +212,10 @@ const Wellness = () => {
                     <li><i className="bi bi-check2-all"></i>Consultation</li>
                     <li><i className="bi bi-check2-all"></i>Prescription</li>
                     <li><i className="bi bi-check2-all"></i>4 Injections/month</li>
-                    <li><i className="bi bi-check2-all"></i>Mounjaro (Tirzepatide) or Zepbound (Recaglutide) or Wegovy (Semaglutide)</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$290, $190<span>/no injection</span></h4>
+                  <h4>$190, $290<span>/with injections</span></h4>
                 </div>
               </div>
             </div>

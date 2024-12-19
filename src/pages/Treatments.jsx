@@ -1,18 +1,18 @@
 import React from 'react';
-import kmedicalData from './kmedicalData.json';
+import kadvancedData from './kadvancedData.json';
 import Accordion from 'react-bootstrap/Accordion';
 
 const Treatments = () => {
   return (
     <>
-      {/* Special Treatment Section */}
-      <section id="tabs" className="tabs section">
+      {/* Special Treatments Section */}
+      <section id="treatments" className="treatments section">
         <div className="container section-title" data-aos="fade-up">
           <span>Special Treatments</span>
           <h2>Special Treatments</h2>
           <p>Liposuction | Acne | Hair Transplantation</p>
         </div>
-        <div className="container" data-aos="fade-up" data-aos-delay="100">
+        <div className="container tabs" data-aos="fade-up" data-aos-delay="100">
           <div className="row">
             <div className="col-lg-3">
               <ul className="nav nav-tabs flex-column">
@@ -222,7 +222,7 @@ const Treatments = () => {
             </div>
             <div className="col-lg-8" data-aos="fade-up" data-aos-delay="100">
               <Accordion className="faq-container">
-                {kmedicalData.map((faq, index) => (
+                {kadvancedData.map((faq, index) => (
                   <Accordion.Item key={index} className="faq-item" eventKey={index}>
                     <Accordion.Header>{faq.question}</Accordion.Header>
                     <Accordion.Body className="faq-content">
