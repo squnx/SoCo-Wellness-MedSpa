@@ -1822,6 +1822,7 @@ section,
 # Gallery Section
 --------------------------------------------------------------*/
 .gallery {
+  background-color: var(--surface-color);
   overflow: hidden;
 
   .swiper-wrapper {
