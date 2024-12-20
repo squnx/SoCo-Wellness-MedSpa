@@ -105,7 +105,7 @@ const Promos = () => {
               <div class="row">
                 {/* <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"> */}
                 <div class="col-lg-4 text-center d-none d-sm-block">
-                  <img src="/assets/images/promos/promos-vip-guest.png" alt="" class="img-fluid" />
+                  <img src="/assets/images/promos/promos-vip-guest.jpg" alt="" class="img-fluid" />
                 </div>
                 <div class="col-lg-8 mt-3 mt-lg-0 d-flex flex-column">
                   <h4>VIP Guest Invitation Event</h4>
@@ -132,7 +132,7 @@ const Promos = () => {
             <div class="tab-pane fade" id="promos-tab-2">
               <div class="row">
                 <div class="col-lg-4 text-center d-none d-sm-block">
-                  <img src="/assets/images/temp/promos-gift-card.png" alt="" class="img-fluid" />
+                  <img src="/assets/images/promos/promos-gift-card.png" alt="" class="img-fluid" />
                 </div>
                 <div class="col-lg-8 mt-3 mt-lg-0 d-flex flex-column">
                   <h4>SoCo Wellness MedSpa Gift Card</h4>
