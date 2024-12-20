@@ -40,7 +40,7 @@ const Treatments = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/treatments.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/treatments.jpg" alt="Special Treatments" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -55,7 +55,7 @@ const Treatments = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/treatments-liposuction.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/treatments-liposuction.jpg" alt="Liposuction" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -70,7 +70,7 @@ const Treatments = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/treatments-acne.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/treatments-acne.jpg" alt="Acne" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ const Treatments = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/treatments-hair.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/treatments-hair.jpg" alt="Hair Transplantation" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>

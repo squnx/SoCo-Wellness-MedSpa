@@ -43,7 +43,7 @@ const Wellness = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/wellness.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/wellness.jpg" alt="Wellness Program" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -59,7 +59,7 @@ const Wellness = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/wellness-general-check-up.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/wellness-general-check-up.jpg" alt="General Check Up" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -75,7 +75,7 @@ const Wellness = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/wellness-vagina-health.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/wellness-vagina-health.jpg" alt="Vagina Health Care" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -90,10 +90,8 @@ const Wellness = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/wellness-vaginal-volumizing.jpg" alt="" className="img-fluid" />
-                        <div className="position-absolute top-50 start-50 translate-middle text-center">
-                          <span className="text-light p-2 fs-1">TBD</span>
-                        </div>
+                        <img src="/assets/images/services/wellness-vaginal-volumizing.jpg" alt="Vaginal Volumizing Treatment" className="img-fluid" />
+                        {/* <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div> */}
                       </div>
                     </div>
                   </div>
@@ -106,7 +104,7 @@ const Wellness = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/wellness-weight-loss.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/wellness-weight-loss.jpg" alt="Weight Loss" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>

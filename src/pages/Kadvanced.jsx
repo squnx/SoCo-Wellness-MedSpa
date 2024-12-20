@@ -40,7 +40,7 @@ const Kadvanced = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/k-advanced.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/k-advanced.jpg" alt="K-Advanced Aesthetic Skin Care" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -54,7 +54,7 @@ const Kadvanced = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/k-advanced-1.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/k-advanced-1.jpg" alt="Deep Cleansing and Soft Peeling" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -68,7 +68,7 @@ const Kadvanced = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/k-advanced-2.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/k-advanced-2.jpg" alt="Korean-Style Lymphatic Massage" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ const Kadvanced = () => {
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/k-advanced-3.jpg" alt="" className="img-fluid" />
+                        <img src="/assets/images/services/k-advanced-3.jpg" alt="Advanced Light Therapy" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
                       </div>
                     </div>
