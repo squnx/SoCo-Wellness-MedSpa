@@ -159,7 +159,7 @@ const Promos = () => {
             </div>
             <div class="tab-pane fade" id="promos-tab-3">
               <div class="row">
-                <div class="col-lg-4 text-center d-none d-sm-block">
+                <div class="col-lg-4 text-center">
                   <img src="/assets/images/promos/promos-offer.png" alt="" class="img-fluid" />
                 </div>
                 <div class="col-lg-8 mt-3 mt-lg-0 d-flex flex-column">
