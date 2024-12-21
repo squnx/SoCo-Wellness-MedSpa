@@ -151,7 +151,7 @@ const Promos = () => {
                   </ul>
                   <h6>How to Purchase</h6>
                   <ul>
-                    <li><i class="bi bi-check2-all"></i><span>Call <a href="tel:7146439204">714.643.9204</a> or email <a href="mailto:info@socowm.com">info@socowm.com</a></span></li>
+                    <li><i class="bi bi-check2-all"></i><span>Call us at <a href="tel:7146439204">714.643.9204</a> or email us at <a href="mailto:info@socowm.com">info@socowm.com</a></span></li>
                   </ul>
                 </div>
               </div>
