@@ -38,7 +38,7 @@ const Treatments = () => {
                       <h4>Patient-Centered Care Approach</h4>
                       <p>Unlike traditional treatment methods, we choose an approach that alleviates the burden on patients. We specialize in small-volume liposuction rather than large-scale procedures. For acne treatment, we start with a medication-first approach rather than squeezing or extracting acne. Additionally, we utilize advanced hair transplant devices to perform efficient and effective procedures.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/treatments.jpg" alt="Special Treatments" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -53,7 +53,7 @@ const Treatments = () => {
                       <p>Our Liposuction service offers a targeted solution for removing small volumes of unwanted fat while promoting rejuvenation and contouring. This specialized procedure removes 500-800ml of fat and includes a cutting-edge MSC injection to enhance healing and tissue regeneration.</p>
                       <p>Performed by a highly skilled liposuction specialist, this treatment ensures precision and safety while delivering natural and refined results. Achieve a slimmer, more sculpted appearance with our advanced liposuction technique tailored to your individual goals.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/treatments-liposuction.jpg" alt="Liposuction" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -68,7 +68,7 @@ const Treatments = () => {
                       <p>Our Acne Care program is designed to address stubborn and persistent acne with a comprehensive and effective approach. This treatment plan includes a detailed consultation, personalized prescription, a two-month supply of medication, and advanced therapies like Scarlet (MRF) and LED Therapy.</p>
                       <p>By combining expert diagnosis with cutting-edge technology, we target the root causes of acne to restore your skin's health and clarity. Achieve smoother, clearer skin with our tailored treatments, ensuring long-lasting results and renewed confidence.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/treatments-acne.jpg" alt="Acne" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -82,7 +82,7 @@ const Treatments = () => {
                       <h4>Expert Care for Fuller, Natural-Looking Hair</h4>
                       <p>Our hair transplantation service offers a comprehensive solution for those seeking to restore natural hair. The procedure is based on 3,000 grafts and is priced at $8,000. For grafts exceeding 3,000, an additional charge of $3 per graft applies.This advanced procedure is performed by a team of medical professionals, including a specialized doctor, ensuring precision and optimal results. With meticulous planning and expert execution, we help you achieve fuller, natural-looking hair, enhancing both your confidence and appearance.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/treatments-hair.jpg" alt="Hair Transplantation" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>

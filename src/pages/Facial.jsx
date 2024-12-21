@@ -42,7 +42,7 @@ const Facial = () => {
                       <p>At SoCo, our team strives to provide artistic procedures that go beyond simple single treatments like Botox, fillers, or thread lifting. Each treatment is interconnected and designed holistically, considering various factors of the face to enhance its maximum beauty.</p>
                       <p>Our procedures are designed with meticulous attention to the golden ratio, proportional harmony, and facial symmetry, ensuring natural and balanced results. Each treatment is performed by a highly skilled and experienced professional.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/facial-aesthetic.jpg" alt="Facial Aesthetic Design" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -56,7 +56,7 @@ const Facial = () => {
                       <h4>Effortless Elegance, Naturally Achieved</h4>
                       <p>Botox is a widely popular, non-surgical treatment designed to smooth out fine lines and wrinkles by temporarily relaxing the muscles that cause them. Perfect for areas such as the forehead, between the brows, and around the eyes, Botox offers a quick and effective solution for maintaining a youthful, refreshed appearance. The procedure is minimally invasive, with little to no downtime, allowing you to return to your daily routine immediately after treatment. Our skilled professionals will work with you to achieve natural-looking results, enhancing your features without looking overdone. Botox, fillers, Sculptra, and thread procedures utilize the refined aesthetic techniques of K-beauty to deliver maximum results.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/facial-aesthetic-botox.jpg" alt="Botox" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -70,7 +70,7 @@ const Facial = () => {
                       <h4>Achieve a Youthful, Contoured Look</h4>
                       <p>Facial fillers are an excellent solution for restoring volume and fullness to areas of the face that may have lost elasticity or plumpness over time. Whether you're looking to add volume to the cheeks, smooth out smile lines, or enhance your lips, dermal fillers provide immediate results. Our range of fillers, including hyaluronic acid-based products, are safe and effective in rejuvenating the skin and giving your face a more youthful, contoured appearance. The procedure is quick, with minimal discomfort, and results can last from several months to over a year, depending on the treatment area. Botox, fillers, Sculptra, and thread procedures utilize the refined aesthetic techniques of K-beauty to deliver maximum results.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/facial-aesthetic-filler.jpg" alt="Filler" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -84,7 +84,7 @@ const Facial = () => {
                       <h4>Boost Collagen, Revive Volume</h4>
                       <p>Sculptra is a biostimulatory injectable treatment used to stimulate collagen production and restore facial volume lost due to aging, weight loss, or other factors. Unlike traditional fillers, Sculptra provides gradual, natural-looking results over time as collagen builds in areas such as the cheeks, temples, and jawline. The results can last up to two years, offering long-term rejuvenation with minimal downtime, leaving you with a refreshed and youthful appearance.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/facial-aesthetic-sculptra.jpg" alt="Sculptra" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -98,7 +98,7 @@ const Facial = () => {
                       <h4>Suture Thread Face Lifting</h4>
                       <p>Suture Thread Face Lifting (also known as Thread Lift) is a minimally invasive cosmetic procedure that uses dissolvable sutures to lift and tighten sagging facial skin. This treatment provides an immediate lifting effect while stimulating the body's natural collagen production, resulting in a more youthful appearance. Results can last up to 10-12 months, depending on individual factors.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/facial-aesthetic-thread.jpg" alt="Thread" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>

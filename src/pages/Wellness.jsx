@@ -41,7 +41,7 @@ const Wellness = () => {
                       <h4>Aging Gracefully with Confidence</h4>
                       <p>Our wellness program is designed to create a joyful life by enhancing both health and beauty. We aim to help women maintain a healthy life through essential preventive health screenings. We have carefully prepared treatments to help preserve women's confidence as they age. Under the supervision of gynecology specialist Dr. Seo, SoCo's medical team performs treatments with the utmost dedication.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/wellness.jpg" alt="Wellness Program" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -57,7 +57,7 @@ const Wellness = () => {
                       <p>You can select two areas for ultrasound examination from the following options: <span className="fst-italic">abdomen, breast, thyroid, carotid, or vaginal ultrasound.</span></p>
                       <p>Our Hormone Testing evaluates key hormones including AMH, Cortisol, DHEA Sulfate, Estradiol, FSH, LH, Progesterone, Prolactin, SHBG, Testosterone, and TSH to assess hormonal balance.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/wellness-general-check-up.jpg" alt="General Check Up" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -73,7 +73,7 @@ const Wellness = () => {
                       <p>PRP therapy helps rejuvenate and enhance tissue health, while Thermiva utilizes radiofrequency technology to improve vaginal tightening, moisture, and overall comfort.</p>
                       <p>Hormone therapy, available separately, can be added to support hormonal balance and optimize results. This comprehensive treatment plan is tailored to promote vaginal health and enhance overall well-being.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/wellness-vagina-health.jpg" alt="Vagina Health Care" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -88,7 +88,7 @@ const Wellness = () => {
                       <p>The Woman's Vaginal Volumizing Treatment is priced at $2900 and is performed directly by a board-certified gynecologist. This procedure utilizes Poly-L-Lactic Acid, which stimulates collagen production to restore natural volume and elasticity to the vaginal area. The treatment is designed to enhance comfort, improve intimate health, and address concerns related to volume loss and elasticity. With professional care and expertise, this treatment aims to rejuvenate and support overall vaginal well-being.</p>
                       <p>Using an FDA-approved product for off-label purposes, Dr.Suh  performs procedures to enhance vaginal volume.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/wellness-vaginal-volumizing.jpg" alt="Vaginal Volumizing Treatment" className="img-fluid" />
                         {/* <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div> */}
@@ -102,7 +102,7 @@ const Wellness = () => {
                       <h4>Affordable Weight Loss Solutions</h4>
                       <p>Our Weight Loss program is priced at $290, which includes consultation, prescription, and four injections per month. Alternatively, a consultation and prescription alone are available for $190. These treatments are designed to help individuals achieve their weight loss goals by targeting appetite and metabolism, under the guidance of our experienced healthcare providers.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/wellness-weight-loss.jpg" alt="Weight Loss" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>

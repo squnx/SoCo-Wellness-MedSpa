@@ -80,7 +80,7 @@ const TLSR = () => {
                       <p>Scarlet is a safe RF system treatment with no downtime and no side effects. It effectively targets almost any skin tissue, allowing patients to resume their daily activities immediately after treatment. Unlike other microneedle treatments, it causes no bleeding or sensitivity. The Scarlet machine is FDA-cleared.</p>
                       <p>ThermiSmooth  is a monopolar RF device, ideal for those who are afraid of needle-based procedures and seek skin tightening treatments. It is an FDA-cleared medical device.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/tlsr-tightening.jpg" alt="Tightening" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -95,7 +95,7 @@ const TLSR = () => {
                       <p><strong>Ulthera Lifting</strong>, also known as Ultherapy, is a non-invasive cosmetic procedure that uses focused ultrasound technology to lift and tighten the skin on the face, neck, and décolletage. It targets the deeper layers of the skin, including the foundational layer often addressed in surgical facelifts, without cutting or disrupting the skin's surface.</p>
                       <p>Ultherapy is the only FDA-cleared procedure to non-invasively lift the skin.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/tlsr-lifting.jpg" alt="Lifting" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -110,7 +110,7 @@ const TLSR = () => {
                       <p>MTS (Microneedle Therapy System) treatment, also known as Microneedling, is a minimally invasive procedure that uses fine needles to create micro-injuries in the skin. These micro-injuries stimulate the skin's natural healing process, encouraging the production of collagen and elastin, which are essential for skin rejuvenation.</p>
                       <p>The most important aspect of MTS (Microneedle Therapy System) treatment is the MTS solution. we are committed to achieving the best results by using high-quality products that are applied to the skin surface during the procedure. </p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/tlsr-skin-quality.jpg" alt="Skin Quality" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
@@ -126,7 +126,7 @@ const TLSR = () => {
                       <p>It involves concentrating platelets, which are rich in growth factors and proteins that help in tissue repair and regeneration.</p>
                       <p>Due to these roles of the growth factors, we can expect many positive outcomes such as even skin tone, improved skin texture, healthier skin, and enhanced skin elasticity. To experience the various benefits of PRP, it is recommended to undergo this treatment 3-4 times a year. For anti-aging, we strongly recommend regularly injecting growth factors into your skin through PRP treatment every year.</p>
                     </div>
-                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
                         <img src="/assets/images/services/tlsr-regeneration.jpg" alt="Regeneration" className="img-fluid" />
                         <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
