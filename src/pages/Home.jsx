@@ -62,16 +62,16 @@ const Home = () => {
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/home/wellness-focused.jpg" alt="" className="img-fluid" />
+                  <img src="/assets/images/home/wellness-focused.jpg" alt="Wellness-Focused MedSpa" className="img-fluid" />
                 </div>
-                <h2 className="title">Wellness-Focused Medspa</h2>
+                <h2 className="title">Wellness-Focused MedSpa</h2>
                 <p>A wellness-focused medspa emphasizes women's wellness in addition to traditional medspa services. Unlike conventional medspas, a wellness-focused medspa highlights overall health as the foundation for beauty, particularly for women.   These services are overseen and performed by licensed healthcare professionals, such as doctors, nurse practitioners (NPs), nurses, or aestheticians.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/home/natural-rejuvenation.jpg" alt="" className="img-fluid" />
+                  <img src="/assets/images/home/natural-rejuvenation.jpg" alt="Natural Rejuvenation Pursuits" className="img-fluid" />
                 </div>
                 <h2 className="title">Natural Rejuvenation Pursuits</h2>
                 <p>At SoCo, we prioritize natural methods for skin rejuvenation, using ingredients and techniques that stimulate the skin's healing process. Our approach boosts collagen and elastin production for long-lasting, youthful results, without relying on harsh chemicals. We take pride in enhancing your natural beauty through treatments that support your skin’s innate regenerative abilities.</p>
@@ -80,7 +80,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/home/k-beauty.jpg" alt="" className="img-fluid" />
+                  <img src="/assets/images/home/home-k-beauty.jpg" alt="Proud of K-Beauty" className="img-fluid" />
                 </div>
                 <h2 className="title">Proud of K-Beauty</h2>
                 <p>We take pride in K-beauty. K-beauty (Korean beauty) treatments are known for their effectiveness. With a delicate and meticulous approach, K-beauty always strives to offer the best for its clients. Driven by passion and a commitment to constant innovation, K-beauty focuses on achieving natural beauty by promoting inner health that radiates outward.</p>

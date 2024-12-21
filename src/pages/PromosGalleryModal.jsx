@@ -13,12 +13,12 @@ const PromosGalleryModal = () => {
       after: "/assets/images/gallery/gallery-1-after.jpg",
     },
     {
-      before: "/assets/images/gallery/gallery-2.jpg",
-      after: "/assets/images/gallery/gallery-2-after.jpg",
+      before: "/assets/images/gallery/gallery-01.jpg",
+      after: "/assets/images/gallery/gallery-01.jpg",
     },
     {
-      before: "/assets/images/gallery/gallery-3.jpg",
-      after: "/assets/images/gallery/gallery-3-after.jpg",
+      before: "/assets/images/gallery/gallery-02.jpg",
+      after: "/assets/images/gallery/gallery-02.jpg",
     },
     {
       before: "/assets/images/gallery/gallery-4.jpg",

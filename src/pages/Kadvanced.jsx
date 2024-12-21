@@ -130,7 +130,7 @@ const Kadvanced = () => {
       <section id="faq" className="faq section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Frequently Asked Questions</h2>
-          <p>All You Need to Know About Wellness Program</p>
+          <p>All You Need to Know About K-Advanced Aesthetic Skin Care</p>
         </div>
         <div className="container">
           <div className="row justify-content-center">

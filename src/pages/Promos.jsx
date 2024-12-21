@@ -13,61 +13,68 @@ const Promos = () => {
   }, []);
 
   const slidesData = [
+    // {
+    //   href: "/assets/images/gallery/gallery-1-after.jpg",
+    //   dataGallery: "before-after",
+    //   dataTitle: "Before and After - 1",
+    //   src: "/assets/images/gallery/gallery-1.jpg",
+    //   alt: "Gallery Image 1",
+    // },
     {
-      href: "/assets/images/gallery/gallery-1-after.jpg",
+      href: "/assets/images/gallery/gallery-acne.jpg",
       dataGallery: "before-after",
-      dataTitle: "Before and After - 1",
-      src: "/assets/images/gallery/gallery-1.jpg",
-      alt: "Gallery Image 1",
+      dataTitle: "Achieve Healthier, Smoother Skin",
+      src: "/assets/images/gallery/gallery-acne.jpg",
+      alt: "Achieve Healthier, Smoother Skin",
     },
     {
-      href: "/assets/images/gallery/gallery-2-after.jpg",
+      href: "/assets/images/gallery/gallery-face-mask.jpg",
       dataGallery: "before-after",
-      dataTitle: "Before and After - 2",
-      src: "/assets/images/gallery/gallery-2.jpg",
-      alt: "Gallery Image 2",
+      dataTitle: "Woman with a face mask",
+      src: "/assets/images/gallery/gallery-face-mask.jpg",
+      alt: "Woman with a face mask",
     },
     {
-      href: "/assets/images/gallery/gallery-3-after.jpg",
+      href: "/assets/images/gallery/gallery-colored-powders.jpg",
       dataGallery: "before-after",
-      dataTitle: "Before and After - 3",
-      src: "/assets/images/gallery/gallery-3.jpg",
-      alt: "Gallery Image 3",
+      dataTitle: "Bowls of different colored powders",
+      src: "/assets/images/gallery/gallery-colored-powders.jpg",
+      alt: "Bowls of different colored powders",
     },
     {
-      href: "/assets/images/gallery/gallery-4-after.jpg",
+      href: "/assets/images/gallery/gallery-k-beauty.jpg",
       dataGallery: "before-after",
-      dataTitle: "Before and After - 4",
-      src: "/assets/images/gallery/gallery-4.jpg",
-      alt: "Gallery Image 4",
+      dataTitle: "Proud of K-Beauty",
+      src: "/assets/images/gallery/gallery-k-beauty.jpg",
+      alt: "Proud of K-Beauty",
     },
     {
-      href: "/assets/images/gallery/gallery-5-after.jpg",
+      href: "/assets/images/gallery/gallery-prp.jpg",
       dataGallery: "before-after",
-      dataTitle: "Before and After - 5",
-      src: "/assets/images/gallery/gallery-5.jpg",
-      alt: "Gallery Image 5",
+      dataTitle: "PRP for skin rejuvenation treatment",
+      src: "/assets/images/gallery/gallery-prp.jpg",
+      alt: "PRP for skin rejuvenation treatment",
     },
     {
-      href: "/assets/images/gallery/gallery-6-after.jpg",
+      href: "/assets/images/gallery/gallery-filler.jpg",
       dataGallery: "before-after",
-      dataTitle: "Before and After - 6",
-      src: "/assets/images/gallery/gallery-6.jpg",
-      alt: "Gallery Image 6",
+      dataTitle: "Comparison before and after lip filler injections",
+      src: "/assets/images/gallery/gallery-filler.jpg",
+      alt: "Comparison before and after lip filler injections",
     },
     {
-      href: "/assets/images/gallery/gallery-7-after.jpg",
+      href: "/assets/images/gallery/gallery-mts.jpg",
       dataGallery: "before-after",
-      dataTitle: "Before and After - 7",
-      src: "/assets/images/gallery/gallery-7.jpg",
-      alt: "Gallery Image 7",
+      dataTitle: "MTS with SoCo Solution for improving skin quality",
+      src: "/assets/images/gallery/gallery-mts.jpg",
+      alt: "MTS with SoCo Solution for improving skin quality",
     },
     {
-      href: "/assets/images/gallery/gallery-8-after.jpg",
+      href: "/assets/images/gallery/gallery-hair-transplantation.jpg",
       dataGallery: "before-after",
-      dataTitle: "Before and After - 8",
-      src: "/assets/images/gallery/gallery-8.jpg",
-      alt: "Gallery Image 8",
+      dataTitle: "Hair Transplantation",
+      src: "/assets/images/gallery/gallery-hair-transplantation.jpg",
+      alt: "Hair Transplantation",
     },
   ];
 
@@ -152,7 +159,7 @@ const Promos = () => {
             <div class="tab-pane fade" id="promos-tab-3">
               <div class="row">
                 <div class="col-lg-4 text-center d-none d-sm-block">
-                  <img src="/assets/images/temp/promos-illustration-3.webp" alt="" class="img-fluid" />
+                  <img src="/assets/images/promos/promos-offer.png" alt="" class="img-fluid" />
                 </div>
                 <div class="col-lg-8 mt-3 mt-lg-0 d-flex flex-column">
                   <h4>Exclusive Offers at SoCo</h4>

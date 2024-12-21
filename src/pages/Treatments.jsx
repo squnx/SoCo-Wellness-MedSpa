@@ -79,7 +79,7 @@ const Treatments = () => {
                 <div className="tab-pane fade" id="tabs-tab-3">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Hair Transplantation</h4>
+                      <h4>Expert Care for Fuller, Natural-Looking Hair</h4>
                       <p>Our hair transplantation service offers a comprehensive solution for those seeking to restore natural hair. The procedure is based on 3,000 grafts and is priced at $8,000. For grafts exceeding 3,000, an additional charge of $3 per graft applies.This advanced procedure is performed by a team of medical professionals, including a specialized doctor, ensuring precision and optimal results. With meticulous planning and expert execution, we help you achieve fuller, natural-looking hair, enhancing both your confidence and appearance.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-sm-block">
@@ -159,7 +159,7 @@ const Treatments = () => {
       <section id="faq" className="faq section">
         <div className="container section-title" data-aos="fade-up">
           <h2>Frequently Asked Questions</h2>
-          <p>All You Need to Know About Wellness Program</p>
+          <p>All You Need to Know About Special Treatments</p>
         </div>
         <div className="container">
           <div className="row justify-content-center">

@@ -39,7 +39,7 @@ const About = () => {
                 <i className="fas fa-user-md flex-shrink-0"></i>
                 <div>
                   <span className="purecounter">Boyoung Suh</span>
-                  <p>M.D. - Lorem ipsum dolor</p>
+                  <p>M.D.</p>
                 </div>
               </div>
             </div>
@@ -72,10 +72,11 @@ const About = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="professionals-item d-flex align-items-center w-100 h-100">
-              <i className="fa-solid fa-user flex-shrink-0"></i>
+              {/* <i className="fa-solid fa-user flex-shrink-0"></i> */}
+              <i className="fas fa-user-nurse flex-shrink-0"></i>
                 <div>
                   <span className="purecounter">Irene  Cha</span>
-                  <p>Sonographer - Member of SDMS</p>
+                  <p>Sonographer</p>
                 </div>
               </div>
             </div>
@@ -119,7 +120,8 @@ const About = () => {
                 >
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      <img src="/assets/images/temp/about-450x450-man.png" className="testimonial-img" alt="" />
+                      {/* <img src="/assets/images/temp/about-450x450-man.png" className="testimonial-img" alt="" /> */}
+                      <img src="/assets/images/temp/about-450x450-woman.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">Lupe</h4>
                       <h3>Transformative Experience!</h3>
                       <p>
