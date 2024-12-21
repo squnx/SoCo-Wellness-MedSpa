@@ -65,7 +65,7 @@ const Home = () => {
                   <img src="/assets/images/home/wellness-focused.jpg" alt="Wellness-Focused MedSpa" className="img-fluid" />
                 </div>
                 <h2 className="title">Wellness-Focused MedSpa</h2>
-                <p>A wellness-focused medspa emphasizes women's wellness in addition to traditional medspa services. Unlike conventional medspas, a wellness-focused medspa highlights overall health as the foundation for beauty, particularly for women.   These services are overseen and performed by licensed healthcare professionals, such as doctors, nurse practitioners (NPs), nurses, or aestheticians.</p>
+                <p>A wellness-focused medspa emphasizes women's wellness in addition to traditional medspa services. Unlike conventional medspas, a wellness-focused medspa highlights overall health as the foundation for beauty. These services are overseen and performed by licensed healthcare professionals, such as doctors, nurse practitioners (NPs), nurses, or aestheticians.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
