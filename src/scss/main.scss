@@ -1384,6 +1384,10 @@ section,
     color: var(--accent-color) !important;
     white-space: nowrap;
 
+    @media (max-width: 1200px) {
+      font-size: 0.9rem !important;
+    }
+
     &.fst-italic {
       color: var(--default-color) !important;
       font-weight: 600;
