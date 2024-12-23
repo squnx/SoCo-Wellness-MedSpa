@@ -16,7 +16,7 @@ const Home = () => {
       text: 'Living Your Best Life',
       bgStyle: 'transparent-60',
       buttonLink: '/tlsr',
-      buttonText: 'Enhance Your Wellness',
+      buttonText: 'Find Perfect Treatments',
     },
     {
       background: '/assets/images/home/hero-02.jpg',
