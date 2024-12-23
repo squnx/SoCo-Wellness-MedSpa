@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Button } from 'react-bootstrap';
 
 const Home = () => {
   const [animate, setAnimate] = useState(true);
@@ -15,19 +15,25 @@ const Home = () => {
       title: 'Welcome to Soco WM',
       text: 'Living Your Best Life',
       bgStyle: 'transparent-60',
+      buttonLink: '/tlsr',
+      buttonText: 'Services',
     },
     {
       background: '/assets/images/home/hero-02.jpg',
       title: 'Soco Wellness MedSpa',
       text: 'Our promise to all of our clients is excellence',
       bgStyle: 'transparent-60',
+      buttonLink: '/about',
+      buttonText: 'Learn More',
     },
     {
       background: '/assets/images/home/hero-promos.jpg',
       title: 'Promos',
       text: 'Exclusive Promotions & Savings at SoCo',
       bgStyle: 'transparent-60',
-    }
+      buttonLink: '/promos',
+      buttonText: 'Promos',
+    },
   ];
 
   return (
@@ -44,7 +50,8 @@ const Home = () => {
                     <div className="row justify-content-center">
                       <div className="col-lg-8">
                         <h2>{item.title}</h2>
-                        <p>{item.text}</p>
+                        <p className="mb-0">{item.text}</p>
+                        <Button className="more" size="lg" href={item.buttonLink}>{item.buttonText}</Button>
                       </div>
                     </div>
                   </div>
