@@ -24,7 +24,7 @@ const Home = () => {
       text: 'Our promise to all of our clients is excellence',
       bgStyle: 'transparent-60',
       buttonLink: '/about',
-      buttonText: 'Explore SoCo',
+      buttonText: 'Explore SoCo!',
     },
     {
       background: '/assets/images/home/hero-promos.jpg',
@@ -32,7 +32,7 @@ const Home = () => {
       text: 'Exclusive Promotions & Savings at SoCo',
       bgStyle: 'transparent-60',
       buttonLink: '/promos',
-      buttonText: 'Check Out Offers',
+      buttonText: 'Check Out Offers!',
     },
   ];
 
