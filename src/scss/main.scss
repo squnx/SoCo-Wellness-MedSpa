@@ -727,9 +727,10 @@ section,
     border-color: var(--accent-color);
     border-radius: 5px;
     background: transparent;
+    background-color: color-mix(in srgb, var(--accent-color), transparent 75%);
 
     &:hover {
-      background-color: color-mix(in srgb, var(--accent-color), transparent 75%);
+      background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
     }
   }
 
