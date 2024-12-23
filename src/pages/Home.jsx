@@ -16,7 +16,7 @@ const Home = () => {
       text: 'Living Your Best Life',
       bgStyle: 'transparent-60',
       buttonLink: '/tlsr',
-      buttonText: 'Services',
+      buttonText: 'Enhance Your Wellness',
     },
     {
       background: '/assets/images/home/hero-02.jpg',
@@ -24,7 +24,7 @@ const Home = () => {
       text: 'Our promise to all of our clients is excellence',
       bgStyle: 'transparent-60',
       buttonLink: '/about',
-      buttonText: 'Learn More',
+      buttonText: 'Explore SoCo',
     },
     {
       background: '/assets/images/home/hero-promos.jpg',
@@ -32,7 +32,7 @@ const Home = () => {
       text: 'Exclusive Promotions & Savings at SoCo',
       bgStyle: 'transparent-60',
       buttonLink: '/promos',
-      buttonText: 'Promos',
+      buttonText: 'Check Out Offers',
     },
   ];
 
