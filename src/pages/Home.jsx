@@ -24,7 +24,7 @@ const Home = () => {
       text: 'Our promise to all of our clients is excellence',
       bgStyle: 'transparent-60',
       buttonLink: '/about',
-      buttonText: 'Explore SoCo!',
+      buttonText: 'Explore SoCo WM!',
     },
     {
       background: '/assets/images/home/hero-promos.jpg',
