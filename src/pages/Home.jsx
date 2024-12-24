@@ -21,7 +21,7 @@ const Home = () => {
     {
       background: '/assets/images/home/hero-02.jpg',
       title: 'SoCo Wellness MedSpa',
-      text: 'Our promise to all of our clients is excellence',
+      text: 'Our Promise to All of Our Clients Is Excellence',
       bgStyle: 'transparent-60',
       buttonLink: '/about',
       buttonText: 'Explore SoCo WM!',
