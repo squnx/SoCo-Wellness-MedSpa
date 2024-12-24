@@ -25,6 +25,7 @@ const Header = () => {
             <li><NavLink to="/about" activeclassname="active">About</NavLink></li>
             {/* Dropdown menu */}
             <li className={`dropdown ${isDropdownOpen ? 'active' : ''}`}>
+              
               <a href="#" onClick={handleDropdownToggle}>
                 <span>Services</span>
                 <i className="bi bi-chevron-down toggle-dropdown"></i>

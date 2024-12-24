@@ -32,7 +32,7 @@ const Home = () => {
       text: 'Exclusive Promotions & Savings at SoCo',
       bgStyle: 'transparent-60',
       buttonLink: '/promos',
-      buttonText: 'Check Out Offers!',
+      buttonText: 'Check Our Offers!',
     },
   ];
 
