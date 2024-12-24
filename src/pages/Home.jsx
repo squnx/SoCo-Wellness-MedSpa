@@ -12,7 +12,7 @@ const Home = () => {
   const carouselItems = [
     {
       background: '/assets/images/home/hero-01.jpg',
-      title: 'Welcome to Soco WM',
+      title: 'Welcome to SoCo WM',
       text: 'Living Your Best Life',
       bgStyle: 'transparent-60',
       buttonLink: '/tlsr',
@@ -20,7 +20,7 @@ const Home = () => {
     },
     {
       background: '/assets/images/home/hero-02.jpg',
-      title: 'Soco Wellness MedSpa',
+      title: 'SoCo Wellness MedSpa',
       text: 'Our promise to all of our clients is excellence',
       bgStyle: 'transparent-60',
       buttonLink: '/about',
