@@ -121,7 +121,7 @@ const About = () => {
                   <SwiperSlide>
                     <div className="testimonial-item">
                       {/* <img src="/assets/images/temp/about-450x450-man.png" className="testimonial-img" alt="" /> */}
-                      <img src="/assets/images/about/about-450x450-woman-a.png" className="testimonial-img" alt="" />
+                      <img src="/assets/images/about/testimonial-450x450-woman-a.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">Lupe</h4>
                       <h3>Transformative Experience!</h3>
                       <p>
@@ -133,7 +133,7 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                      <img src="/assets/images/about/about-450x450-woman-b.png" className="testimonial-img" alt="" />
+                      <img src="/assets/images/about/testimonial-450x450-woman-b.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">Susan</h4>
                       <h3>Professional and Caring Staff</h3>
                       <p>
@@ -145,7 +145,7 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                    <img src="/assets/images/about/about-450x450-woman-c.png" className="testimonial-img" alt="" />
+                    <img src="/assets/images/about/testimonial-450x450-woman-c.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">Michelle</h4>
                       <h3>Incredible Value!</h3>
                       <p>
@@ -157,7 +157,7 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                    <img src="/assets/images/about/about-450x450-woman-d.png" className="testimonial-img" alt="" />
+                    <img src="/assets/images/about/testimonial-450x450-woman-d.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">Jasmin</h4>
                       <h3>Customized Care</h3>
                       <p>
@@ -169,7 +169,7 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                    <img src="/assets/images/about/about-450x450-woman-e.png" className="testimonial-img" alt="" />
+                    <img src="/assets/images/about/testimonial-450x450-woman-e.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">Esther</h4>
                       <h3>Absolutely Amazing Results!</h3>
                       <p>
@@ -181,7 +181,7 @@ const About = () => {
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="testimonial-item">
-                    <img src="/assets/images/about/about-450x450-woman-f.png" className="testimonial-img" alt="" />
+                    <img src="/assets/images/about/testimonial-450x450-woman-f.png" className="testimonial-img" alt="" />
                       <h4 className="mt-3">Unice</h4>
                       <h3>Affordable and Exceptional Care</h3>
                       <p>
