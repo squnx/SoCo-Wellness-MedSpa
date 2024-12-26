@@ -198,7 +198,8 @@ const Promos = () => {
       <section id="gallery" className="gallery section light-background">
         <div className="container section-title" data-aos="fade-up">
           <h2>Gallery</h2>
-          <p>Our Clients' Stunning Transformations</p>
+          {/* <p>Our Clients' Stunning Transformations</p> */}
+          <p>Visual Journey Through the World of Wellness</p>
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <Swiper
