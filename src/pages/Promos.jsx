@@ -76,6 +76,13 @@ const Promos = () => {
       src: "/assets/images/gallery/gallery-hair-transplantation.jpg",
       alt: "Hair Transplantation",
     },
+    {
+      href: "/assets/images/gallery/gallery-sculptra.jpg",
+      dataGallery: "before-after",
+      dataTitle: "Boost Collagen, Revive Volume",
+      src: "/assets/images/gallery/gallery-sculptra.jpg",
+      alt: "Boost Collagen, Revive Volume",
+    },
   ];
 
   return (
