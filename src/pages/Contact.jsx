@@ -53,6 +53,8 @@ const Contact = () => {
               </div> */}
               <form ref={form} onSubmit={sendEmail} className="php-email-form mb-0" data-aos="fade-up" data-aos-delay="300">
                 <div className="row gy-4">
+                  <h4>FREE Consultation with any booked service</h4>
+                  <p className="my-0">Limited-Time Offer!</p>
                   <div className="col-lg-6">
                     <div className="info-item d-flex align-items-center">
                       <a href="tel:7146439204"><i className="icon bi bi-telephone flex-shrink-0"></i></a>
@@ -71,9 +73,6 @@ const Contact = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <p className="form-title">FREE Consultation with any booked service</p> */}
-                  <h4 className="mb-0">FREE Consultation with any booked service</h4>
-                  <p className="my-0">Limited-Time Offer!</p>
                   <div className="col-md-6">
                     <input type="text" name="from_name" className="form-control" placeholder="Your Name" required />
                   </div>
