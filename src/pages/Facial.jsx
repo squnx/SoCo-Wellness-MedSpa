@@ -38,7 +38,7 @@ const Facial = () => {
                 <div className="tab-pane fade active show" id="tabs-tab-0">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
-                      <h4>Full-face contouring using Botox, fillers, Sculptra, and thread materials</h4>
+                      <h4>Full-Face Contouring Using Botox, Fillers, Sculptra, and Thread Materials</h4>
                       <p>At SoCo, our team strives to provide artistic procedures that go beyond simple single treatments like Botox, fillers, or thread lifting. Each treatment is interconnected and designed holistically, considering various factors of the face to enhance its maximum beauty.</p>
                       <p>Our procedures are designed with meticulous attention to the golden ratio, proportional harmony, and facial symmetry, ensuring natural and balanced results. Each treatment is performed by a highly skilled and experienced professional.</p>
                     </div>
