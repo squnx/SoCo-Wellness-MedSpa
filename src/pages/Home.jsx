@@ -87,7 +87,7 @@ const Home = () => {
             <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div className="mission-col">
                 <div className="img">
-                  <img src="/assets/images/home/home-k-beauty.jpg" alt="Proud of K-Beauty" className="img-fluid" />
+                  <img src="/assets/images/home/k-beauty.jpg" alt="Proud of K-Beauty" className="img-fluid" />
                 </div>
                 <h2 className="title">Proud of K-Beauty</h2>
                 <p>We take pride in K-beauty. K-beauty (Korean beauty) treatments are known for their effectiveness. With a delicate and meticulous approach, K-beauty always strives to offer the best for its clients. Driven by passion and a commitment to constant innovation, K-beauty focuses on achieving natural beauty by promoting inner health that radiates outward.</p>
