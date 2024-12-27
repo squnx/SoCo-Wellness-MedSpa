@@ -103,7 +103,7 @@ const Contact = () => {
                     <p>1400 N Harbor Blvd Ste 103, Fullerton, CA 92835</p>
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.1965535834906!2d-117.92494740000001!3d33.88459139999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2b5fa88e94f3%3A0x29798cc16434f52d!2s1400%20N%20Harbor%20Blvd%20%23103%2C%20Fullerton%2C%20CA%2092835!5e0!3m2!1sen!2sus!4v1733686929093!5m2!1sen!2sus"
-                      style={{ border: 0, width: '100%', height: '357px' }}>
+                      style={{ border: 0, width: '100%', height: '381px' }}>
                     </iframe>
                   </div>
                 </div>
