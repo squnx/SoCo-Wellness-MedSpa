@@ -70,6 +70,13 @@ const Promos = () => {
       alt: "MTS with SoCo Solution for improving skin quality",
     },
     {
+      href: "/assets/images/gallery/gallery-tlsr.jpg",
+      dataGallery: "before-after",
+      dataTitle: "Tightening, Lifting, Skin Quality, Regeneration",
+      src: "/assets/images/gallery/gallery-tlsr.jpg",
+      alt: "Tightening, Lifting, Skin Quality, Regeneration",
+    },
+    {
       href: "/assets/images/gallery/gallery-hair-transplantation.jpg",
       dataGallery: "before-after",
       dataTitle: "Hair Transplantation",
