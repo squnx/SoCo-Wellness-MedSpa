@@ -10,7 +10,7 @@ const About = () => {
         <div className="container section-title" data-aos="fade-up">
           <span>About Us</span>
           <h2>About Us</h2>
-          <p>Our mission is to provide support for your beauty and health</p>
+          <p>Our Mission is to Provide Support for Your Beauty and Health</p>
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4 justify-content-center">
