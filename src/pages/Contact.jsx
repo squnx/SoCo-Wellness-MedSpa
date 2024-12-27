@@ -53,7 +53,7 @@ const Contact = () => {
               </div> */}
               <form ref={form} onSubmit={sendEmail} className="php-email-form mb-0" data-aos="fade-up" data-aos-delay="300">
                 <div className="row gy-4">
-                  <h4>FREE Consultation with any booked service</h4>
+                  <h4>FREE Consultation with Any Booked Service</h4>
                   <p className="my-0">Limited-Time Offer!</p>
                   <div className="col-lg-6">
                     <div className="info-item d-flex align-items-center">
