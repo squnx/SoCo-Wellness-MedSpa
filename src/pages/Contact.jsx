@@ -73,6 +73,7 @@ const Contact = () => {
                   </div>
                   {/* <p className="form-title">FREE Consultation with any booked service</p> */}
                   <h4 className="mb-0">FREE Consultation with any booked service</h4>
+                  <p className="my-0">Limited-Time Offer!</p>
                   <div className="col-md-6">
                     <input type="text" name="from_name" className="form-control" placeholder="Your Name" required />
                   </div>
