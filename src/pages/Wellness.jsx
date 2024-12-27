@@ -214,7 +214,7 @@ const Wellness = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$190, $290<span>/with injections</span></h4>
+                  <h4>$550<span>/twelve weeks program</span></h4>
                 </div>
               </div>
             </div>
