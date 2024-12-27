@@ -104,6 +104,13 @@ const Promos = () => {
       src: "/assets/images/gallery/gallery-botox.jpg",
       alt: "Effortless Elegance, Naturally Achieved",
     },
+    {
+      href: "/assets/images/gallery/gallery-weight-loss.jpg",
+      dataGallery: "before-after",
+      dataTitle: "Affordable Weight Loss Solutions",
+      src: "/assets/images/gallery/gallery-weight-loss.jpg",
+      alt: "Affordable Weight Loss Solutions",
+    },
   ];
 
   return (
