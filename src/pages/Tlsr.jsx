@@ -133,10 +133,10 @@ const TLSR = () => {
                 <h3>TLSR</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Thermi smooth (monopolar RF) or Scarlet(bipolar Rf)</li>
-                    <li><i className="bi bi-check2-all"></i>Ulthera (350 lines)</li>
-                    <li><i className="bi bi-check2-all"></i>MTS with SoCo solution</li>
-                    <li><i className="bi bi-check2-all"></i>Platelet-rich plasma (PRP)</li>
+                    <li><i className="bi bi-check2-all"></i>Thermi Smooth (Monopolar RF) or Scarlet(Bipolar Rf)</li>
+                    <li><i className="bi bi-check2-all"></i>Ulthera (350 Lines)</li>
+                    <li><i className="bi bi-check2-all"></i>MTS with SoCo Solution</li>
+                    <li><i className="bi bi-check2-all"></i>Platelet-Rich Plasma (PRP)</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -165,8 +165,8 @@ const TLSR = () => {
                 <h3>Lifting</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Ulthera (1000 lines)</li>
-                    <li><i className="bi bi-check2-all"></i>MTS with SoCo solution</li>
+                    <li><i className="bi bi-check2-all"></i>Ulthera (1000 Lines)</li>
+                    <li><i className="bi bi-check2-all"></i>MTS with SoCo Solution</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -180,7 +180,7 @@ const TLSR = () => {
                 <h3>Skin Quality</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>MTS with SoCo solution</li>
+                    <li><i className="bi bi-check2-all"></i>MTS with SoCo Solution</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
@@ -194,8 +194,8 @@ const TLSR = () => {
                 <h3>Regeneration</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>PRP (Platelet- rich Plasma )</li>
-                    <li><i className="bi bi-check2-all"></i>MTS with SoCo solution</li>
+                    <li><i className="bi bi-check2-all"></i>PRP (Platelet- Rich Plasma )</li>
+                    <li><i className="bi bi-check2-all"></i>MTS with SoCo Solution</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">

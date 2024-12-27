@@ -141,7 +141,7 @@ const Facial = () => {
                 <div className="pricing-detail">
                   <ul>
                     <li><i className="bi bi-check2-all"></i>Xeomin or Jeuveau or Allergan</li>
-                    <li><i className="bi bi-check2-all"></i>FDA approved</li>
+                    <li><i className="bi bi-check2-all"></i>FDA Approved</li>
                     <li><i className="bi bi-check2-all"></i>Pricing will be finalized following consultation</li>
                   </ul>
                 </div>
@@ -156,7 +156,7 @@ const Facial = () => {
                 <div className="pricing-detail">
                   <ul>
                     <li><i className="bi bi-check2-all"></i>Allergan Juvéderm or RHA or Restylane</li>
-                    <li><i className="bi bi-check2-all"></i>FDA approved</li>
+                    <li><i className="bi bi-check2-all"></i>FDA Approved</li>
                     <li><i className="bi bi-check2-all"></i>Pricing will be finalized following consultation</li>
                   </ul>
                 </div>
@@ -172,7 +172,7 @@ const Facial = () => {
                   <ul>
                     <li><i className="bi bi-check2-all"></i>3 Sessions of Sculptra</li>
                     <li><i className="bi bi-check2-all"></i>Galderma</li>
-                    <li><i className="bi bi-check2-all"></i>FDA approved</li>
+                    <li><i className="bi bi-check2-all"></i>FDA Approved</li>
                     <li><i className="bi bi-check2-all"></i>Pricing will be finalized following consultation</li>
                   </ul>
                 </div>

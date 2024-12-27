@@ -109,7 +109,7 @@ const Treatments = () => {
                 <h3>Liposuction</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Small -Volume Liposuction (500-800ml)</li>
+                    <li><i className="bi bi-check2-all"></i>Small -Volume Liposuction (500-800 ml)</li>
                     <li><i className="bi bi-check2-all"></i>MSC Injection</li>
                   </ul>
                 </div>
@@ -125,7 +125,7 @@ const Treatments = () => {
                   <ul>
                     <li><i className="bi bi-check2-all"></i>Consultation</li>
                     <li><i className="bi bi-check2-all"></i>Prescription</li>
-                    <li><i className="bi bi-check2-all"></i>Medication (2month)</li>
+                    <li><i className="bi bi-check2-all"></i>Medication (2 month)</li>
                     <li><i className="bi bi-check2-all"></i>Scarlet (MRF)</li>
                     <li><i className="bi bi-check2-all"></i>LED Therapy</li>
                   </ul>
@@ -140,10 +140,10 @@ const Treatments = () => {
                 <h3>Hair Transplantation</h3>
                 <div className="pricing-detail">
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Base procedure includes 3,000 grafts</li>
-                    <li><i className="bi bi-check2-all"></i>Additional grafts: $3 each</li>
-                    <li><i className="bi bi-check2-all"></i>Performed by skilled specialists</li>
-                    <li><i className="bi bi-check2-all"></i>Restoring natural hair growth</li>
+                    <li><i className="bi bi-check2-all"></i>Base Procedure Includes 3,000 Grafts</li>
+                    <li><i className="bi bi-check2-all"></i>Additional Grafts: $3 each</li>
+                    <li><i className="bi bi-check2-all"></i>Performed by Skilled Specialists</li>
+                    <li><i className="bi bi-check2-all"></i>Restoring Natural Hair Growth</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
