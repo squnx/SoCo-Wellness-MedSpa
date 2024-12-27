@@ -30,7 +30,7 @@ const About = () => {
       <section id="professionals" className="professionals section light-background">
         <div className="container section-title" data-aos="fade-up">
           <h2>Professionals</h2>
-          <p>Expert Care by Our Skilled staffs</p>
+          <p>Expert Care by Our Skilled Staffs</p>
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4">
