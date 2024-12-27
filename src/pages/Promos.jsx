@@ -89,6 +89,13 @@ const Promos = () => {
       dataTitle: "Boost Collagen, Revive Volume",
       src: "/assets/images/gallery/gallery-sculptra.jpg",
       alt: "Boost Collagen, Revive Volume",
+    },,
+    {
+      href: "/assets/images/gallery/gallery-lifting.jpg",
+      dataGallery: "before-after",
+      dataTitle: "Ultherapy for lifting treatment",
+      src: "/assets/images/gallery/gallery-lifting.jpg",
+      alt: "Ultherapy for lifting treatment",
     },
   ];
 
