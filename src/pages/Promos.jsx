@@ -229,7 +229,7 @@ const Promos = () => {
           {/* <p>Our Clients' Stunning Transformations</p> */}
           <p>Visual Journey Through the World of Wellness</p>
         </div>
-        <div className="container" data-aos="fade-up" data-aos-delay="100">
+        <div className="container padding-0-15Yy" data-aos="fade-up" data-aos-delay="100">
           <Swiper
             loop={true}
             speed={600}
@@ -238,7 +238,6 @@ const Promos = () => {
               disableOnInteraction: false,
             }}
             slidesPerView="auto"
-            centeredSlides={true}
             // modules={[Autoplay, Pagination, Navigation]}
             modules={[Autoplay, Pagination]}
             pagination={{

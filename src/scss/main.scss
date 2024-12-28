@@ -1873,6 +1873,12 @@ section,
   .swiper-slide-active {
     text-align: center;
   }
+
+  @media (max-width: 992px) {
+    .padding-0-15 {
+        padding: 0 15px;
+    }
+}
 }
 
 /* Apply max-width 90% to the image inside the GLightbox modal */
