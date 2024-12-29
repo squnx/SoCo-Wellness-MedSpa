@@ -370,7 +370,7 @@ const Promos = () => {
                     <div className="col-lg-6 details order-2 order-lg-1">
                       <h4>Holiday Special</h4>
                       <h6>SOCO Gift Card <span>(Nov 1 - Dec 25)</span></h6>
-                      <p>Share a joyful and happy holiday season with your family, relatives, and beloved friends by giving them a SOCO Gift Card!</p>
+                      <p>Bring holiday cheer with a SOCO Gift Card. Treat your loved ones to the ultimate gift of relaxation and rejuvenation.</p>
                       <h6>SOCO Gift Card Details</h6>
                       <ul>
                         <li><i className="bi bi-check2-all"></i>Buy a $300 Gift Card: Receive a complimentary EGF skincare product (valued at $75)</li>
