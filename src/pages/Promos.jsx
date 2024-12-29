@@ -264,7 +264,7 @@ const Promos = () => {
                       <ul>
                         <li><i className="bi bi-check2-all"></i>$900/3 months</li>
                         <li><i className="bi bi-check2-all"></i>Weight Loss Injections: Once a week, a total of 12 sessions (over 3 months)</li>
-                        <li><i className="bi bi-check2-all"></i>Complimentary Treatment Gift Worth $1200 (33cc and MTS with SoCo Solution)</li>
+                        <li><i className="bi bi-check2-all"></i>Complimentary Treatment Gift Worth $800 (33cc PRP)</li>
                         <li><i className="bi bi-check2-all"></i>This promotion is available for a limited time only</li>
                       </ul>
                     </div>
@@ -305,10 +305,11 @@ const Promos = () => {
                       <p>Express your gratitude to your mother with the gift of beauty. We create personalized treatment plans that enhance your natural features, considering your facial proportions, symmetry, and overall harmony.</p>
                       <h6>Mother's Day Program Details.</h6>
                       <ul>
-                        <li><i className="bi bi-check2-all"></i>Botox</li>
-                        <li><i className="bi bi-check2-all"></i>Fillers</li>
-                        <li><i className="bi bi-check2-all"></i>Thread Lift</li>
+                        <li><i className="bi bi-check2-all"></i>Buy a $300 Gift Card: Receive a complimentary EGF skincare product (valued at $75)</li>
+                        <li><i className="bi bi-check2-all"></i>Buy a $900 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and an MTS treatment (valued at $400)</li>
+                        <li><i className="bi bi-check2-all"></i>Buy a $1,200 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and a 33ccPRP treatment (valued at $800)</li>
                       </ul>
+                      <p>* Gift cards cannot be combined with other complimentary services or discounts. Complimentary treatments are limited to one per service.</p>
                     </div>
                     <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
@@ -326,7 +327,7 @@ const Promos = () => {
                       <p>Experience clearer, healthier skin this summer with our Acne Special Care Package. This limited-time offer includes a personalized consultation, advanced treatments like Scarlet RF and LED Therapy, and a complimentary EGF gift to help you achieve your skin goals.</p>
                       <h6>Acne Special Care Program Details</h6>
                       <ul>
-                        <li><i className="bi bi-check2-all"></i>Consultation: $200 includes prescription and a 2-3 month medication plan (medication cost not included)</li>
+                        <li><i className="bi bi-check2-all"></i>Consultation ($200): Includes prescription and a 2-3 month medication plan (medication cost not included)</li>
                         <li><i className="bi bi-check2-all"></i>Scarlet (Bipolar RF): $3,200 (4 sessions)</li>
                         <li><i className="bi bi-check2-all"></i>LED Therapy: $400 (4 sessions)</li>
                         <li><i className="bi bi-check2-all"></i><span><span className="na">$3,800</span> $2,500 + Complimentary EGF Gift</span></li>

@@ -19,8 +19,10 @@ const About = () => {
             </div>
             <div className="col-lg-8 content">
               <h4>A Woman's Beauty Begins with Her Health</h4>
-              <p>Dr. Bo Y. Suh, M.D., is a distinguished OBGYN and Reproductive Endocrinology and Infertility Specialist. He holds esteemed credentials as a Fellow of the American College of Obstetricians and Gynecologists (FACOG) and a Fellow of the American College of Endocrinology (FACE). With 28 years of academic experience, Dr. Suh has served as a faculty member at UCLA, USC, and the University of Colorado, contributing extensively to the field of women's health.</p>
-              <p className="mb-0">At SoCo, we are committed to serving each and every client with unparalleled care and dedication. Our mission is to empower you to feel beautiful, healthy, and happy—because your well-being is our priority.</p>
+              <p>At SoCo Medspa, we believe that beauty shines brightest when it reflects natural harmony and confidence. Guided by the expertise of our founder, Dr. Suh, a board-certified OB-GYN, and supported by a team of highly skilled medical professionals with extensive experience in aesthetic procedures, we are committed to delivering treatments that prioritize your well-being and enhance your natural beauty.</p>
+              <p>Our philosophy on treatments is very simple: We are a place that completes natural beauty. Instead of excessive procedures, we aim to achieve a natural aesthetic with only the treatments that are truly necessary.</p>
+              <p>At SoCo, we strive to create an environment where you feel welcome and cared for—just like visiting a close friend. We are more than a medspa; we are a place where relationships are built, trust is nurtured, and beauty is celebrated.</p>
+              <p className="mb-0">We look forward to being a part of your journey to enhanced confidence and timeless beauty. At SoCo Medspa, you are always at the heart of what we do.</p>
             </div>
           </div>
         </div>
