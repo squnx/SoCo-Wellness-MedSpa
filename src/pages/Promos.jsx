@@ -258,7 +258,7 @@ const Promos = () => {
                   <div className="row">
                     <div className="col-lg-6 details order-2 order-lg-1">
                       <h4>New Year Special</h4>
-                      <h6>Diet Promotion <span>(January 1 - January 31)</span></h6>
+                      <h6>Diet Promotion<span> (January 1 - January 31)</span></h6>
                       <p>Start the new year feeling lighter and refreshed, both body and mind! Book now and take advantage of this special offer!</p>
                       <h6>Diet Program Details</h6>
                       <ul>
@@ -322,7 +322,7 @@ const Promos = () => {
                   <div className="row">
                     <div className="col-lg-6 details order-2 order-lg-1">
                       <h4>Summer Break Special</h4>
-                      <h6>Acne Special Care<span>(May 1 - Aug 31)</span></h6>
+                      <h6>Acne Special Care <span>(May 1 - Aug 31)</span></h6>
                       <p>Experience clearer, healthier skin this summer with our Acne Special Care Package. This limited-time offer includes a personalized consultation, advanced treatments like Scarlet RF and LED Therapy, and a complimentary EGF gift to help you achieve your skin goals.</p>
                       <h6>Acne Special Care Program Details</h6>
                       <ul>
@@ -344,7 +344,7 @@ const Promos = () => {
                   <div className="row">
                     <div className="col-lg-6 details order-2 order-lg-1">
                       <h4>Halloween Special</h4>
-                      <h6>Encore TL Special Promotion<span> (October 1 - October 31)</span></h6>
+                      <h6>Encore TL Special Promotion <span>(October 1 - October 31)</span></h6>
                       <p>Experience immediate tightening and lifting with no downtime! At SoCo, we specialize in TLSR treatments. Our customized treatment plans address multiple concerns, including tightening, lifting, skin tone, texture, elasticity, and regeneration. All devices are FDA-cleared.</p>
                       <h6>Special Offer</h6>
                       <ul>
@@ -369,7 +369,7 @@ const Promos = () => {
                   <div className="row">
                     <div className="col-lg-6 details order-2 order-lg-1">
                       <h4>Holiday Special</h4>
-                      <h6>SOCO Gift Card<span> (Nov 1 - Dec 25)</span></h6>
+                      <h6>SOCO Gift Card <span>(Nov 1 - Dec 25)</span></h6>
                       <p>Share a joyful and happy holiday season with your family, relatives, and beloved friends by giving them a SOCO Gift Card!</p>
                       <h6>SOCO Gift Card Details</h6>
                       <ul>
