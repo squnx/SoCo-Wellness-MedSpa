@@ -236,7 +236,7 @@ const Promos = () => {
                   <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1">New Year Special</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Happy Valentine's Day Special</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Valentine's Special</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">Mother's Day Special</a>
@@ -279,7 +279,7 @@ const Promos = () => {
                 <div className="tab-pane fade" id="tabs-tab-2">
                   <div className="row">
                     <div className="col-lg-6 details order-2 order-lg-1">
-                      <h4>Happy Valentine's Day Special</h4>
+                      <h4>Valentine's Special</h4>
                       <h6>Tightening & Lifting Promotion <span>(January 14 - February 14)</span></h6>
                       <p>SoCo specializes in TLSR treatments. We strongly recommend combo menus that address tightening,lifting, skin tone, skin texture, skin elasticity, and regeneration. All machines are FDA cleared.</p>
                       <h6>Tightening & Lifting Program Details</h6>
