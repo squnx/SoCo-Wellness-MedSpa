@@ -23,9 +23,9 @@ const Promos = () => {
     {
       href: "/assets/images/gallery/gallery-acne.jpg",
       dataGallery: "before-after",
-      dataTitle: "Achieve Healthier, Smoother Skin",
+      dataTitle: "Clear Skin Transformation Before and After Acne Treatment",
       src: "/assets/images/gallery/gallery-acne.jpg",
-      alt: "Achieve Healthier, Smoother Skin",
+      alt: "Clear Skin Transformation Before and After Acne Treatment",
     },
     {
       href: "/assets/images/gallery/gallery-face-mask.jpg",

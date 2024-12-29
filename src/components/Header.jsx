@@ -54,9 +54,10 @@ const Header = () => {
         </div>
         <div className="header-social-links d-none d-sm-block">
           {/* <a href="" className="twitter"><i className="bi bi-twitter-x"></i></a> */}
-          <a href="https://www.facebook.com/socoaghc/" className="facebook" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
-          <a href="https://www.instagram.com/socoaghc/" className="Instagram" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
-          {/* <a href="" className="google"><i className="bi bi-google"></i></a> */}
+          <a href="https://www.facebook.com/socoaghc/" title="Facebook" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/socoaghc/" title="Instagram" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
+          <a href="https://g.co/kgs/jBv2vkX" title="Google"><i className="bi bi-google" target="_blank" rel="noreferrer"></i></a>
+          <a href="https://www.yelp.com/biz/soco-wellness-med-spa-fullerton" title="Yelp" target="_blank" rel="noreferrer"><i className="bi bi-yelp"></i></a>
         </div>
 
       </div>
