@@ -129,18 +129,17 @@ const TLSR = () => {
             <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
               {/* <div className="pricing-item featured"> */}
               <div className="pricing-item">
-                <span className="advanced">Special</span>
                 <h3>TLSR</h3>
                 <div className="pricing-detail">
                   <ul>
                     <li><i className="bi bi-check2-all"></i>Thermi Smooth (Monopolar RF) or Scarlet(Bipolar Rf)</li>
-                    <li><i className="bi bi-check2-all"></i>Ulthera (350 Lines)</li>
+                    <li><i className="bi bi-check2-all"></i>Ulthera (350 to 400 Lines)</li>
                     <li><i className="bi bi-check2-all"></i>MTS with SoCo Solution</li>
                     <li><i className="bi bi-check2-all"></i>Platelet-Rich Plasma (PRP)</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4><span className="na">$2500</span> $2100</h4>
+                  <h4>$2500 - $3000</h4>
                 </div>
               </div>
             </div>

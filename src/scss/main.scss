@@ -1843,6 +1843,89 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Specials Section
+--------------------------------------------------------------*/
+.specials {
+  background: url("/assets/images/home/hero-promos.jpg") center top no-repeat fixed;
+  background-size: cover;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 9;
+  }
+
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+
+  .tab-pane {
+    h6 {
+      font-weight: 700;
+      margin-bottom: 0;
+      span {
+        color: var(--heading-color) !important;
+        font-weight: 500;
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: .5rem;
+
+      li {
+        display: flex;
+
+        span {
+          color: var(--heading-color) !important;
+        }
+
+        .na {
+          text-decoration: line-through;
+        }
+  
+      }
+
+      i {
+        color: var(--accent-color);
+        font-size: 18px;
+        padding-right: 5px;
+        font-size: 12px;
+        line-height: 24px;
+      }
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .tab-content {
+      // margin-top: 0;
+
+      .tab-pane {
+        padding: 0 15px
+      }
+    }
+  }
+}
+
+@media (max-width: 468px) {
+  .promos .nav-link {
+    padding: 8px 20px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
 .gallery {
@@ -1873,12 +1956,6 @@ section,
   .swiper-slide-active {
     text-align: center;
   }
-
-  @media (max-width: 992px) {
-    .padding-0-15 {
-        padding: 0 15px;
-    }
-}
 }
 
 /* Apply max-width 90% to the image inside the GLightbox modal */

@@ -222,6 +222,176 @@ const Promos = () => {
         </div>
       </section>
 
+      {/* 2025 Specials Section */}
+      <section id="specials" className="specials section light-background">
+        <div className="container section-title" data-aos="fade-up">
+          <h2>2025 Specials</h2>
+          <p>Plan Your 2025 Adventure</p>
+        </div>
+        <div className="container tabs" data-aos="fade-up" data-aos-delay="100">
+          <div className="row">
+            <div className="col-lg-3">
+              <ul className="nav nav-tabs flex-column">
+                <li className="nav-item">
+                  <a className="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1">New Year Special</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Happy Valentine's Day Special</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">Mother's Day Special</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">Summer Break Special</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-5">Halloween Special</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-6">Holiday Special</a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-lg-9 mt-4 mt-lg-0">
+              <div className="tab-content">
+                <div className="tab-pane fade active show" id="tabs-tab-1">
+                  <div className="row">
+                    <div className="col-lg-6 details order-2 order-lg-1">
+                      <h4>New Year Special</h4>
+                      <h6>Diet Promotion <span>(January 1 - January 31)</span></h6>
+                      <p>Start the new year feeling lighter and refreshed, both body and mind! Book now and take advantage of this special offer!</p>
+                      <h6>Diet Program Details</h6>
+                      <ul>
+                        <li><i className="bi bi-check2-all"></i>$900/3 months</li>
+                        <li><i className="bi bi-check2-all"></i>Weight Loss Injections: Once a week, a total of 12 sessions (over 3 months)</li>
+                        <li><i className="bi bi-check2-all"></i>Complimentary Treatment Gift Worth $1200 (33cc and MTS with SoCo Solution)</li>
+                        <li><i className="bi bi-check2-all"></i>This promotion is available for a limited time only</li>
+                      </ul>
+                    </div>
+                    <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/services/wellness-weight-loss.jpg" alt="Special Treatments" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tabs-tab-2">
+                  <div className="row">
+                    <div className="col-lg-6 details order-2 order-lg-1">
+                      <h4>Happy Valentine's Day Special</h4>
+                      <h6>Tightening & Lifting Promotion <span>(January 14 - February 14)</span></h6>
+                      <p>SoCo specializes in TLSR treatments. We strongly recommend combo menus that address tightening,lifting, skin tone, skin texture, skin elasticity, and regeneration. All machines are FDA cleared.</p>
+                      <h6>Tightening & Lifting Program Details</h6>
+                      <ul>
+                        <li><i className="bi bi-check2-all"></i>TL (Tightening & Lifting): Bipolar or Monopolar Microneedling + Ulthera 400 Lines at $1800</li>
+                        <li><i className="bi bi-check2-all"></i>We offer a complimentary Skin Regeneration treatment (33cc PRP) valued at $800</li>
+                        <li><i className="bi bi-check2-all"></i>This promotion is available for a limited time only</li>
+                      </ul>
+                    </div>
+                    <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/services/tlsr-lifting.jpg" alt="Liposuction" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tabs-tab-3">
+                  <div className="row">
+                    <div className="col-lg-6 details order-2 order-lg-1">
+                      <h4>Mother's Day Special</h4>
+                      <h6>Gift Your Parents with a Gift Card <span>(April 11 - May 11)</span></h6>
+                      <p>Express your gratitude to your mother with the gift of beauty. We create personalized treatment plans that enhance your natural features, considering your facial proportions, symmetry, and overall harmony.</p>
+                      <h6>Mother's Day Program Details.</h6>
+                      <ul>
+                        <li><i className="bi bi-check2-all"></i>Botox</li>
+                        <li><i className="bi bi-check2-all"></i>Fillers</li>
+                        <li><i className="bi bi-check2-all"></i>Thread Lift</li>
+                      </ul>
+                    </div>
+                    <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/services/facial-aesthetic.jpg" alt="Acne" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tabs-tab-4">
+                  <div className="row">
+                    <div className="col-lg-6 details order-2 order-lg-1">
+                      <h4>Summer Break Special</h4>
+                      <h6>Acne Special Care<span>(May 1 - Aug 31)</span></h6>
+                      <p>Experience clearer, healthier skin this summer with our Acne Special Care Package. This limited-time offer includes a personalized consultation, advanced treatments like Scarlet RF and LED Therapy, and a complimentary EGF gift to help you achieve your skin goals.</p>
+                      <h6>Acne Special Care Program Details</h6>
+                      <ul>
+                        <li><i className="bi bi-check2-all"></i>Consultation: $200 includes prescription and a 2-3 month medication plan (medication cost not included)</li>
+                        <li><i className="bi bi-check2-all"></i>Scarlet (Bipolar RF): $3,200 (4 sessions)</li>
+                        <li><i className="bi bi-check2-all"></i>LED Therapy: $400 (4 sessions)</li>
+                        <li><i className="bi bi-check2-all"></i><span><span className="na">$3,800</span> $2,500 + Complimentary EGF Gift</span></li>
+                      </ul>
+                    </div>
+                    <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/services/treatments-acne.jpg" alt="Hair Transplantation" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tabs-tab-5">
+                  <div className="row">
+                    <div className="col-lg-6 details order-2 order-lg-1">
+                      <h4>Halloween Special</h4>
+                      <h6>Encore TL Special Promotion<span> (October 1 - October 31)</span></h6>
+                      <p>Experience immediate tightening and lifting with no downtime! At SoCo, we specialize in TLSR treatments. Our customized treatment plans address multiple concerns, including tightening, lifting, skin tone, texture, elasticity, and regeneration. All devices are FDA-cleared.</p>
+                      <h6>Special Offer</h6>
+                      <ul>
+                        <li><i className="bi bi-check2-all"></i>Complimentary Skin Regeneration Treatment (valued at $800)</li>
+                        <li><i className="bi bi-check2-all"></i>EGF Cosmetic Gift</li>
+                      </ul>
+                      <h6>TL (Tightening & Lifting) Details</h6>
+                      <ul>
+                        <li><i className="bi bi-check2-all"></i>Bipolar or Monopolar Microneedling + Ulthera (400 lines)</li>
+                        <li><i className="bi bi-check2-all"></i>Price: $1,800</li>
+                      </ul>
+                    </div>
+                    <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/services/tlsr-tightening.jpg" alt="Hair Transplantation" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tabs-tab-6">
+                  <div className="row">
+                    <div className="col-lg-6 details order-2 order-lg-1">
+                      <h4>Holiday Special</h4>
+                      <h6>SOCO Gift Card<span> (Nov 1 - Dec 25)</span></h6>
+                      <p>Share a joyful and happy holiday season with your family, relatives, and beloved friends by giving them a SOCO Gift Card!</p>
+                      <h6>SOCO Gift Card Details</h6>
+                      <ul>
+                        <li><i className="bi bi-check2-all"></i>Buy a $300 Gift Card: Receive a complimentary EGF skincare product (valued at $75)</li>
+                        <li><i className="bi bi-check2-all"></i>Buy a $900 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and an MTS treatment (valued at $400)</li>
+                        <li><i className="bi bi-check2-all"></i>Buy a $1,200 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and a PRP treatment (valued at $800)</li>
+                      </ul>
+                      <p>* Gift cards cannot be combined with other complimentary services or discounts. Complimentary treatments are limited to one per service.</p>
+                    </div>
+                    <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/promos/promos-gift-card-specials.png" alt="Hair Transplantation" className="img-fluid" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Gallery Section */}
       <section id="gallery" className="gallery section light-background">
         <div className="container section-title" data-aos="fade-up">
@@ -229,7 +399,7 @@ const Promos = () => {
           {/* <p>Our Clients' Stunning Transformations</p> */}
           <p>Visual Journey Through the World of Wellness</p>
         </div>
-        <div className="container padding-0-15" data-aos="fade-up" data-aos-delay="100">
+        <div className="container" data-aos="fade-up" data-aos-delay="100">
           <Swiper
             loop={true}
             speed={600}
