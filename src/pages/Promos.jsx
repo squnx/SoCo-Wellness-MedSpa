@@ -303,9 +303,9 @@ const Promos = () => {
                       <p>Express your gratitude to your mother with the gift of beauty. We create personalized treatment plans that enhance your natural features, considering your facial proportions, symmetry, and overall harmony.</p>
                       <h6>Mother's Day Program Details.</h6>
                       <ul>
-                        <li><i className="bi bi-check2-all"></i>Buy a $300 Gift Card: Receive a complimentary EGF skincare product (valued at $75)</li>
-                        <li><i className="bi bi-check2-all"></i>Buy a $900 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and an MTS treatment (valued at $400)</li>
-                        <li><i className="bi bi-check2-all"></i>Buy a $1,200 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and a 33ccPRP treatment (valued at $800)</li>
+                        <li><i className="bi bi-check2-all"></i>$300 Gift Card: Receive a complimentary EGF skincare product (valued at $75)</li>
+                        <li><i className="bi bi-check2-all"></i>$900 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and an MTS treatment (valued at $400)</li>
+                        <li><i className="bi bi-check2-all"></i>$1,200 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and a 33ccPRP treatment (valued at $800)</li>
                       </ul>
                       <p>* Gift cards cannot be combined with other complimentary services or discounts. Complimentary treatments are limited to one per service.</p>
                     </div>
@@ -369,9 +369,9 @@ const Promos = () => {
                       <p>Bring holiday cheer with a SOCO Gift Card. Treat your loved ones to the ultimate gift of relaxation and rejuvenation.</p>
                       <h6>SOCO Gift Card Details</h6>
                       <ul>
-                        <li><i className="bi bi-check2-all"></i>Buy a $300 Gift Card: Receive a complimentary EGF skincare product (valued at $75)</li>
-                        <li><i className="bi bi-check2-all"></i>Buy a $900 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and an MTS treatment (valued at $400)</li>
-                        <li><i className="bi bi-check2-all"></i>Buy a $1,200 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and a PRP treatment (valued at $800)</li>
+                        <li><i className="bi bi-check2-all"></i>$300 Gift Card: Receive a complimentary EGF skincare product (valued at $75)</li>
+                        <li><i className="bi bi-check2-all"></i>$900 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and an MTS treatment (valued at $400)</li>
+                        <li><i className="bi bi-check2-all"></i>$1,200 Gift Card: Receive a complimentary EGF skincare product (valued at $75) and a PRP treatment (valued at $800)</li>
                       </ul>
                       <p>* Gift cards cannot be combined with other complimentary services or discounts. Complimentary treatments are limited to one per service.</p>
                     </div>
