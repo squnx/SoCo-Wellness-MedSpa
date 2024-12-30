@@ -57,10 +57,10 @@ const Contact = () => {
                   <p className="my-0">Limited-Time Offer!</p>
                   <div className="col-lg-6">
                     <div className="info-item d-flex align-items-center">
-                      <a href="tel:7146439204"><i className="icon bi bi-telephone flex-shrink-0"></i></a>
+                      <a href="tel:7149811417"><i className="icon bi bi-telephone flex-shrink-0"></i></a>
                       <div>
                         <h4 className="d-flex justify-content-start">Phone</h4>
-                        <p>714.643.9204</p>
+                        <p>714.981.1417</p>
                       </div>
                     </div>
                   </div>

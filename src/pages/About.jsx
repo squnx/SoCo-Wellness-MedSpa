@@ -124,7 +124,7 @@ const About = () => {
                     <div className="testimonial-item">
                       {/* <img src="/assets/images/temp/about-450x450-man.png" className="testimonial-img" alt="" /> */}
                       <img src="/assets/images/about/testimonial-450x450-woman-a.png" className="testimonial-img" alt="" />
-                      <h4 className="mt-3">Lupe</h4>
+                      <h4 className="mt-3">Sunny</h4>
                       <h3>Transformative Experience!</h3>
                       <p>
                         <i className="bi bi-quote quote-icon-left"></i>
@@ -184,7 +184,7 @@ const About = () => {
                   <SwiperSlide>
                     <div className="testimonial-item">
                     <img src="/assets/images/about/testimonial-450x450-woman-f.png" className="testimonial-img" alt="" />
-                      <h4 className="mt-3">Unice</h4>
+                      <h4 className="mt-3">Stella</h4>
                       <h3>Affordable and Exceptional Care</h3>
                       <p>
                         <i className="bi bi-quote quote-icon-left"></i>
