@@ -300,7 +300,7 @@ const Promos = () => {
                     <div className="col-lg-6 details order-2 order-lg-1">
                       <h4>Mother's Day Special</h4>
                       <h6>Gift Your Parents with a Gift Card <span>(April 11 - May 11)</span></h6>
-                      <p>Express your gratitude to your mother with the gift of beauty. We create personalized treatment plans that enhance your natural features, considering your facial proportions, symmetry, and overall harmony.</p>
+                      <p>Gift the beauty of personalized care to your mother. We enhance natural features, considering facial proportions, symmetry, and overall harmony.</p>
                       <h6>Mother's Day Program Details</h6>
                       <ul>
                         <li><i className="bi bi-check2-all"></i>$300 Gift Card: Receive a complimentary EGF skincare product (valued at $75)</li>
