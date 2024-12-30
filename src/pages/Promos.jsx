@@ -10,6 +10,26 @@ const Promos = () => {
     GLightbox({
       selector: '.glightbox',
     });
+
+    // Scroll to the anchor if present
+    const scrollToHash = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const targetElement = document.querySelector(hash);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    };
+
+    scrollToHash();
+
+    // Handle hash changes dynamically
+    window.addEventListener('hashchange', scrollToHash);
+
+    return () => {
+      window.removeEventListener('hashchange', scrollToHash);
+    };
   }, []);
 
   const slidesData = [
