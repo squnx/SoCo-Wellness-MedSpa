@@ -270,8 +270,7 @@ const Promos = () => {
                     </div>
                     <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/wellness-weight-loss.jpg" alt="Special Treatments" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                        <img src="/assets/images/promos/new-year.jpg" alt="New Year Special" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -291,8 +290,7 @@ const Promos = () => {
                     </div>
                     <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/tlsr-lifting.jpg" alt="Liposuction" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                        <img src="/assets/images/promos/valentine.jpg" alt="Valentine's Special" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -313,8 +311,7 @@ const Promos = () => {
                     </div>
                     <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/facial-aesthetic.jpg" alt="Acne" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                        <img src="/assets/images/promos/mothers-day.jpg" alt="Mother's Day Special" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -335,8 +332,7 @@ const Promos = () => {
                     </div>
                     <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/treatments-acne.jpg" alt="Hair Transplantation" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                        <img src="/assets/images/promos/summer.jpg" alt="Summer Break Special" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -360,8 +356,7 @@ const Promos = () => {
                     </div>
                     <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/services/tlsr-tightening.jpg" alt="Hair Transplantation" className="img-fluid" />
-                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                        <img src="/assets/images/promos/halloween.jpg" alt="Halloween Special" className="img-fluid" />
                       </div>
                     </div>
                   </div>
@@ -382,7 +377,7 @@ const Promos = () => {
                     </div>
                     <div className="col-lg-6 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
-                        <img src="/assets/images/promos/promos-gift-card-specials.png" alt="Hair Transplantation" className="img-fluid" />
+                        <img src="/assets/images/promos/Holiday.jpg" alt="Holiday Special" className="img-fluid" />
                       </div>
                     </div>
                   </div>

@@ -40,7 +40,7 @@ const About = () => {
               <div className="professionals-item d-flex align-items-center w-100 h-100">
                 <i className="fas fa-user-md flex-shrink-0"></i>
                 <div>
-                  <span className="purecounter">Boyoung Suh</span>
+                  <span className="purecounter">Boyoung S.</span>
                   <p>M.D.</p>
                 </div>
               </div>
@@ -49,7 +49,7 @@ const About = () => {
               <div className="professionals-item d-flex align-items-center w-100 h-100">
                 <i className="fas fa-user-nurse flex-shrink-0"></i>
                 <div>
-                  <span className="purecounter">Kate Jeong</span>
+                  <span className="purecounter">Kate J.</span>
                   <p>NP</p>
                 </div>
               </div>
@@ -58,7 +58,7 @@ const About = () => {
               <div className="professionals-item d-flex align-items-center w-100 h-100">
               <i className="fas fa-user-nurse flex-shrink-0"></i>
                 <div>
-                  <span className="purecounter">Soojin Lee</span>
+                  <span className="purecounter">Soojin L.</span>
                   <p>NP</p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const About = () => {
               <div className="professionals-item d-flex align-items-center w-100 h-100">
               <i className="fas fa-user-nurse flex-shrink-0"></i>
                 <div>
-                  <span className="purecounter">Terri Song</span>
+                  <span className="purecounter">Terri S.</span>
                   <p>RN</p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const About = () => {
               {/* <i className="fa-solid fa-user flex-shrink-0"></i> */}
               <i className="fas fa-user-nurse flex-shrink-0"></i>
                 <div>
-                  <span className="purecounter">Irene  Cha</span>
+                  <span className="purecounter">Irene  C.</span>
                   <p>Sonographer</p>
                 </div>
               </div>
