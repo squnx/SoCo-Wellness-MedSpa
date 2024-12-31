@@ -180,7 +180,7 @@ const Promos = () => {
                   </ul>
                   <h6>Reservations</h6>
                   <ul>
-                    <li><i className="bi bi-check2-all"></i><span>Contact us at <a href="tel:7146439204">714.643.9204</a> to schedule your appointment once you've received an invitation</span></li>
+                    <li><i className="bi bi-check2-all"></i><span>Contact us at <a href="tel:7149811417">714.981.1417</a> to schedule your appointment once you've received an invitation</span></li>
                     <li><i className="bi bi-check2-all"></i>Visit us on your scheduled date once confirmed</li>
                   </ul>
                   <h6>Note</h6>
@@ -206,7 +206,7 @@ const Promos = () => {
                   </ul>
                   <h6>How to Purchase</h6>
                   <ul>
-                    <li><i className="bi bi-check2-all"></i><span>Call us at <a href="tel:7146439204">714.643.9204</a> or email us at <a href="mailto:info@socowm.com">info@socowm.com</a></span></li>
+                    <li><i className="bi bi-check2-all"></i><span>Call us at <a href="tel:7149811417">714.981.1417</a> or email us at <a href="mailto:info@socowm.com">info@socowm.com</a></span></li>
                   </ul>
                 </div>
               </div>
