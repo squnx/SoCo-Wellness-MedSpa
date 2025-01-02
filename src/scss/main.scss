@@ -85,6 +85,10 @@ h6 {
     font-weight: 600;
   }
 
+  .cta-btn, .cta-btn:focus {
+    font-weight: 600;
+  }
+
   .header-social-links {
     padding-right: 15px;
 
@@ -506,7 +510,7 @@ h6 {
       }
 
       .bi-google {
-        color: #1da1f2 ;
+        color: #1da1f2;
       }
 
       .bi-yelp {
@@ -941,7 +945,7 @@ section,
 
   .carousel-fade {
     overflow: hidden;
-    
+
     .carousel-indicators {
       .active {
         background-color: var(--accent-color);
@@ -1902,6 +1906,7 @@ section,
     h6 {
       font-weight: 700;
       margin-bottom: 0;
+
       span {
         color: var(--heading-color) !important;
         font-weight: 500;
@@ -1923,7 +1928,7 @@ section,
         .na {
           text-decoration: line-through;
         }
-  
+
       }
 
       i {
@@ -1945,13 +1950,12 @@ section,
       // margin-top: 0;
 
       .tab-pane {
-        padding: 0 15px
-
-        h4 {
+        padding: 0 15px h4 {
           padding: 0;
         }
 
-        h6, ul {
+        h6,
+        ul {
           padding: 0 15px;
         }
       }
