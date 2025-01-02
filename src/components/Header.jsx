@@ -43,7 +43,7 @@ const Header = () => {
             <li><NavLink to="/promos" activeclassname="active">Promos</NavLink></li>
             {/* <li><NavLink to="/gallery" activeclassname="active">Gallery</NavLink></li> */}
             <li><NavLink to="/contact" activeclassname="active">Contact</NavLink></li>
-            {/* <li><NavLink to="/appointment" activeclassname="active cta-btn">Make an appointment</NavLink></li> */}
+            <li><NavLink to="https://na02.patientnow.com/a/socowellnessmedspa/" target="_blank" className="cta-btn">Book Online</NavLink></li>
           </ul>
 
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
