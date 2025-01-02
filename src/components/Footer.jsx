@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="copyright text-center ">
           <p><span>Copyright</span> © {(new Date().getFullYear())} &nbsp;<strong>SoCo Wellness MedSpa</strong>&nbsp; <span>All Rights Reserved.</span></p>
-          <p><span>Designed and Developed by</span> <a href="https://mousewurx.com/" target="_blank" rel="noreferrer"><strong className="px-1 sitename">mousewurx</strong></a></p>
+          {/* <p><span>Designed and Developed by</span> <a href="https://mousewurx.com/" target="_blank" rel="noreferrer"><strong className="px-1 sitename">mousewurx</strong></a></p> */}
         </div>
         <div className="social-links d-flex justify-content-center">
           {/* <a href=""><i className="bi bi-twitter-x"></i></a> */}
