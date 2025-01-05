@@ -50,7 +50,7 @@ const Header = () => {
         </nav>
 
         <div className="align-items-center work-hour d-none d-sm-block">
-          <i className="bi bi-clock me-1"></i> Wednesday - Saturday, 10AM to 6PM
+          <i className="bi bi-clock me-1"></i> Monday - Saturday, 10AM to 6PM
         </div>
         <div className="header-social-links d-none d-sm-block">
           {/* <a href="" className="twitter"><i className="bi bi-twitter-x"></i></a> */}
