@@ -31,6 +31,9 @@ const Facial = () => {
                 <li className="nav-item">
                   <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">Thread</a>
                 </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-5">Skinvive</a>
+                </li>
               </ul>
             </div>
             <div className="col-lg-9 mt-4 mt-lg-0">
@@ -106,6 +109,23 @@ const Facial = () => {
                     </div>
                   </div>
                 </div>
+                <div className="tab-pane fade" id="tabs-tab-5">
+                  <div className="row">
+                    <div className="col-lg-8 details order-2 order-lg-1">
+                      <h4>Enhance Skin Smoothness and Radiance</h4>
+                      <p>SKINVIVE™ by JUVÉDERM® injectable gel is a sterile, biodegradable, non-pyrogenic, viscoelastic, clear, colorless, homogeneous gel implant. It consists of hyaluronic acid (HA).</p>
+                      <p>Skinvive is the first and only FDA-approved hyaluronic acid(HA) microdropplet injectable in the usa to improve skin smoothness of the cheeks. Increases skin smoothness and provide a lasting glow for up to 6 months with optimal treatment.</p>
+                      {/* <p>SKINVIVE™ by JUVÉDERM® injectable gel is indicated for intradermal injection to improve skin smoothness of the cheeks in adults over the age of 21.</p> */}
+                      <p>Skinvive works by injecting a small amount of hyaluronic acid (HA) directly into the skin's dermal layer to improve its overall texture and appearance SKINVIVE™ by JUVÉDERM® injectable gel is packaged for single-patient use.</p>
+                    </div>
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/services/facial-aesthetic-skinvive.jpg" alt="Skinvive" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -161,7 +181,7 @@ const Facial = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                <h4>$450<span>/cc</span></h4>
+                  <h4>$450<span>/cc</span></h4>
                 </div>
               </div>
             </div>
@@ -177,7 +197,7 @@ const Facial = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                <h4>$2100<span>/3 Sessions</span></h4>
+                  <h4>$2100<span>/3 Sessions</span></h4>
                 </div>
               </div>
             </div>
@@ -192,6 +212,23 @@ const Facial = () => {
                 </div>
                 <div className="btn-wrap">
                   <h4>$1500</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div className="pricing-item">
+              <span className="advanced">Special</span>
+                <h3>Skinvive</h3>
+                <div className="pricing-detail">
+                  <ul>
+                    <li><i className="bi bi-check2-all"></i>FDA-approved hyaluronic acid (HA)</li>
+                    <li><i className="bi bi-check2-all"></i>Skinvive by Juvederm</li>
+                    <li><i className="bi bi-check2-all"></i>To boost hydration and improve skin smoothness</li>
+                    <li><i className="bi bi-check2-all"></i>One syringe of skinvive</li>
+                  </ul>
+                </div>
+                <div className="btn-wrap">
+                  <h4><span className="na">$600</span> $300</h4>
                 </div>
               </div>
             </div>
