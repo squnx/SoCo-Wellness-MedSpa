@@ -219,10 +219,10 @@ const Promos = () => {
                 <div className="col-lg-8 mt-3 mt-lg-0 d-flex flex-column">
                   <h4>Exclusive Offers at SoCo</h4>
                   <p>Enjoy exclusive offers and expert care in a results-driven environment to help you look and feel your best.</p>
-                  <h6>New Customer First Visit Discount</h6>
+                  {/* <h6>New Customer First Visit Discount</h6>
                   <ul>
                     <li><i className="bi bi-check2-all"></i>10% Off First Treatment</li>
-                  </ul>
+                  </ul> */}
                   <h6>Limited-Time Offer!</h6>
                   <ul>
                     <li><i className="bi bi-check2-all"></i>FREE Consultation with any booked service</li>
