@@ -23,13 +23,16 @@ const Wellness = () => {
                   <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-1">General Check Up</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Vagina Health Care</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-2">Hormone</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">Vaginal Volumizing Treatment</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-3">Vagina Health Care</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">Weight Loss</a>
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-4">Vaginal Volumizing Treatment</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" data-bs-toggle="tab" href="#tabs-tab-5">Weight Loss</a>
                 </li>
               </ul>
             </div>
@@ -68,6 +71,21 @@ const Wellness = () => {
                 <div className="tab-pane fade" id="tabs-tab-2">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
+                      <h4>Expert Hormone Therapy for Optimal Wellness</h4>
+                      <p>Hormone deficiencies can affect various systems in the body, causing a wide range of symptoms. The symptoms differ depending on the type of hormone that is deficient. Early management of hormone imbalances can alleviate symptoms and improve quality of life.</p>
+                      <p>At SoCo Wellness MedSpa, our dedicated team, including gynecology specialist Dr. Bo-Young Seo, MD, and experienced nurse practitioners (NPs), provide comprehensive services such as testing, consultations, and prescriptions to support your hormonal health and overall well-being.</p>
+                    </div>
+                    <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
+                      <div className="position-relative">
+                        <img src="/assets/images/services/wellness-hormone.jpg" alt="General Check Up" className="img-fluid" />
+                        <div className="position-absolute bottom-0 start-50 translate-middle text-center"><span className="text-light fs-6 caption">Photo shown is illustrative only</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="tab-pane fade" id="tabs-tab-3">
+                  <div className="row">
+                    <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Advanced Care for Women's Health</h4>
                       <p>Our Woman's Vaginal Health Care package offers a combination of PRP therapy, Thermiva treatments, and optional hormone therapy (separately priced). Designed to address a range of intimate health concerns, this package is priced at $3,300 for three sessions.</p>
                       <p>PRP therapy helps rejuvenate and enhance tissue health, while Thermiva utilizes radiofrequency technology to improve vaginal tightening, moisture, and overall comfort.</p>
@@ -81,7 +99,7 @@ const Wellness = () => {
                     </div>
                   </div>
                 </div>
-                <div className="tab-pane fade" id="tabs-tab-3">
+                <div className="tab-pane fade" id="tabs-tab-4">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Restore Volume and Elasticity with Expert Care</h4>
@@ -96,7 +114,7 @@ const Wellness = () => {
                     </div>
                   </div>
                 </div>
-                <div className="tab-pane fade" id="tabs-tab-4">
+                <div className="tab-pane fade" id="tabs-tab-5">
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Affordable Weight Loss Solutions</h4>
@@ -113,7 +131,6 @@ const Wellness = () => {
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
