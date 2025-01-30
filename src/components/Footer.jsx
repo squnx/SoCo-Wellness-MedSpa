@@ -19,9 +19,9 @@ const Footer = () => {
           <a href="https://www.google.com/search?rlz=1C1ONGR_enUS1086US1086&sca_esv=1d501c5bd732877f&cs=0&output=search&kgmid=/g/11wv3km60d&q=SOCO+Wellness+Med+Spa&shndl=30&shem=uaasie&source=sh/x/loc/uni/m1/1&kgs=5ae9dd19e809e800#lrd=0x80dd2bb8383f763d:0xbadffea10ceb4a9a,3,,,," title="Google" target="_blank" rel="noreferrer"><i className="bi bi-google"></i></a>
           <a href="https://www.yelp.com/biz/soco-wellness-med-spa-fullerton" title="Yelp" target="_blank" rel="noreferrer"><i className="bi bi-yelp"></i></a>
         </div>
-        {/* <div className="credits">
-          Designed by <a href="https://mousewurx.com/" target="_blank" rel="noreferrer">mousewurx</a>
-        </div> */}
+        <div className="credits">
+          Powered by <a href="https://mousewurx.com/" target="_blank" rel="noreferrer"><strong>mousewurx</strong></a>
+        </div>
       </div>
     </footer>
   )
