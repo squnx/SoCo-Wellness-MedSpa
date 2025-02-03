@@ -131,7 +131,7 @@ const Treatments = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$2500<span>/four sessions</span></h4>
+                  <h4>$2500<span>/4 sessions</span></h4>
                 </div>
               </div>
             </div>

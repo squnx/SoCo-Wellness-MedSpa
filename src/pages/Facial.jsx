@@ -178,10 +178,11 @@ const Facial = () => {
                     <li><i className="bi bi-check2-all"></i>Allergan Juvéderm or RHA or Restylane</li>
                     <li><i className="bi bi-check2-all"></i>FDA Approved</li>
                     <li><i className="bi bi-check2-all"></i>Pricing will be finalized following consultation</li>
+                    <li><i className="bi bi-check2-all"></i>Pricing based on filler type</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$450+<span>/depends on filler type</span></h4>
+                  <h4>$450+<span>/cc</span></h4>
                 </div>
               </div>
             </div>

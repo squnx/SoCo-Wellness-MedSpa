@@ -182,11 +182,11 @@ const Wellness = () => {
                     <li><i className="bi bi-check2-all"></i>Choose 2 Ultrasound Tests</li>
                     <li><i className="bi bi-check2-all"></i>Hormone Testing (AMH, Cortisol, Estradiol, FSH, LH, etc.)</li>
                     <li><i className="bi bi-check2-all"></i>Consultation and Prescription</li>
-                    <li><i className="bi bi-check2-all"></i>Pricing Based on Hormone Test Types</li>
+                    <li><i className="bi bi-check2-all"></i>Pricing based on Hormone Test Types</li>
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$450 - $750 </h4>
+                  <h4>$450 - $750</h4>
                 </div>
               </div>
             </div>
@@ -201,7 +201,7 @@ const Wellness = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$3300<span>/three sessions</span></h4>
+                  <h4>$3300<span>/3 sessions</span></h4>
                 </div>
               </div>
             </div>
@@ -232,7 +232,37 @@ const Wellness = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$900<span>/twelve weeks program</span></h4>
+                  <h4>$900<span>/12 weeks program</span></h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div className="pricing-item">
+                <h3>Hormone Testing</h3>
+                <div className="pricing-detail">
+                  <ul>
+                    <li><i className="bi bi-check2-all"></i>Consultation (additional $200)</li>
+                    <li><i className="bi bi-check2-all"></i>Insurance not accepted for Wellness Hormone Services</li>
+                    <li><i className="bi bi-check2-all"></i>Pricing based on Hormone Test Types</li>
+                  </ul>
+                </div>
+                <div className="btn-wrap">
+                  <h4>$45 - $390</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div className="pricing-item">
+                <h3>Hormone Cream</h3>
+                <div className="pricing-detail">
+                  <ul>
+                    <li><i className="bi bi-check2-all"></i>Doctor-Prescribed for Pharmacy</li>
+                    <li><i className="bi bi-check2-all"></i>Insurance not accepted for Wellness Hormone Services</li>
+                    <li><i className="bi bi-check2-all"></i>Pricing based on Hormone Cream Types</li>
+                  </ul>
+                </div>
+                <div className="btn-wrap">
+                  <h4>$170 - $230<span>/3 month supply</span></h4>
                 </div>
               </div>
             </div>
