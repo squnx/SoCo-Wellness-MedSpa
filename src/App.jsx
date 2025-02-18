@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/main.scss';
@@ -22,7 +23,14 @@ import Contact from './pages/Contact';
 // import Misc from './pages/Misc';
 import ScrollToTop from './components/ScrollToTop';
 
+import ReactGA from 'react-ga4';
+
 function App() {
+  useEffect(() => {
+    ReactGA.initialize('G-PS4R3NZR8Y'); // Replace with your actual Google Analytics Tracking ID
+    ReactGA.send("pageview");
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />
