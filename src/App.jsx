@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga4';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/main.scss';
 import Header from './components/Header';
@@ -23,14 +24,21 @@ import Contact from './pages/Contact';
 // import Misc from './pages/Misc';
 import ScrollToTop from './components/ScrollToTop';
 
-import ReactGA from 'react-ga4';
+const TRACKING_ID = "G-PS4R3NZR8Y"; // Replace with your actual Measurement ID
+ReactGA.initialize(TRACKING_ID);
+
+// Track page views when the route changes
+function Analytics() {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname });
+  }, [location]);
+
+  return null;
+}
 
 function App() {
-  useEffect(() => {
-    ReactGA.initialize('G-PS4R3NZR8Y'); // Replace with your actual Google Analytics Tracking ID
-    ReactGA.send("pageview");
-  }, []);
-
   return (
     <Router>
       <ScrollToTop />
