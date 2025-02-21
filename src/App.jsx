@@ -41,8 +41,8 @@ function Analytics() {
 function App() {
   return (
     <Router>
-      <ScrollToTop />
-      {/* To ensure that the page scrolls to the top when navigating between routes */}
+      <ScrollToTop /> {/* To ensure that the page scrolls to the top when navigating between routes */}
+      <Analytics /> {/* Ensures analytics runs on every page change */}
       <div id="top" className="App app-container">
         <Header />
         <main className="main">
