@@ -166,7 +166,7 @@ const Facial = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$7 - $10<span>/unit</span></h4>
+                  <h4>$8 - $11<span>/unit</span></h4>
                 </div>
               </div>
             </div>
@@ -182,7 +182,7 @@ const Facial = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$450+<span>/cc</span></h4>
+                  <h4>$550+<span>/cc</span></h4>
                 </div>
               </div>
             </div>
