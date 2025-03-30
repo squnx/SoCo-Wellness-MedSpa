@@ -1448,6 +1448,55 @@ section,
     animation: fadeIn 0.5s ease-out;
   }
 
+  .tab-pane {
+    h3 {
+      color: var(--heading-color);
+      font-weight: 700;
+      font-size: 32px;
+      position: relative;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: var(--accent-color);
+        left: 0;
+        bottom: 0;
+      }
+    }
+
+    h6 {
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: .5rem;
+
+      li {
+        display: flex;
+      }
+
+      i {
+        color: var(--accent-color);
+        font-size: 18px;
+        padding-right: 5px;
+        font-size: 12px;
+        line-height: 24px;
+      }
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   .details {
     h3 {
       font-size: 26px;
