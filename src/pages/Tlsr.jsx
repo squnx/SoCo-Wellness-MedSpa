@@ -140,7 +140,7 @@ const TLSR = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4><span className="na">$3000</span> $2500</h4>
+                  <h4><span className="na">$3500</span> $2850</h4>
                 </div>
               </div>
             </div>

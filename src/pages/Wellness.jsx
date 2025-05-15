@@ -118,7 +118,7 @@ const Wellness = () => {
                   <div className="row">
                     <div className="col-lg-8 details order-2 order-lg-1">
                       <h4>Affordable Weight Loss Solutions</h4>
-                      <p>Our Weight Loss Program is priced at $900 and includes a consultation, prescription, and a 12-week course of Semaglutide or Tirzepatide injections administered at our clinic. These treatments are designed to help individuals achieve their weight loss goals by effectively targeting appetite and metabolism, all under the care and guidance of our experienced healthcare providers.</p>
+                      <p>Our Weight Loss Program is priced at $1200 and includes a consultation, prescription, and a 12-week course of Semaglutide or Tirzepatide injections administered at our clinic. These treatments are designed to help individuals achieve their weight loss goals by effectively targeting appetite and metabolism, all under the care and guidance of our experienced healthcare providers.</p>
                     </div>
                     <div className="col-lg-4 text-center order-1 order-lg-2 d-none d-lg-block">
                       <div className="position-relative">
@@ -232,7 +232,7 @@ const Wellness = () => {
                   </ul>
                 </div>
                 <div className="btn-wrap">
-                  <h4>$900<span>/12 weeks program</span></h4>
+                  <h4>$1200<span>/12 weeks program</span></h4>
                 </div>
               </div>
             </div>
