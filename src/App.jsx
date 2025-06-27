@@ -54,7 +54,7 @@ function App() {
             <Route path="/facial" element={<Facial />} />
             <Route path="/wellness" element={<Wellness />} />
             <Route path="/k-advanced" element={<Kadvanced />} />
-            <Route path="/other-treatments" element={<Treatments />} />
+            <Route path="/special-treatments" element={<Treatments />} />
             <Route path="/promos" element={<Promos />} />
             <Route path="/promos-gallery-modal" element={<PromosGalleryModal />} />
             <Route path="/contact" element={<Contact />} />
