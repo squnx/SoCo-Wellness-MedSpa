@@ -36,7 +36,13 @@
   <!-- <link href="/assets/css/main.css" rel="stylesheet"> -->
 
   <script>
-    if (window.location.hostname === "socowm.com" && window.location.pathname === "/") {
+    const path = window.location.pathname;
+    const host = window.location.hostname;
+
+    if (
+      host === "socowm.com" &&
+      (path === "/" || path === "/about" || path === "/promos")
+    ) {
       window.location.replace("/maintenance.html");
     }
   </script>
